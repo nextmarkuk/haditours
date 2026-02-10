@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* by Qazi Rizwan */
+.form-group>img {
+	position: absolute;
+	top: 48%;
+	transform: translateY(-50%);
+	right: 15px;
+}
+
+.Answer.form-group img {
+	right: 6px;
+}
+
+.contact-form .form-group img {
+	position: absolute;
+	top: 32%;
+	transform: translateY(-50%);
+	right: 30px;
+}
+
+.page-content,
+.contact-us {
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
+
+.page-content h2 {
+	color: #1A1A1A;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	margin: 0;
+}
+
+.pkg-facilities .facility {
+	flex: 0 0 25%;
+}
+
+.container .item {
+	margin-bottom: 15px;
+}
+
+.container .owl-item .item {
+	margin-bottom: 0;
+}
+
+.container h2 {
+	color: #1A1A1A;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	margin: 0;
+}
+
+.packageInquiry .Answer.form-group img {
+	top: 40%;
+	right: 29px;
+}
+
+.customizePackages .item {
+	margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+	.container h2 {
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:767.98px) {
+
+	.page-content,
+	.contact-us {
+		padding-bottom: 1px;
+		padding-top: 10px;
+	}
+
+	.featuredPackages {
+		padding-top: 10px
+	}
+
+	.accomodation .accomoHeading {
+		margin-bottom: 0;
+	}
+}
