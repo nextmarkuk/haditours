@@ -9,7 +9,7 @@
         content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="/userfiles/files/icon-item.png">
+    <link rel="icon" href="images/logo.png" type="image/png">
     <meta name="google-site-verification" content="2qZwf-NipKZhqF73LrKkCL-T1lwmd69Hpr-J5_ST3kk" />
     <script> function loadCCWidget() { (new window["click-connector-widget"]).mount({}) } function loadCCScript() { var t = document.createElement("script"); t.id = "cc-widget-script", t.setAttribute("data-widget-id", "de41f0-ffdd9"), t.type = "text/javascript", t.defer = !0, t.addEventListener("load", (function (t) { loadCCWidget() })), t.src = "https://widget.clickconnector.app/widget.js", document.getElementsByTagName("head")[0].appendChild(t) } loadCCScript(); </script>
     <meta name="twitter:card" content="summary">
@@ -67,9 +67,7 @@
     <link rel="preconnect" href="https://www.google.com">
     <style>
         .featuredPackagesUid .item {
-
             max-width: 545px;
-
         }
     </style>
 </head>
@@ -79,21 +77,18 @@
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container">
-
-
-                <a class="navbar-brand" href="index.html"><img width="170" height="52" class="img-responsive"
-                        src="userfiles/files/hajjumrahhub_logo11.jpeg" alt="Hajj Umrah Hub"></a>
-
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-responsive" src="images/logo.png" alt="Hajj Umrah Hub">
+                </a>
                 <div class="whts d-flex d-md-none">
-                    <a href="https://wa.me/+4407877190363" target="_blank"><img src="whatsapp.svg" alt="whatsapp"><span
-                            class="d-none d-sm-block d-md-none ">07877190363</span></a>
+                    <a href="https://wa.me/+4407877190363" target="_blank">
+                        <img src="whatsapp.svg" alt="whatsapp">
+                        <span class="d-none d-sm-block d-md-none ">07877190363</span>
+                    </a>
                 </div>
-                <div class="custom-nav navbar-offcanvas navbar-offcanvas-fade navbar-collapse"
-                    id="navbarSupportedContent">
-
+                <div class="custom-nav navbar-offcanvas navbar-offcanvas-fade navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li ><a class="active" href="index.html">Home</a></li>
                         <li><a href="cheap-hajj-packages.html">Hajj</a></li>
                         <li><a href="umrah-visa.html">Umrah Visa</a></li>
                         <li class="active dropdown"><a href="umrah-packages.html">Umrah Package<span
@@ -160,8 +155,7 @@
     <section class="search-banner">
         <!--slider section Start-->
         <div class="banner">
-            <img width="1826" height="500" src="media/pages/home-page-banner-for-huh-1.jpeg" class="img-fluid"
-                alt="Banner Image" style="max-height: 29rem;">
+            <img src="media/pages/home-page-banner-for-huh-1.jpeg" class="img-fluid" alt="Banner Image">
             <div class="banner-text">
                 <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
                 <h4>For Umrah Services</h4>
@@ -171,13 +165,13 @@
         <div class="searchEngine" id="packageInquiry">
             <div class="searchFields">
                 <form class="form" method="post" action="inquery.php">
-
                     <div class="form-group Half">
-                        <label for="fromform"><img loading="lazy" width="21" height="21"
-                                src="images/hajjumrahhub-imgs-updated/from.png" alt="Departure Airport"> Departure
-                            Airport</label>
+                        <label for="fromform">
+                            <img loading="lazy" width="21" height="21" src="images/hajjumrahhub-imgs-updated/from.png" alt="Departure Airport"> Departure
+                            Airport
+                        </label>
                         <select class="form-control" name="n[From]" id="fromform" required>
-                            <option value=""></option>
+                            <option value="" disabled selected> Select Depature</option>
                             <option value="Aberdeen (ABZ)">Aberdeen (ABZ)</option>
                             <option value="Amsterdam (AMS)">Amsterdam (AMS)</option>
                             <option value="Belfast Intl (BFS)">Belfast Intl (BFS)</option>
@@ -202,7 +196,7 @@
                                 src="images/hajjumrahhub-imgs-updated/to.png" alt="Arrival Airport"> Arrival
                             Airport</label>
                         <select class="form-control" name="n[To]" id="toform" required>
-                            <option value=""></option>
+                            <option value="" disabled selected> Select Arrival</option>
                             <option value="Jeddah">Jeddah</option>
                             <option value="Dammam">Dammam</option>
                             <option value="Abha">Abha</option>
@@ -218,7 +212,7 @@
                         <label for="dateform"><img loading="lazy" width="21" height="21"
                                 src="images/hajjumrahhub-imgs-updated/calender.png" alt="Date"> Date</label>
                         <input class="form-control DepartureDate" id="dateform" name="n[Departure Date]" type="text"
-                            readonly required>
+                            readonly required placeholder="10 Oct 2026">
                         <span class="borderBottom"></span>
                     </div>
 
@@ -227,7 +221,7 @@
                         <label for="Phoneform"><img loading="lazy" width="22" height="18"
                                 src="images/hajjumrahhub-imgs-updated/phone.png" alt="Phone Number"> Phone
                             Number</label>
-                        <input class="form-control" id="Phoneform" name="n[Phone Number]" type="text" required>
+                        <input class="form-control" id="Phoneform" name="n[Phone Number]" type="text" placeholder="Enter Number etc. 0203 970 0002" required>
                         <span class="borderBottom"></span>
                     </div>
 
@@ -236,7 +230,7 @@
                         <label for="emailform"><img loading="lazy" width="22" height="16"
                                 src="images/hajjumrahhub-imgs-updated/email.png" alt="Email Address"> Email
                             Address</label>
-                        <input class="form-control" name="n[Email]" id="emailform" type="email" required>
+                        <input class="form-control" name="n[Email]" id="emailform" type="email" placeholder="Enter email etc. info@hajjumrahhub.co.uk" required>
                         <span class="borderBottom"></span>
                     </div>
 
@@ -245,7 +239,7 @@
                             <label for="nightform"><img loading="lazy" width="17" height="19"
                                     src="images/hajjumrahhub-imgs-updated/moon.png" alt="Nights"> Nights</label>
                             <select class="form-control" id="nightform" name="n[makkah_nights]">
-                                <option value="">MAK</option>
+                                <option value="" disabled selected> Select Mark</option>
                                 <option value="1">MAK 1</option>
                                 <option value="2">MAK 2</option>
                                 <option value="3">MAK 3</option>
@@ -263,7 +257,7 @@
                             <label for="nightform1"><img loading="lazy" width="17" height="19"
                                     src="images/hajjumrahhub-imgs-updated/moon.png" alt="Nights"> Nights</label>
                             <select class="form-control" id="nightform1" name="n[madinah_nights]">
-                                <option value="">MED</option>
+                                <option value="" disabled selected> Select Med</option>
                                 <option value="1">MED 1</option>
                                 <option value="2">MED 2</option>
                                 <option value="3">MED 3</option>
@@ -283,7 +277,7 @@
                         <label for="roomform"><img loading="lazy" width="22" height="16"
                                 src="images/hajjumrahhub-imgs-updated/rooms.png" alt="Rooms"> Rooms</label>
                         <select class="form-control" id="roomform" name="n[room]">
-                            <option value=""></option>
+                            <option value="" disabled selected> Select Rooms</option>
                             <option value="Single">Single</option>
                             <option value="Double">Double</option>
                             <option value="Triple">Triple</option>
@@ -361,7 +355,7 @@
                                 src="images/hajjumrahhub-imgs-updated/checkanswer.png" alt=""> Answer <span
                                 class='captcha-text'
                                 style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span></label>
-                        <input class="form-control" id="answerform" type="text" name="InquiryAnswer" required>
+                        <input class="form-control" id="answerform" type="text" name="InquiryAnswer" placeholder="1 + 2 = 3" required>
                         <span class="borderBottom"></span>
                     </div>
 
@@ -1096,8 +1090,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-3 col-xl-4">
                         <div class="logo">
-                            <a href="index.html"><img loading="lazy" width="170" height="52" class="img-responsive"
-                                    src="userfiles/files/hajjumrahhub_logo11.jpeg" alt="Hajj Umrah Hub"></a>
+                            <a href="index.html"><img loading="lazy" class="logo img-responsive" src="images/logo.png" alt="Hajj Umrah Hub"></a>
                         </div>
                         <!-- </div> -->
                         <!-- <div class="col-md-4"> -->
