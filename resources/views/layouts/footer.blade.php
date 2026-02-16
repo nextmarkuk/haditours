@@ -38,7 +38,6 @@
                     <div class="col-md-3 col-lg-2 col-xl-2">
                         <div class="footer-data">
                             <h5>Quick Links</h5>
-
                             <ul>
                                 <li><a href="{{ route('aboutUs') }}">About Us</a></li>
                                 <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
