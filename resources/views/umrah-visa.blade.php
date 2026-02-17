@@ -1,29 +1,13 @@
 @extends('layouts.master')
 @section('content')
-@include('partials.search-banner')
 <section class="search-banner">
-
-    <!--slider section Start-->
-
-
     <div class="banner">
-
         <img width="1826" height="937" src="{{asset('assets/media/pages/umrah-visa-from-uk-banner.webp')}}" class="img-fluid"
             alt="Banner Image">
-
         <div class="banner-text">
-
             <h1>Umrah Visa from UK</h1>
-
-            </h4>
-
         </div>
-
     </div>
-
-
-
-
     <div class="searchEngine" id="packageInquiry">
         <div class="searchFields">
             <form class="form" method="post" action="inquery.php">
@@ -227,18 +211,13 @@
         </div>
     </div>
 </section>
-<!--slider section End-->
 <div class="page-content">
-
     <div class="container">
-
         <h2>Get an Umrah Visa With Hajj Umrah Hub</h2>
-
         <p>If you live in the UK and want to go on a unique journey to Saudi Arabia for Umrah, you&#39;ve come to
             the right spot. We are aware that it can be thrilling and confusing to plan your Umrah journey.
             That&#39;s why we made this helpful guide to show you how to get your Umrah visa and make your journey
             easier.</p>
-
         <p>With Hajj Umrah Hub, getting a Saudi Umrah visa is easier than ever. We&#39;re here to guide you every
             step of the way and make sure your application process is smooth.</p>
 
@@ -285,7 +264,7 @@
         <p>The primary purpose is simple. An Umrah visa is the only way to make Umrah in Saudi Arabia. You can
             access the holy sites in Makkah and Medina with a Saudi Umrah visa. No other visa permits you to <a
                 href="{{ route('umrahPackages2026') }}"><strong>perform Umrah in
-                    202</strong><b>6</b></a>. A tourist visa only allows you to enter Suadi Arabia for tourism
+                    2026</strong></a>. A tourist visa only allows you to enter Suadi Arabia for tourism
             purposes, and a Hajj visa is to perform Hajj.</p>
 
         <p>The access to holy sites in Makkah and Medina means you get to visit the cities that are very important
@@ -327,6 +306,5 @@
         <p>Yes, if you book an Umrah package with us, you automatically get an Umrah visa.</p>
 
     </div>
-
 </div>
 @endsection

@@ -2,9 +2,7 @@
 @section('content')
 @include('partials.search-banner')
 <div class="page-content">
-
     <div class="container">
-
         <p style="text-align: justify;">
     </div>
 </div>
