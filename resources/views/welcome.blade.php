@@ -1,4 +1,8 @@
 @extends('layouts.master')
+@section('meta')
+    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+@endsection
 @section('content')
 @include('partials.search-banner')
     <section class="featuredPackages">
@@ -30,7 +34,8 @@
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">
-                                    <img class="img-fluid" loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/Madinah%20%284%29.webp')}}" alt="3 Star 7 Nights Umrah Package"></a>
+                                    <img class="img-fluid" loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/Madinah%20%284%29.webp')}}" alt="3 Star 7 Nights Umrah Package">
+                                </a>
                             </div>
                             <div class="mainPackageDesc">
                                 <div class="package-heading">
@@ -55,8 +60,21 @@
                                         <div class="icon-text">MADINA (3 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                     </div>
                                 </div>
-                                <div class="row p-3">
-                                    <div class="col-6 d-flex"></div>
+                                <div class="row py-2 px-4">
+                                    <div class="col-12 br-b d-flex justify-content-between px-4">
+                                        <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                        <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                        <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                        <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
+                                    </div>
+                                </div>
+                                 <div class="row py-2 px-4">
+                                    <div class="col-12 d-flex justify-content-between px-4">
+                                        <span class="price">£ 699 <sub>/ pp</sub></span>
+                                        <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">
+                                            <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

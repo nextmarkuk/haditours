@@ -3,10 +3,8 @@
 <html lang="en-GB">
 
 <head>
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
     <meta charset="utf-8">
-    <meta name="description"
-        content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+    @yield('meta')
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="{{asset('assets/images/logo.png')}}" type="image/png">
@@ -24,37 +22,33 @@
         }
         loadCCScript();
     </script>
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@hajjumrahhub">
     <meta name="twitter:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services">
-    <meta name="twitter:description"
-        content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+    <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
     <meta name="twitter:creator" content="@hajjumrahhub">
     <meta name="twitter:image:src" content="https://www.hajjumrahhub.co.uk/userfiles/files/hajjumrahhub_logo11.jpeg">
     <meta name="twitter:domain" content="https://www.hajjumrahhub.co.uk/">
     <link rel="canonical" href="https://www.hajjumrahhub.co.uk/" />
+    
     <!-- facebook -->
     <meta property="og:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services" />
     <meta property="og:type" content="Hajj & Umrah" />
     <meta property="og:image" content="https://www.hajjumrahhub.co.uk/userfiles/files/hajjumrahhub_logo11.jpeg" />
     <meta property="og:url" content="https://www.hajjumrahhub.co.uk/" />
-    <meta property="og:description"
-        content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals." />
+    <meta property="og:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals." />
+
     <link href="{{asset('assets/css/jquery-ui.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/jquery-ui-autocomplete.min.css')}}">
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap">
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap">
     <!-- Preload Google Fonts (Playfair Display) -->
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap"
-        media="print" onload="this.media='all'">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" media="print" onload="this.media='all'">
     <!-- Preload Font Awesome CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!--fonts-->
@@ -110,12 +104,8 @@
     <script src="{{asset('assets/js/slick.min.js')}}"></script>
     <script type="text/javascript">
         var base_url = "https://www.hajjumrahhub.co.uk";
-
         $().ready(function() {
-
             customUploader(base_url);
-
-
         });
     </script>
     <!-- Meta Pixel Code -->
@@ -141,17 +131,14 @@
         fbq('init', '227919139647499');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=227919139647499&ev=PageView&noscript=1" /></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=227919139647499&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX9P9TQ" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX9P9TQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <script async defer src="https://www.googletagmanager.com/gtag/js?id=AW-10950422211"></script>
     <script async defer>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -196,7 +183,4 @@
     <!-- End Google Tag Manager -->
     </script>
 </body>
-
-
-
 </html>
