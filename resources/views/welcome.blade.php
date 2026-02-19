@@ -240,7 +240,6 @@
                     <span>04 STAR</span>
                     Umrah Packages
                 </h2>
-                <img loading="lazy" width="195" height="37" src="{{asset('assets/images/heading-sep.png')}}" alt="sepration image">
                 <p>Hajj Umrah Hub Brings Affordable Packages with Nearby Hotels</p>
             </div>
             <div class="packagesCarousel">
@@ -565,7 +564,6 @@
                     <span>05 STAR</span>
                     Umrah Packages
                 </h2>
-                <img loading="lazy" width="195" height="37" src="{{asset('assets/images/heading-sep.png')}}" alt="sepration image">
                 <p>Hajj Umrah Hub Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
             </div>
             <div class="packagesCarousel">
