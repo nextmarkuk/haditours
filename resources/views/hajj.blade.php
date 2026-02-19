@@ -1,4 +1,8 @@
 @extends('layouts.master')
+@section('meta')
+    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+@endsection
 @section('content')
 @include('partials.search-banner')
 <div class="page-content">
@@ -20,177 +24,205 @@
                     </div>
                 </div>
             </div>
-            <div id="hajjPackages" class="owl-carousel owl-loaded owl-drag" data-items="4" data-nav="true"
+            <div id="hajjPackages" class="owl-carousel owl-loaded owl-drag" data-items="3" data-nav="true"
                 data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
                 data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
-                data-responsive-Xlarge="4" data-autoplay="false">
+                data-responsive-Xlarge="3" data-autoplay="false">
                 <div class="item">
-                    <div class="hajjpackage">
-                        <div class="hajjpackageImage">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
                             <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="337" height="190" src="{{asset('assets/media/hajj/00-min%20%283%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min%20%283%29.webp')}}"
                                     alt="4 Weeks Hajj Package (Non Shifting)"></a>
-                            <div class="HoverDiv">
-                                <div class="HoverFlexContainer">
-
-                                    <a href="#">Economical Package<img
-                                            loading="lazy" width="31" height="20" class="img-fluid"
-                                            src="{{asset('assets/images/icons/hajj-arrow.png')}}"
-                                            alt="4 Weeks Hajj Package (Non Shifting)"></a>
-                                    <p>2026</p>
-                                </div>
-                            </div>
                         </div>
-                        <div class="hajjpackageDesc"><span class="hajjType">Non shifting hajj packages</span>
-                            <p class="title"><a href="#">4 Weeks Hajj
-                                    Package (Non Shifting)</a></p>
-                            <div class="starsAndPrice">
-                                <div class="row align-items-center">
-                                    <div class="col-6">
-                                        <p class="price">&pound; 6499</p>
-                                    </div>
-                                    <div class="col-6 text-right">
-                                        <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                                src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                                width="16" class="svg " src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg " src="star.svg"
-                                                alt="package star"><img loading="lazy" height="16" width="16"
-                                                class="svg inactive" src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg inactive"
-                                                src="star.svg" alt="package star"></div>
-                                    </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title">
+                                    <a href="#">4 Weeks Hajj Package (Non Shifting)</a>
+                                </p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
                                 </div>
                             </div>
-                            <a class="moreDetail" href="#">View
-                                Details</a>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
+                                    <div class="icon-text">Makkah (10 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <div class="icon-text">MADINA (6 NIGHTS) <br> MILLENIUM TAIBAH</div class="icon-text">
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 6499 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage" href="#">
+                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="hajjpackage">
-                        <div class="hajjpackageImage">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
                             <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="337" height="190" src="{{asset('assets/media/hajj/00-min%20%281%29.webp')}}"
-                                    alt="2-3 Weeks Non Shifting Hajj Package "></a>
-                            <div class="HoverDiv">
-                                <div class="HoverFlexContainer">
-
-                                    <a href="#">Economical Package<img
-                                            loading="lazy" width="31" height="20" class="img-fluid"
-                                            src="{{asset('assets/images/icons/hajj-arrow.png')}}"
-                                            alt="2-3 Weeks Non Shifting Hajj Package "></a>
-                                    <p>2026</p>
-                                </div>
-                            </div>
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min%20%281%29.webp')}}"
+                                    alt="2-3 Weeks Non Shifting Hajj Package"></a>
                         </div>
-                        <div class="hajjpackageDesc"><span class="hajjType">Non shifting hajj packages</span>
-                            <p class="title"><a href="#">2-3 Weeks Non
-                                    Shifting Hajj Package </a></p>
-                            <div class="starsAndPrice">
-                                <div class="row align-items-center">
-                                    <div class="col-6">
-                                        <p class="price">&pound; 6999</p>
-                                    </div>
-                                    <div class="col-6 text-right">
-                                        <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                                src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                                width="16" class="svg " src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg " src="star.svg"
-                                                alt="package star"><img loading="lazy" height="16" width="16"
-                                                class="svg inactive" src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg inactive"
-                                                src="star.svg" alt="package star"></div>
-                                    </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title">
+                                    <a href="#">2-3 Weeks Non Shifting Hajj Package</a>
+                                </p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
                                 </div>
                             </div>
-                            <a class="moreDetail" href="#">View
-                                Details</a>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <div class="icon-text">Makkah (7 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
+                                    <div class="icon-text">MADINA (3-4 NIGHTS) <br> MUBARAK AL MASI</div class="icon-text">
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 6999 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage" href="#">
+                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="hajjpackage">
-                        <div class="hajjpackageImage">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
                             <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="337" height="190" src="{{asset('assets/media/hajj/00-min.webp')}}"
-                                    alt="2-3 Weeks Hajj Package (Non Shifting) "></a>
-                            <div class="HoverDiv">
-                                <div class="HoverFlexContainer">
-
-                                    <a href="#">Economical Package<img
-                                            loading="lazy" width="31" height="20" class="img-fluid"
-                                            src="{{asset('assets/images/icons/hajj-arrow.png')}}"
-                                            alt="2-3 Weeks Hajj Package (Non Shifting) "></a>
-                                    <p>2026</p>
-                                </div>
-                            </div>
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min.webp')}}"
+                                    alt="2-3 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
-                        <div class="hajjpackageDesc"><span class="hajjType">Non shifting hajj packages</span>
-                            <p class="title"><a href="#">2-3 Weeks Hajj
-                                    Package (Non Shifting) </a></p>
-                            <div class="starsAndPrice">
-                                <div class="row align-items-center">
-                                    <div class="col-6">
-                                        <p class="price">&pound; 7499</p>
-                                    </div>
-                                    <div class="col-6 text-right">
-                                        <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                                src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                                width="16" class="svg " src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg " src="star.svg"
-                                                alt="package star"><img loading="lazy" height="16" width="16"
-                                                class="svg inactive" src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg inactive"
-                                                src="star.svg" alt="package star"></div>
-                                    </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title">
+                                    <a href="#">2-3 Weeks Hajj Package (Non Shifting)</a>
+                                </p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
                                 </div>
                             </div>
-                            <a class="moreDetail" href="#">View
-                                Details</a>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <div class="icon-text">Makkah (7 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
+                                    <div class="icon-text">MADINA (3-4 NIGHTS) <br> MUBARAK AL MASI</div class="icon-text">
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 7499 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage" href="#">
+                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="hajjpackage">
-                        <div class="hajjpackageImage">
-                            <a href="#"><img class="img-fluid" loading="lazy"
-                                    width="337" height="190" src="{{asset('assets/media/hajj/0.webp')}}"
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
+                            <a href="#"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/0.webp')}}"
                                     alt="5 Star Hajj Package (non-shifting)"></a>
-                            <div class="HoverDiv">
-                                <div class="HoverFlexContainer">
-
-                                    <a href="#">Hajj Packages<img
-                                            loading="lazy" width="31" height="20" class="img-fluid"
-                                            src="{{asset('assets/images/icons/hajj-arrow.png')}}"
-                                            alt="5 Star Hajj Package (non-shifting)"></a>
-                                    <p>2026</p>
-                                </div>
-                            </div>
                         </div>
-                        <div class="hajjpackageDesc"><span class="hajjType">Non shifting hajj packages</span>
-                            <p class="title"><a href="#">5 Star Hajj Package
-                                    (non-shifting)</a></p>
-                            <div class="starsAndPrice">
-                                <div class="row align-items-center">
-                                    <div class="col-6">
-                                        <p class="price">&pound; 8299</p>
-                                    </div>
-                                    <div class="col-6 text-right">
-                                        <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                                src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                                width="16" class="svg " src="star.svg" alt="package star"><img
-                                                loading="lazy" height="16" width="16" class="svg " src="star.svg"
-                                                alt="package star"><img loading="lazy" height="16" width="16"
-                                                class="svg " src="star.svg" alt="package star"><img loading="lazy"
-                                                height="16" width="16" class="svg " src="star.svg"
-                                                alt="package star"></div>
-                                    </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title">
+                                    <a href="#">5 Star Hajj Package (non-shifting)</a>
+                                </p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
                                 </div>
                             </div>
-                            <a class="moreDetail" href="#">View Details</a>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
+                                    <div class="icon-text">Makkah (10 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <div class="icon-text">MADINA (6 NIGHTS) <br> MILLENIUM TAIBAH</div class="icon-text">
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 8299 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage" href="#">
+                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>

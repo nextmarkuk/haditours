@@ -1,4 +1,8 @@
 @extends('layouts.master')
+@section('meta')
+    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+@endsection
 @section('content')
 <!--header section End-->
 <div class="page-content">
