@@ -5,6 +5,12 @@
 @endsection
 @section('content')
 @include('partials.search-banner')
+<style>
+    .viewMainPackage {
+    font-weight: 700;
+    font-size: 15px !important;
+}
+</style>
 <div class="page-content">
     <div class="container">
         <p style="text-align: justify;">
