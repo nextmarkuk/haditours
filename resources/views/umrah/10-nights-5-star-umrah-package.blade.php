@@ -162,7 +162,7 @@
                             <a href="#packageInquiry" class="customBtn bookNow"><span class="image"><img class="svg"
                                         src="package-arrow.svg" alt="arrow"></span><span class="text">Book
                                     Now</span></a>
-                            <a href="tel:0203 970 0002" class="customBtn callNow"><span class="image"><img class="svg"
+                            <a href="tel:020 3103 0264" class="customBtn callNow"><span class="image"><img class="svg"
                                         src="headphones.svg" alt="phone"></span><span class="text">0203 970
                                     0002</span></a>
                         </div>

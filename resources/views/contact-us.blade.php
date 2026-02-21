@@ -23,7 +23,8 @@
                     <div class="contact-form">
                         <h2>Contact</h2>
                         <p><strong>Fill The Form Below</strong> ( Choose Any )</p>
-                        <form class="form" method="post" action="inquery.php">
+                        <form class="form" method="post" action="{{ route('sendInquiry') }}">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-12 col-lg-6">
                                     <div class="form-group">
@@ -77,7 +78,7 @@
                     <div class="contact-desc">
                         <h4>Address</h4>
 
-                        <div class="contact-detail">
+                        <div class="contact-detail">020 3103 0264020 3103 0264
                             <p>Phone Number <a href="tel:0203 970 0002">0203 970 0002</a></p>
                             <p>Email Address <a href="mailto:info@hajjumrahhub.co.uk">info@hajjumrahhub.co.uk</a>
                             </p>

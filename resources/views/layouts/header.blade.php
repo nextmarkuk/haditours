@@ -44,7 +44,7 @@
                 <div class="bar3"></div>
             </button>
             <div class="extraLinks ml-auto d-none d-xl-block">
-                <a class="phone" href="tel:0203 970 0002">0203 970 0002</a>
+                <a class="phone" href="tel:020 3103 0264">020 3103 0264</a>
                 <a href="mailto:info@hajjumrahhub.co.uk">
                     <img loading="lazy" height="20" width="30" class="svg" src="{{asset('assets/images/mail.svg')}}" alt="email">info@hajjumrahhub.co.uk
                 </a>
@@ -53,7 +53,7 @@
     </nav>
     <!--mobile view button-->
     <div class="mobileButtons d-xl-none">
-        <a class="phone" href="tel:0203 970 0002"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image"></a>
+        <a class="phone" href="tel:020 3103 0264"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image"></a>
     </div>
     <!--mobile view button-->
 </header>

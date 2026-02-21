@@ -1,3 +1,9 @@
+(function ($) {
+    jQuery.fn.checkEmpty = function () {
+        return !$.trim(this.html()).length;
+    };
+}(jQuery));
+
 $(document).ready(function () {
 
     //Search Engine Click functions Ends
@@ -125,7 +131,7 @@ $(document).ready(function () {
                 responsive: $carousel.data("responsive"),
                 autoplayTimeout: $carousel.data("autoplay-timeout"),
                 navContainer: $carousel.parents('.container').find('.customNav'),
-                navText: ['<img class="svg" src="carousel-arrow.svg" alt="arrow image">', '<img class="svg" src="carousel-arrow.svg" alt="arrow image">'],
+                navText: ['<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24.5 30.3" style="enable-background:new 0 0 24.5 30.3; transform: rotate(180deg);" xml:space="preserve"><path d="M0.9,2.2c-1.6-2.3-1-2.9,1.4-1.5l21.2,12.9c1.4,0.9,1.4,2.3,0,3.1L2.3,29.6c-2.4,1.4-3,0.8-1.4-1.5l1-1.5c4.5-6.3,4.5-16.6,0-22.9L0.9,2.2z"/></svg>', '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24.5 30.3" style="enable-background:new 0 0 24.5 30.3;" xml:space="preserve"><path d="M0.9,2.2c-1.6-2.3-1-2.9,1.4-1.5l21.2,12.9c1.4,0.9,1.4,2.3,0,3.1L2.3,29.6c-2.4,1.4-3,0.8-1.4-1.5l1-1.5c4.5-6.3,4.5-16.6,0-22.9L0.9,2.2z"/></svg>'],
                 responsive: {
                     0: {
                         items: 1,
@@ -259,7 +265,7 @@ $(document).ready(function () {
     // Function to refresh text captcha
     function refreshCaptcha($form) {
         var $captchaSpan = $form.find('.captcha-text');
-        var path = ($form.attr('action').includes('../') ? '../' : '') + 'get-captcha-text.php';
+        var path = '/get-captcha';
         $.get(path + '?' + Math.random(), function (data) {
             $captchaSpan.text(data);
         });
@@ -456,17 +462,6 @@ $(document).ready(function () {
     }
 
 });
-(function ($) {
-    jQuery.fn.checkEmpty = function () {
-        return !$.trim(this.html()).length;
-    };
-    $("a.read_more").click(function (event) {
-        event.preventDefault();
-        $(this).parents('.testimonialDesc').find('.more_text').toggle();
-        $(this).parents('.testimonialDesc').find('.more_text').css({ "font-family": "Montserrat, sans-serif", "font-weight": "400", "font-size": "1rem", "margin-bottom": "0", "color": "rgba(0, 0, 0, 0.75)", "font-style": "normal" });
-        $(this).html($(this).text() == 'Read More ...' ? 'Less More ...' : 'Read More ...');
-    });
-}(jQuery));
 
 $(window).load(function () {
     $('#modalAlerts').modal('show');

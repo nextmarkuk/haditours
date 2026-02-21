@@ -10,7 +10,8 @@
         </div>
         <div class="searchEngine" id="packageInquiry">
             <div class="searchFields">
-                <form class="form" method="post" action="">
+                <form class="form" method="post" action="{{ route('sendInquiry') }}">
+                    @csrf
                     <div class="form-group Half">
                         <label for="fromform">
                             <img loading="lazy" width="21" height="21" src="{{asset('assets/images/hajjumrahhub-imgs-updated/from.png')}}" alt="Departure Airport"> Departure
@@ -66,7 +67,7 @@
                         <!--<input class="form-control" type="text" name="phone" placeholder="Phone" required>-->
                         <label for="Phoneform"><img loading="lazy" width="22" height="18"
                                 src="{{asset('assets/images/hajjumrahhub-imgs-updated/phone.png')}}" alt="Phone Number"> Phone
-                            Number</label>
+                            Number</label>020 3103 0264
                         <input class="form-control" id="Phoneform" name="n[Phone Number]" type="text" placeholder="Enter Number etc. 0203 970 0002" required>
                         <span class="borderBottom"></span>
                     </div>
