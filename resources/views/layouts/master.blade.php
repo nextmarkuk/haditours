@@ -9,19 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="{{asset('assets/images/logo.png')}}" type="image/png">
     <meta name="google-site-verification" content="2qZwf-NipKZhqF73LrKkCL-T1lwmd69Hpr-J5_ST3kk" />
-    <script>
-        function loadCCWidget() {
-            (new window["click-connector-widget"]).mount({})
-        }
 
-        function loadCCScript() {
-            var t = document.createElement("script");
-            t.id = "cc-widget-script", t.setAttribute("data-widget-id", "de41f0-ffdd9"), t.type = "text/javascript", t.defer = !0, t.addEventListener("load", (function(t) {
-                loadCCWidget()
-            })), t.src = "https://widget.clickconnector.app/widget.js", document.getElementsByTagName("head")[0].appendChild(t)
-        }
-        loadCCScript();
-    </script>
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@hajjumrahhub">

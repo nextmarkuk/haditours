@@ -93,22 +93,23 @@ class HomeController extends Controller
             'n.email' => 'required_without:n.Email|email',
             'InquiryAnswer' => 'required',
         ]);
-
-        // Verify CAPTCHA
-        $expected = session('captcha_answer');
+        $formId = $request->input('form_id');
+        $expected = $formId ? session('captcha_answer_' . $formId) : session('captcha_answer');
         if ($request->input('InquiryAnswer') != $expected) {
+            if ($request->ajax()) {
+                return response()->json(['status' => 'error', 'message' => 'Incorrect CAPTCHA answer. Please try again.']);
+            }
             return back()->with('error', 'Incorrect CAPTCHA answer. Please try again.')->withInput();
         }
-
         $data = $request->input('n');
-        
-        // Normalize email key if necessary
         if (isset($data['Email'])) {
             $data['email'] = $data['Email'];
         }
-
         try {
-            \Illuminate\Support\Facades\Mail::to('info@hajjumrahhub.co.uk')->send(new \App\Mail\InquiryMail($data));
+            \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
+                $message->to('mismailwatto195@gmail.com');
+                $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
+            });
             if ($request->ajax()) {
                 return response()->json(['status' => 'success', 'message' => 'Thank you! Your inquiry has been sent successfully.']);
             }
@@ -122,14 +123,18 @@ class HomeController extends Controller
         }
     }
 
-    public function getCaptcha()
+    public function getCaptcha(Request $request)
     {
         $num1 = rand(1, 9);
         $num2 = rand(1, 9);
         $answer = $num1 + $num2;
+        $formId = $request->query('form_id');
         
-        session(['captcha_answer' => $answer]);
-
+        if ($formId) {
+            session(['captcha_answer_' . $formId => $answer]);
+        } else {
+            session(['captcha_answer' => $answer]);
+        }
         return response($num1 . ' + ' . $num2 . ' = ?');
     }
 }

@@ -265,8 +265,9 @@ $(document).ready(function () {
     // Function to refresh text captcha
     function refreshCaptcha($form) {
         var $captchaSpan = $form.find('.captcha-text');
+        var formId = $form.attr('id');
         var path = '/get-captcha';
-        $.get(path + '?' + Math.random(), function (data) {
+        $.get(path + '?form_id=' + formId + '&t=' + Math.random(), function (data) {
             $captchaSpan.text(data);
         });
     }
@@ -283,7 +284,12 @@ $(document).ready(function () {
         $(".form").each(function () {
             var $this = $(this);
             var time = $.now();
-            var time_id = $this.attr('id', 'form-' + time);
+            var formId = 'form-' + time;
+            $this.attr('id', formId);
+            // Add hidden input for form_id if not exists
+            if ($this.find('input[name="form_id"]').length === 0) {
+                $this.prepend('<input type="hidden" name="form_id" value="' + formId + '">');
+            }
             $this.validate({
                 submitHandler: function (form) {
                     var $form = $(form);
@@ -303,7 +309,10 @@ $(document).ready(function () {
                         type: 'POST',
                         data: $form.serialize(),
                         dataType: 'json',
-                        headers: { 'X-Requested-With': 'XMLHttpRequest' },
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest',
+                            'Accept': 'application/json'
+                        },
                         success: function (response) {
                             if (response.status === 'success') {
                                 alert(response.message);
