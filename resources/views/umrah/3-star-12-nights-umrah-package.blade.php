@@ -4,11 +4,46 @@
     <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
-    <!--package detail section Start-->
+    <style>
+        .package-slick-carousel img {
+            max-height: 300px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .package-slick-carousel {
+            min-height: 300px; /* Pre-reserve space to prevent layout shift */
+            background: #eee;
+            border-radius: 10px 10px 0 0;
+            overflow: hidden;
+        }
+
+        /* Prevent images from stacking vertically during page load before JS init */
+        .package-slick-carousel:not(.slick-initialized) > div:not(:first-child) {
+            display: none;
+        }
+
+        .package-slick-carousel:not(.slick-initialized) > div:first-child img {
+            height: 300px;
+        }
+
+        .package-descrip {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 991px) {
+            .package-slick-carousel, .package-slick-carousel img {
+                max-height: 250px;
+                min-height: 250px;
+            }
+        }
+    </style>
     <section class="package-detail">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="col-lg-10 offset-lg-1">
                     <div class="package-gallery">
                         <div class="package-slick-carousel">
                             <div><img class="img-fluid" src="{{asset('assets/media/umrah/2%20%2810%29.webp')}}"
@@ -36,13 +71,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="col-lg-10 offset-lg-1">
                     <div class="package-descrip">
                         <h1 class="heading">3 Star 12 Nights Umrah Package</h1>
                         <p class="tagline">Perform Umrah with Best Price</p>
                         <div class="pkg-nights">
                             <div class="row no-gutters">
-                                <div class="col-md-6">
+                                <div class="col-12">
                                     <div class="nights">
                                         <div class="row no-gutters align-items-start">
                                             <div class="col-8">
@@ -55,7 +90,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-12">
                                     <div class="nights">
                                         <div class="row no-gutters align-items-start">
                                             <div class="col-8">
