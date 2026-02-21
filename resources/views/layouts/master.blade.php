@@ -42,15 +42,11 @@
     <link href="{{asset('assets/css/jquery-ui.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/jquery-ui-autocomplete.min.css')}}">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap">
-    <!-- Preload Google Fonts (Playfair Display) -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" media="print" onload="this.media='all'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Playfair+Display:wght@400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <!-- Preload Font Awesome CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="print" onload="this.media='all'">
     <!--fonts-->
     <!--owl carousel-->
     <link href="{{asset('assets/css/owl.carousel.min.css')}}" rel="stylesheet">
@@ -87,100 +83,65 @@
     <!--footer section Start-->
     @include('layouts.footer')
     <!--footer section End-->
-    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery-ui.min.js')}}"></script>
-    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.min.js')}}" defer></script>
+    <script src="{{asset('assets/js/jquery-ui.min.js')}}" defer></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}" defer></script>
     <script defer src="{{asset('assets/js/popper.min.js')}}"></script>
     <script defer src="{{asset('assets/js/bootstrap.offcanvas.min.js')}}"></script>
     <script defer src="{{asset('assets/js/jquery.matchHeight-min.js')}}"></script>
     <script defer src="{{asset('assets/js/jquery-ui-autocomplete.min.js')}}"></script>
     <script defer src="{{asset('assets/js/jquery.validate.min.js')}}"></script>
-    <script defer src="{{asset('assets/js/jquery.fileupload.js')}}" async></script>
+    <script defer src="{{asset('assets/js/jquery.fileupload.js')}}"></script>
     <script defer src="{{asset('assets/js/lity.js')}}"></script>
     <script defer src="{{asset('assets/js/smooth_scroll.js')}}"></script>
-    <script src="{{asset('assets/js/svg.js')}}"></script>
-    <script src="{{asset('assets/js/custom.js')}}"></script>
-    <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('assets/js/slick.min.js')}}"></script>
+    <script src="{{asset('assets/js/svg.js')}}" defer></script>
+    <script src="{{asset('assets/js/owl.carousel.min.js')}}" defer></script>
+    <script src="{{asset('assets/js/slick.min.js')}}" defer></script>
+    <script src="{{asset('assets/js/custom.js')}}" defer></script>
     <script type="text/javascript">
         var base_url = "https://www.hajjumrahhub.co.uk";
-        $().ready(function() {
-            customUploader(base_url);
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof customUploader === 'function') {
+                customUploader(base_url);
+            }
+        });
+
+        // Lazy load tracking scripts after window load to improve Core Web Vitals
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                // Meta Pixel
+                !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+                n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                document,'script','https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '227919139647499');
+                fbq('track', 'PageView');
+
+                // Google Tag Manager
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-KX9P9TQ');
+
+                // Google Ads & Analytics
+                var gtmScript = document.createElement('script');
+                gtmScript.async = true;
+                gtmScript.src = 'https://www.googletagmanager.com/gtag/js?id=AW-10950422211';
+                document.head.appendChild(gtmScript);
+
+                gtmScript.onload = function() {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'AW-10950422211');
+                    gtag('config', 'UA-76624980-1');
+                    gtag('event', 'conversion', {'send_to': 'AW-10950422211/vjiqCLDV-s0DEMPdyOUo'});
+                };
+            }, 3000); // 3 second delay
         });
     </script>
-    <!-- Meta Pixel Code -->
-    <script async defer>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '227919139647499');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=227919139647499&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX9P9TQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <script async defer src="https://www.googletagmanager.com/gtag/js?id=AW-10950422211"></script>
-    <script async defer>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-10950422211');
-    </script>
-    <script async defer>
-        gtag('event', 'conversion', {
-            'send_to': 'AW-10950422211/vjiqCLDV-s0DEMPdyOUo'
-        });
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-76624980-1"></script>
-    <script async defer>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-76624980-1');
-    </script>
-    <!-- Google Tag Manager -->
-    <script async defer>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KX9P9TQ');
-    </script>
-    <!-- End Google Tag Manager -->
     </script>
 </body>
 </html>

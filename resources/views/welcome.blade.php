@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="featuredPackagesUid  owl-carousel owl-loaded owl-drag" data-items="3" data-nav="true"
+                <div class="featuredPackagesUid  owl-carousel" data-items="3" data-nav="true"
                     data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
                     data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
                     data-responsive-Xlarge="3" data-autoplay="false">
@@ -254,7 +254,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="featuredPackagesUid  owl-carousel owl-loaded owl-drag" data-items="3" data-nav="true"
+                <div class="featuredPackagesUid  owl-carousel" data-items="3" data-nav="true"
                     data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
                     data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
                     data-responsive-Xlarge="3" data-autoplay="false">
@@ -578,7 +578,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="featuredPackagesUid  owl-carousel owl-loaded owl-drag" data-items="3" data-nav="true"
+                <div class="featuredPackagesUid  owl-carousel" data-items="3" data-nav="true"
                     data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
                     data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
                     data-responsive-Xlarge="3" data-autoplay="false">

@@ -220,9 +220,6 @@
         </div>
     </div>
 </section>
-<div class="page-content">
-    <div class="container scroll-page-content page-content-styling"> </div>
-</div>
 <section class="featuredPackages">
     <div class="container">
 
@@ -429,9 +426,6 @@
         </div>
     </div>
 </section>
-<div class="page-content">
-    <div class="container scroll-page-content page-content-styling"> </div>
-</div>
 <section class="featuredPackages">
     <div class="container">
 
