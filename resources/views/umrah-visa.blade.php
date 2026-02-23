@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 @section('content')
@@ -52,6 +52,27 @@
                             <label class="small font-weight-bold">Phone Number *</label>
                             <input class="form-control" name="n[Phone Number]" type="text" required placeholder="Enter phone">
                         </div>
+                        <div class="form-group mb-3">
+                            <label class="small font-weight-bold">Number of Travelers *</label>
+                            <select class="form-control" name="n[No. of Travelers]" required>
+                                <option value="">No. of Travelers</option>
+                                <option value="1 Traveler">1</option>
+                                <option value="2 Travelers">2</option>
+                                <option value="3 Travelers">3</option>
+                                <option value="4 Travelers">4</option>
+                                <option value="5 Travelers">5</option>
+                                <option value="6 Travelers">6</option>
+                                <option value="7 Travelers">7</option>
+                                <option value="8 Travelers">8</option>
+                                <option value="9 Travelers">9</option>
+                                <option value="10 Travelers">10</option>
+                                <option value="11 Travelers">11</option>
+                                <option value="12 Travelers">12</option>
+                                <option value="13 Travelers">13</option>
+                                <option value="14 Travelers">14</option>
+                                <option value="14+ Travelers">14+</option>
+                            </select>
+                        </div>
                         <div class="form-group mb-4">
                             <label class="small font-weight-bold">What is <span class='captcha-text'>...</span>? *</label>
                             <input class="form-control" type="number" name="InquiryAnswer" placeholder="Answer" required>
@@ -60,7 +81,7 @@
                             Get Visa Quote
                         </button>
                     </form>
-                    
+
                     <div class="mt-4 p-3 bg-light-cream rounded border text-center">
                         <p class="small mb-1 text-muted">Need urgent assistance?</p>
                         <a href="tel:02039700002" class="h5 font-weight-bold text-dark d-block mb-0">0203 970 0002</a>
@@ -123,7 +144,7 @@
                 <div class="section-card shadow-sm mb-4">
                     <h3 class="font-weight-bold mb-4">Purpose of Umrah Visa</h3>
                     <p>An Umrah visa is your official permission to perform the pilgrimage in Saudi Arabia. It grants you access to the holy sites in Makkah and Madinah, including the Prophet's Mosque and the Kaaba.</p>
-                    
+
                     <div class="alert alert-secondary border-0 rounded-lg p-4 mb-4">
                         <i class="fa fa-info-circle mr-2"></i> <strong>Important Note:</strong> Umrah visas are typically short-term (usually up to 90 days for e-visas), allowing you ample time for your spiritual rituals. Ensure your journey fits within the visa validity period.
                     </div>
