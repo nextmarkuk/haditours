@@ -168,7 +168,29 @@
                 };
             }, 3000); // 3 second delay
         });
+
+        function initFooterSlider() {
+            if (window.jQuery && $.fn.slick) {
+                $('.footer-slick-carousel').each(function() {
+                    if (!$(this).hasClass('slick-initialized')) {
+                        $(this).slick({
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 3000,
+                            prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+                            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>'
+                        });
+                    }
+                });
+            } else {
+                setTimeout(initFooterSlider, 50);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initFooterSlider);
     </script>
-    </script>
+    @stack('scripts')
 </body>
 </html>
