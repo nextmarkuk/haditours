@@ -1,6 +1,6 @@
 <header>
     <!-- Top Bar -->
-    <div class="topbar" style="background-color: #377567; color: #fff; font-size: 15px; padding: 9px 0;">
+    <div class="topbar" style="background-color: #377567; color: #fff; font-size: 15px; padding: 12px 0;">
         <div class="container">
             <div class="topbar-inner d-flex align-items-center flex-wrap" style="justify-content: space-between;">
                 <!-- Left: Contact Info -->
