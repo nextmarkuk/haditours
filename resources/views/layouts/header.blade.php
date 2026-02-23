@@ -13,7 +13,7 @@
             <div class="custom-nav navbar-offcanvas navbar-offcanvas-fade navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li ><a class="{{ request()->is('/') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
-                    <li class="dropdown"><a class="{{ request()->is('umrah-packages.html') ? 'active' : '' }}"  href="{{ route('umrahPackages') }}">Umrah Package<span class="caret"></span></a> <i class="fa fa-plus"></i>
+                    <li class="dropdown"><a class="{{ request()->is('umrah-packages') ? 'active' : '' }}"  href="{{ route('umrahPackages') }}">Umrah Package<span class="caret"></span></a> <i class="fa fa-plus"></i>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('umrahPackages') }}" class="">Umrah Packages</a></li>
                             <li><a href="{{ route('umrahPackages2026') }}" class="">Umrah Packages 2026</a></li>
@@ -23,8 +23,9 @@
                             <li><a href="{{ route('birminghamUmrah') }}" class="">Birmingham Umrah</a></li>
                         </ul>
                     </li>
-                    <li><a class="{{ request()->is('cheap-hajj-packages.html') ? 'active' : '' }}" href="{{ route('hajj') }}">Hajj</a></li>
-                    <li><a class="{{ request()->is('umrah-visa.html') ? 'active' : '' }}" href="{{ route('umrahVisa') }}">Umrah Visa</a></li>
+                    <li><a class="{{ request()->is('cheap-hajj-packages') ? 'active' : '' }}" href="{{ route('hajj') }}">Hajj</a></li>
+                    <li><a class="{{ request()->is('umrah-visa') ? 'active' : '' }}" href="{{ route('umrahVisa') }}">Umrah Visa</a></li>
+                    <li><a class="{{ request()->is('contact-us') ? 'active' : '' }}" href="{{ route('contactUs') }}">Contact Us</a></li>
                 </ul>
                 <ul class="d-none d-md-block d-xl-none p-0 m-0">
                     <li>
