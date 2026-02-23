@@ -1,7 +1,7 @@
 <header>
     <!-- Top Bar -->
     <div class="topbar" style="background-color: #377567; color: #fff; font-size: 15px; padding: 12px 0;">
-        <div class="container">
+        <div class="container px-3 px-md-5">
             <div class="topbar-inner d-flex align-items-center flex-wrap" style="justify-content: space-between;">
                 <!-- Left: Contact Info -->
                 <div class="topbar-left d-flex flex-wrap align-items-center" style="gap: 14px;">
@@ -54,7 +54,7 @@
     </style>
     <!-- End Top Bar -->
     <nav class="navbar navbar-expand-md">
-        <div class="container">
+        <div class="container px-3 px-md-5">
             <a class="navbar-brand" href="{{ route('home') }}">
                 <img class="img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hajj Umrah Hub">
             </a>
