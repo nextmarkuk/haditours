@@ -616,11 +616,7 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-<<<<<<< HEAD
-        <h2>Umrah Packages 2026 from UK – Early Booking Now Open</h2>
-=======
         <h2>Get Umrah Packages 2026 With Haditours Today</h2>
->>>>>>> 235dd0561aed8f606377182581300621d18ae970
 
         <p>Planning ahead allows you to secure the best hotels, preferred departure dates, and competitive fares for your sacred journey. Our Umrah Packages 2026 from UK are now open for early booking, offering flexible departures, carefully selected accommodation, and complete travel support for pilgrims across the UK.</p>
         
@@ -708,24 +704,9 @@
     Travelling with children or elderly relatives requires additional care. Our Family Umrah 2026 packages include flexible room options and convenient flight schedules.
   </p>
 
-<<<<<<< HEAD
-  <h4>Group Umrah 2026 Departures</h4>
-  <p>
-    Group departures provide structured itineraries, guided Ziyarat tours, and shared spiritual experience with fellow pilgrims.
-  </p>
-  
-  <h2>What’s Included in Our Umrah Packages 2026?</h2>
-  <P>Each Umrah 2026 package from UK includes essential services for a smooth pilgrimage:</P>
-  
-  <h4>Return Flights from Major UK Airports</h4>
-  <p>
-    Departures are available from London, Manchester, Birmingham, and other regional airports, with direct or connecting flights to Jeddah or Madinah.
-  </p>
-=======
         <p>When you book your Umrah for 2026, it is good to know what you get. Haditours makes sure to give the
             best <a href="{{ route('umrahPackages') }}">Umrah packages</a> from the UK. So,
             here&#39;s what you can expect.</p>
->>>>>>> 235dd0561aed8f606377182581300621d18ae970
 
   <h4>3★, 4★ & 5★ Hotels in Makkah & Madinah</h4>
   <p>
@@ -737,12 +718,6 @@
     We assist with full visa documentation in accordance with regulations set by the Ministry of Hajj and Umrah, ensuring compliance and timely approvals.
   </p>
 
-<<<<<<< HEAD
-  <h4>Ground Transfers & Intercity Transport</h4>
-  <p>
-    Private transfers between airports, hotels, and travel between Makkah and Madinah are arranged for your convenience.
-  </p>
-=======
         <h3>Hotels Near Holy Sites</h3>
 
         <p>It is important to stay near the holy places in Makkah and Madinah. This makes it easy for you to go for
@@ -849,7 +824,6 @@
 
         <p>The Umrah visa only allows visits to the holy cities of Makkah, Madinah, and other cities of Saudi Arabia
         </p>
->>>>>>> 235dd0561aed8f606377182581300621d18ae970
 
   <h4>Guided Ziyarat Tours</h4>
   <p>

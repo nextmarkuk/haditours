@@ -69,12 +69,7 @@
                     <div class="col-md-3 col-lg-2 col-xl-2">
                         <div class="footer-data">
                             <h5>Address</h5>
-<<<<<<< HEAD
-                            <p>
-13 Station Rd, London SE25 5AH, United Kingdom</p>
-=======
                             <p>13 Station Rd, London SE25 5AH, United Kingdom</p>
->>>>>>> 235dd0561aed8f606377182581300621d18ae970
                         </div>
                     </div>
                 </div>

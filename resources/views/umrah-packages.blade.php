@@ -648,94 +648,6 @@
 
         <p>&nbsp;</p>
 
-<<<<<<< HEAD
-        <h2>Umrah Packages from UK – ATOL Protected & Affordable Umrah Packages
-</h2>
-
-        <p>Umrah is a deeply spiritual journey that enables one to gain more faith and grace. At Hadi Tours, we offer professional Umrah Packages from UK that will make you completely forget about the travel and thus be fully focused on your prayers. From the flight ticket and visa processing to the hotel accommodation near Haram, the entire pilgrimage arrangement is done with utmost care and accuracy.
-</p>
-
-        <p>Moreover, our ATOL protected Umrah Packages UK depart from the main airports of London, Birmingham, and Manchester. If you are looking for cheap Umrah Packages, family, friendly packages, or top, notch 5, star accommodation near Haram, we have flexible options for you depending on your budget and travel dates. With clear pricing and UK, based customer service, planning your Umrah Package will be a breeze with us. Book your Umrah package with confidence and travel with complete peace of mind.
-</p>
-
-        <h2>Book Trusted Umrah Packages from the UK with Complete Peace of Mind</h2>
-
-        <p>The success of your Umrah pilgrimage largely depends on your choice of a travel agency in the UK. Hadi Tours, with its extensive experience of serving pilgrims all over the UK, has perfected the delivery of its all-inclusive Umrah Packages combining trustworthiness, low prices, and utmost convenience. We are well aware of the needs and wishes of the UK travellers and guarantee that the whole process of the pilgrimage is well coordinated and thoroughly planned.</p>
-        <h3>Our packages include:</h3>
-
-        <p>
-• Return flights protected by ATOL<br>
-• Umrah visa processing for UK passport holders<br>
-• Hotels in Makkah and Madinah within the vicinity of Haram<br>
-• Ground transport in Saudi Arabia<br>
-• Optional Ziyarat tours<br>
-• 24/7 customer support
-</p>
-
-        <p>Our packages fit the needs of those travelling alone, couples, families, senior citizens and groups. Our crew is at your service from the moment you make an inquiry to the moment you arrive back safely in the UK. When purchasing Umrah Packages from UK, there is always a question of trust and transparency, and that is exactly what we offer.
-</p>
-
-<h2>What Is Included in Our Umrah Packages?</h2>
-
-<p>Knowing the details of your Umrah Package will allow you to compare different options without any hesitations and thus avoid any hidden surprises. Our comprehensive Umrah Packages from UK are essentially made, up of all necessary travel components to guarantee a smooth pilgrimage experience.
-</p>
-<h3>Return Flights from Major UK Airports
-</h3>
-<p>We book return flights for you from London, Birmingham, Manchester, and a few other major UK airports. Your choice, as well as availability, will determine whether you select direct or indirect flights to Saudi Arabia. We choose flight schedules with great care to reduce inconvenience and increase comfort.
-</p>
-
-<p>Working with top airlines helps us to keep a fine balance between competitive prices and reliable service standards. We are ready to offer assistance with whichever of the two matters is more important to you and that can be a trade off between shorter layovers and cheaper flights.
-</p>
-
-<h2>Umrah Visa Processing for UK Citizens
-</h2>
-
-<p>The visa process can be complicated, especially for first time Umrah visitors. Our Umrah Packages come with full UK resident Umrah visa processing and we can be relied upon to handle all the required paperwork. We take you through the entire process in an easy, to understand way to help prevent you from getting into trouble with delay or missing out on the required documents.
-</p>
-
-<p>Handling the application on your behalf means that we do not only relieve the pressure of the paperwork but also provide you with a spiritual preparation possibility instead.
-</p>
-
-<h2>Hotels in Makkah and Madinah Near Haram</h2>
-<p>Accommodation is a very crucial part of your Umrah pilgrimage experience. We offer to you the various levels of hotels including 3, 4, and 5 star hotels where distances from the Haram vary. There are pilgrim friendly rates available and at the same time, you can enjoy the luxury of being within the walking distance of Masjid al, Haram and Masjid an, Nabawi.
-</p>
-
-<p>Proximity to Haram is especially crucial for seniors and families with small children. Our staff makes sure that you get to know the details about hotel distance, facilities, and room configurations before finalizing your booking.
-</p>
-
-<H3>Ground Transportation & Ziyarat Tours</H3>
-<p>Comfortable transport within Saudi Arabia is one of the main elements of our Umrah Packages. It includes not only airport, hotel transfers but also traveling between the cities of Makkah and Madinah. The vehicles are chosen to suit the size of the group and the luggage requirements.
-</p>
-<p>Optional Ziyarat tours are also offered, which give the opportunity to the pilgrims to visit the important Islamic landmarks of both cities. These tours deepen your spiritual insight and make your pilgrimage journey more meaningful.
-</p>
-
-<h2>Explore Our Range of Umrah Packages
-</h2>
-
-<p>We offer a range of different Umrah Packages UK that consider the seasons, different ways of travel, and finances. You can choose from our flexible options based on your personal requirements, whether you are a planner who likes to organize everything way ahead or a seeker of a particular time period.
-</p>
-<h3>Umrah Packages 2026 – Early Booking Deals
-</h3>
-<p>Securing your Umrah Package 2026 in advance to will get you many benefits. Early bookings not only allow you to book the hotels near Haram with the best availability but also get you the flights at more competitive prices. The demand for Umrah trips from the UK has been increasing every year, so if you plan your trip ahead, you will have more options to choose from and less stress.
-</p>
-<h3>Ramadan Umrah Packages from UK</h3>
-<p>The journey of Umrah at Ramadan time brings a great deal of blessings and spiritual revival. And shortly after the rising of demand, we thus have made our Ramadan Umrah Packages in such a way that they still retain the comfort level and accommodate the requirements of the excited travel peak season. The hotels around Haram during this holy month of Ramadan are really the ones that are most desired.
-</p>
-<h4>December & School Holiday Umrah Packages</h4>
-<p>School holiday Umrah Packages are perfect for the families who want to spend quality time travelling together without affecting the kids' school studies. Traveling in December also has the benefit of having somewhat moderate weather as compared to the hot months of summer.
-</p>
-<h4>Family Umrah Packages UK</h4>
-<p>We have specially planned the Family Umrah Packages UK for our clients so that parents, kids, and elderly family members who are traveling together can meet their needs without any hassle. We focus on roomy accommodation options and short walks to Haram.
-</p>
-<h4>Luxury 5 Star Umrah Packages Near Haram
-</h4>
-<p>Our Luxury 5 Star Umrah Packages near Haram are the perfect choice for pilgrims looking for top, level comfort and convenience.Furthermore, these packages are a great option for senior pilgrims or those who prefer having better hotel facilities and superior room categories.
-
-</p>
-<h2>How Much Do Umrah Packages Cost from the UK?
-</h2>
-<P>The cost of Umrah Packages from UK depends on several factors. Pricing varies according to season, Hotels category, flight type, and duration of stay. Understanding these elements helps you select a package that matches your budget and expectations.</P>
-=======
         <h2>Set On a Spiritual Journey with&nbsp;All-Inclusive Umrah Packages</h2>
 
         <p>Have you decided to go for an Umrah this year and please Allah? Haditours can make it happen for you
@@ -1105,7 +1017,6 @@
             because the temperature is very high during these months, and you can quickly get affordable Umrah
             packages.</p>
 
->>>>>>> 235dd0561aed8f606377182581300621d18ae970
     </div>
     <h4>3 Star Umrah Package Price from UK
 </h4>
