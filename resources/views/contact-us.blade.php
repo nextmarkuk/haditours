@@ -78,12 +78,11 @@
                     <div class="contact-desc">
                         <h4>Address</h4>
 
-                        <div class="contact-detail">020 3103 0264020 3103 0264
+                        <div class="contact-detail">
                             <p>Phone Number <a href="tel:0203 970 0002">0203 970 0002</a></p>
                             <p>Email Address <a href="mailto:info@hajjumrahhub.co.uk">info@hajjumrahhub.co.uk</a>
                             </p>
-                            <p>Address <span>Suite No.5, The Old Dispensary , 30 Romford Road , Stratford London,
-                                    England, E15 4BZ</span></p>
+                            <p>Address <span>13 Station Rd, London SE25 5AH, United Kingdom</span></p>
                         </div>
                     </div>
                 </div>

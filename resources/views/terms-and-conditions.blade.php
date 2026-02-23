@@ -148,7 +148,7 @@
             use of this site.</p>
 
         <p><strong>11. ABOUT US: </strong>This site is made available to you by hajjumrahhub.co.uk Plc (Regd Branch
-            Office: Suite No.1 , The Old Dispensary , 30 Romford Road , Stratford London, England, E15 4BZ)&nbsp;and
+            Office: 13 Station Rd, London SE25 5AH, United Kingdom)&nbsp;and
             is &copy; hajjumrahhub.co.uk. All rights reserved.&nbsp;<br />
             Our normal hours of business are 0900 to 1800 weekdays excluding Bank Holidays<br />
             You can contact us by writing to us at the above address or by using the &#39;contact us&#39; facility

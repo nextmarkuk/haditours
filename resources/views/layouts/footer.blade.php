@@ -334,7 +334,7 @@
                                     <label for="answerform"><img loading="lazy" width="20" height="15"
                                             src="{{asset('assets/images/hajjumrahhub-imgs-updated/checkanswer.png')}}" alt="">
                                         Answer <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span></label>
-                        <input class="form-control" id="answerform" type="text" name="InquiryAnswer"
+                        <input class="form-control" id="answerform" type="number" name="InquiryAnswer"
                                         required>
                                     <span class="borderBottom"></span>
                                 </div>

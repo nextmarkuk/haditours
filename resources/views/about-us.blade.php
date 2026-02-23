@@ -13,7 +13,7 @@
 
         <p>Dial&nbsp;&nbsp;020 3103 0264&nbsp; to Book Umrah Packages</p>
 
-        <p>Suite No.5 , The Old Dispensary , 30 Romford Road , Stratford London, England, E15 4BZ</p>
+        <p>13 Station Rd, London SE25 5AH, United Kingdom</p>
 
         <h2>About Us</h2>
 
