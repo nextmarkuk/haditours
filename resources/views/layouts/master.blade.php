@@ -12,6 +12,7 @@
 
 
     <meta name="twitter:card" content="summary">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="twitter:site" content="@hajjumrahhub">
     <meta name="twitter:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services">
     <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
