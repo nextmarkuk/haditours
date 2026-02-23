@@ -95,8 +95,12 @@ body {
 	width: 100%;
 }
 
+.lead {
+	color: #fff !important;
+}
+
 .pkg-header-top {
-	background-color: #2d1b0d;
+	background-color: #3D3E42;
 	padding: 40px 0 20px;
 	color: #fff;
 }
@@ -142,7 +146,7 @@ body {
 
 .pkg-price-bar .deposit-btn {
 	background-color: #fdf6eb;
-	color: #2d1b0d;
+	color: #3D3E42;
 	padding: 8px 20px;
 	border-radius: 20px;
 	font-weight: 600;
@@ -178,7 +182,7 @@ body {
 	margin-bottom: 25px;
 	display: flex;
 	align-items: center;
-	color: #2d1b0d;
+	color: #3D3E42;
 }
 
 .section-title img {
@@ -218,7 +222,7 @@ body {
 	display: block;
 	font-size: 14px;
 	font-weight: 700;
-	color: #2d1b0d;
+	color: #3D3E42;
 }
 
 .overview-item .info small {
@@ -241,7 +245,7 @@ body {
 	text-align: center;
 	font-size: 18px;
 	font-weight: 700;
-	color: #2d1b0d;
+	color: #3D3E42;
 	margin-bottom: 25px;
 }
 
@@ -273,7 +277,7 @@ body {
 }
 
 .sidebar-form .submit-btn {
-	background: #2d1b0d;
+	background: #3D3E42;
 	color: #fff;
 	width: 100%;
 	padding: 12px;
@@ -339,7 +343,7 @@ body {
 	color: transparent;
 	border: 0;
 	outline: none;
-	background: #2d1b0d;
+	background: #3D3E42;
 	border-radius: 50%;
 	opacity: 0.2;
 	transition: all 0.3s ease;
@@ -359,7 +363,7 @@ body {
 	z-index: 10;
 	width: 45px;
 	height: 45px;
-	background: #2d1b0d !important;
+	background: #3D3E42 !important;
 	border: none;
 	border-radius: 50%;
 	display: flex !important;
