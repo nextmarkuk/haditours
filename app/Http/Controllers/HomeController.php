@@ -91,9 +91,9 @@ class HomeController extends Controller
         $request->validate([
             'n.email' => 'required|email',
             'n.name' => 'required',
-            'n.Phone Number' => 'required',
-            'n.Departure Date' => 'required',
-            'n.Departure Airport' => 'required',
+            'n.Phone Number' => 'nullable',
+            'n.Departure Date' => 'nullable',
+            'n.Departure Airport' => 'nullable',
             'InquiryAnswer' => 'required',
         ]);
         $formId = $request->input('form_id');
