@@ -89,8 +89,11 @@ class HomeController extends Controller
     public function sendInquiry(Request $request)
     {
         $request->validate([
-            'n.Email' => 'required_without:n.email|email',
-            'n.email' => 'required_without:n.Email|email',
+            'n.email' => 'required|email',
+            'n.name' => 'required',
+            'n.Phone Number' => 'required',
+            'n.Departure Date' => 'required',
+            'n.Departure Airport' => 'required',
             'InquiryAnswer' => 'required',
         ]);
         $formId = $request->input('form_id');
@@ -102,12 +105,11 @@ class HomeController extends Controller
             return back()->with('error', 'Incorrect CAPTCHA answer. Please try again.')->withInput();
         }
         $data = $request->input('n');
-        if (isset($data['Email'])) {
-            $data['email'] = $data['Email'];
-        }
+        
         try {
             \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
-                $message->to('info@hajjumrahhub.co.uk');
+                $message->to('mismailwatto195@gmail.com');
+                $message->replyTo($data['email']);
                 $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
             });
             if ($request->ajax()) {
