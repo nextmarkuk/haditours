@@ -1,8 +1,8 @@
 <header>
     <!-- Top Bar -->
-    <div class="topbar" style="background-color: #377567; color: #fff; font-size: 15px; padding: 12px 0;">
+    <div class="topbar" style="background-color: #3D3E42; color: #fff; font-size: 15px; padding: 12px 0;">
         <div class="container px-3 px-md-5">
-            <div class="topbar-inner d-flex align-items-center flex-wrap" style="justify-content: space-between;">
+            <div class="topbar-inner d-flex align-items-center flex-wrap" style="justify-content: center; position: relative;">
                 <!-- Left: Contact Info -->
                 <div class="topbar-left d-flex flex-wrap align-items-center" style="gap: 14px;">
                     <a href="tel:020 3103 0264" style="color: #fff; text-decoration: none; white-space: nowrap;">
@@ -16,7 +16,7 @@
                     </span>
                 </div>
                 <!-- Right: Social Icons -->
-                <div class="topbar-right d-flex align-items-center" style="gap: 14px;">
+                <div class="topbar-right d-flex align-items-center" style="gap: 24px; position: absolute; right: 0;">
                     <a href="https://www.facebook.com/HajjUmrahHub" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Facebook">
                         <i class="fa fa-facebook"></i>
                     </a>
@@ -44,6 +44,7 @@
             .topbar-right {
                 justify-content: center;
                 width: 100%;
+                position: static !important;
             }
         }
         @media (max-width: 366px) {

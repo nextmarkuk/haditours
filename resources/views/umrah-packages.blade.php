@@ -1,10 +1,160 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Umrah Packages | affordable all-inclusive Deals from UK</title>
-    <meta name="description" content="Cheap Umrah Packages from UK for families, groups and individual pilgrims. Cheap all-inclusive Umrah Deals with flights, hotels, visas, and transportation.">
+<title>Umrah Packages | affordable all-inclusive Deals from UK</title>
+<meta name="description" content="Cheap Umrah Packages from UK for families, groups and individual pilgrims. Cheap all-inclusive Umrah Deals with flights, hotels, visas, and transportation.">
 @endsection
 @section('content')
-@include('partials.search-banner')
+<section class="search-banner">
+    <!--slider section Start-->
+    <div class="banner">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-huh-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <div class="banner-text">
+            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h4>For Umrah Services</h4>
+            </h4>
+        </div>
+    </div>
+    <div class="searchEngine" id="packageInquiry">
+        <div class="searchFields">
+            <form class="form" method="post" action="{{ route('sendInquiry') }}" id="frm-enquiry" name="frm-enquiry">
+                @csrf
+
+                <div class="form-group Half">
+                    <label for="enquiry-departure">
+                        <img loading="lazy" width="21" height="21" src="{{asset('assets/images/hajjumrahhub-imgs-updated/from.png')}}" alt="Departure Airport"> Departure Airport
+                    </label>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
+                        <option value="">Departure Airport</option>
+                        <option value="London Heathrow">London Heathrow</option>
+                        <option value="London Gatwick">London Gatwick</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="London Stansted">London Stansted</option>
+                        <option value="London Luton">London Luton</option>
+                        <option value="Edinburgh">Edinburgh</option>
+                        <option value="Birmingham">Birmingham</option>
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Newcastle">Newcastle</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="Aberdeen">Aberdeen</option>
+                        <option value="London City">London City</option>
+                        <option value="Leeds Bradford">Leeds Bradford</option>
+                        <option value="Cardiff">Cardiff</option>
+                        <option value="Norwich">Norwich</option>
+                        <option value="Humberside">Humberside</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-departuredate">
+                        <img loading="lazy" width="21" height="21" src="{{asset('assets/images/hajjumrahhub-imgs-updated/calender.png')}}" alt="Date"> Departure Date
+                    </label>
+                    <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-hotelcategory">
+                        <img loading="lazy" width="22" height="16" src="{{asset('assets/images/hajjumrahhub-imgs-updated/rooms.png')}}" alt="Hotel Category"> Hotel Category
+                    </label>
+                    <select class="form-control" id="enquiry-hotelcategory" name="n[Hotel Category]">
+                        <option value="">Hotel Category</option>
+                        <option value="3 Star">3 Star</option>
+                        <option value="4 Star">4 Star</option>
+                        <option value="5 Star">5 Star</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-duration">
+                        <img loading="lazy" width="17" height="19" src="{{asset('assets/images/hajjumrahhub-imgs-updated/moon.png')}}" alt="Duration"> Duration
+                    </label>
+                    <select class="form-control" id="enquiry-duration" name="n[Duration]">
+                        <option value="">Duration</option>
+                        <option value="1 Night">1 Night</option>
+                        <option value="2 Nights">2 Nights</option>
+                        <option value="3 Nights">3 Nights</option>
+                        <option value="4 Nights">4 Nights</option>
+                        <option value="5 Nights">5 Nights</option>
+                        <option value="6 Nights">6 Nights</option>
+                        <option value="7 Nights">7 Nights</option>
+                        <option value="8 Nights">8 Nights</option>
+                        <option value="9 Nights">9 Nights</option>
+                        <option value="10 Nights">10 Nights</option>
+                        <option value="11 Nights">11 Nights</option>
+                        <option value="12 Nights">12 Nights</option>
+                        <option value="13 Nights">13 Nights</option>
+                        <option value="14 Nights">14 Nights</option>
+                        <option value="14+ Nights">14+ Nights</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-travelers">
+                        <img loading="lazy" width="21" height="20" src="{{asset('assets/images/hajjumrahhub-imgs-updated/travellers.png')}}" alt="Travellers"> Travelers
+                    </label>
+                    <select class="form-control" id="enquiry-travelers" name="n[No. of Travelers]">
+                        <option value="">No. of Travelers</option>
+                        <option value="1 Travel">1</option>
+                        <option value="2 Travelers">2</option>
+                        <option value="3 Travelers">3</option>
+                        <option value="4 Travelers">4</option>
+                        <option value="5 Travelers">5</option>
+                        <option value="6 Travelers">6</option>
+                        <option value="7 Travelers">7</option>
+                        <option value="8 Travelers">8</option>
+                        <option value="9 Travelers">9</option>
+                        <option value="10 Travelers">10</option>
+                        <option value="11 Travelers">11</option>
+                        <option value="12 Travelers">12</option>
+                        <option value="13 Travelers">13</option>
+                        <option value="14 Travelers">14</option>
+                        <option value="14+ Travelers">14+</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-name">Full Name</label>
+                    <input type="text" class="form-control" id="enquiry-name" name="n[name]" placeholder="Full Name" required />
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-phone">
+                        <img loading="lazy" width="22" height="18" src="{{asset('assets/images/hajjumrahhub-imgs-updated/phone.png')}}" alt="Phone Number"> Contact No
+                    </label>
+                    <input type="text" class="form-control" id="enquiry-phone" name="n[Phone Number]" placeholder="Contact No" required />
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="enquiry-email">
+                        <img loading="lazy" width="22" height="16" src="{{asset('assets/images/hajjumrahhub-imgs-updated/email.png')}}" alt="Email Address"> Email
+                    </label>
+                    <input type="email" class="form-control" name="n[email]" id="enquiry-email" placeholder="Email" required />
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="answerform">
+                        <img loading="lazy" width="20" height="15" src="{{asset('assets/images/hajjumrahhub-imgs-updated/checkanswer.png')}}" alt=""> Answer
+                        <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span>
+                    </label>
+                    <input class="form-control" id="answerform" type="number" name="InquiryAnswer" placeholder="1 + 2 = ?" required>
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half"><button type="submit" class="btn btn-block" style="height: 3rem;background-color:#85641E;border-color:#85641E;color:#fff;" name="submit" value="Send Message">Submit</button></div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--slider section End-->
 <div class="page-content">
 
     <div class="container">
@@ -1019,95 +1169,95 @@
 
     </div>
     <h4>3 Star Umrah Package Price from UK
-</h4>
-<P>3 star Umrah Packages are the best fit for the pilgrims who are looking for cheap accommodation without any unnecessary stuff. These packages are laid out for a few comforts thus the total expenses are very low especially if you travel during the months of low demand.
-</P>
-<h4>4 Star Umrah Packages Cost</h4>
-<p>4 star packages are a good combination of quality and reasonable price. They are the most preferred for the families and couples who want to have a good time with better facilities and at the same time keep the costs at an acceptable level.</p>
-<h4>5 Star Luxury Umrah Package Prices
-</h4>
-<p>5 star Umrah Packages near Haram give a private feeling, saving a few minutes of your walking and better hotel service. Even if their price is higher than the regular ones, they give you a bigger possibility of getting your rest and leisure.
-</p>
+    </h4>
+    <P>3 star Umrah Packages are the best fit for the pilgrims who are looking for cheap accommodation without any unnecessary stuff. These packages are laid out for a few comforts thus the total expenses are very low especially if you travel during the months of low demand.
+    </P>
+    <h4>4 Star Umrah Packages Cost</h4>
+    <p>4 star packages are a good combination of quality and reasonable price. They are the most preferred for the families and couples who want to have a good time with better facilities and at the same time keep the costs at an acceptable level.</p>
+    <h4>5 Star Luxury Umrah Package Prices
+    </h4>
+    <p>5 star Umrah Packages near Haram give a private feeling, saving a few minutes of your walking and better hotel service. Even if their price is higher than the regular ones, they give you a bigger possibility of getting your rest and leisure.
+    </p>
 
-<h2>Factors That Affect the Cost of Umrah Packages
-</h2>
+    <h2>Factors That Affect the Cost of Umrah Packages
+    </h2>
 
-<p>Several elements influence Umrah Package prices:</p>
+    <p>Several elements influence Umrah Package prices:</p>
 
-<ul>
-  <li>Ramadan or peak season travel</li>
-  <li>Hotel proximity to Haram</li>
-  <li>Direct versus indirect flights</li>
-  <li>Duration of stay (7 days, 10 days, or 14 days)</li>
-  <li>Room occupancy type</li>
-</ul>
+    <ul>
+        <li>Ramadan or peak season travel</li>
+        <li>Hotel proximity to Haram</li>
+        <li>Direct versus indirect flights</li>
+        <li>Duration of stay (7 days, 10 days, or 14 days)</li>
+        <li>Room occupancy type</li>
+    </ul>
 
-<p>Travelling during less crowded months can significantly reduce overall Umrah costs.</p>
+    <p>Travelling during less crowded months can significantly reduce overall Umrah costs.</p>
 
-<h2>Why Choose Hadi Tours for Umrah Packages?</h2>
+    <h2>Why Choose Hadi Tours for Umrah Packages?</h2>
 
-<p>Selecting a trusted travel agency ensures your pilgrimage remains focused on worship rather than logistical concerns.</p>
+    <p>Selecting a trusted travel agency ensures your pilgrimage remains focused on worship rather than logistical concerns.</p>
 
-<ul>
-  <li>Travel dates can be flexible throughout 2026 and flights are available from major UK airports</li>
-  <li>First-time pilgrims and solo travellers benefit from well-organised arrangements</li>
-  <li>Carefully selected accommodations near Haram</li>
-  <li>Fully fledged Umrah visa support for 2026</li>
-  <li>Reputable airlines offering direct and connecting flights</li>
-  <li>Choice of 3-star, 4-star, and 5-star Umrah Packages 2026</li>
-  <li>Family &amp; group packages available upon request</li>
-  <li>Flights from London, Manchester, Birmingham, Glasgow, Leeds, and other UK cities</li>
-  <li>Special arrangements for the elderly and those with additional needs</li>
-  <li>Fair pricing with no hidden charges</li>
-  <li>Secure payment gateway with proper documentation</li>
-  <li>ATOL-protected Umrah Packages 2026 ensuring financial protection</li>
-  <li>24/7 UK-based customer support before, during, and after travel</li>
-</ul>
+    <ul>
+        <li>Travel dates can be flexible throughout 2026 and flights are available from major UK airports</li>
+        <li>First-time pilgrims and solo travellers benefit from well-organised arrangements</li>
+        <li>Carefully selected accommodations near Haram</li>
+        <li>Fully fledged Umrah visa support for 2026</li>
+        <li>Reputable airlines offering direct and connecting flights</li>
+        <li>Choice of 3-star, 4-star, and 5-star Umrah Packages 2026</li>
+        <li>Family &amp; group packages available upon request</li>
+        <li>Flights from London, Manchester, Birmingham, Glasgow, Leeds, and other UK cities</li>
+        <li>Special arrangements for the elderly and those with additional needs</li>
+        <li>Fair pricing with no hidden charges</li>
+        <li>Secure payment gateway with proper documentation</li>
+        <li>ATOL-protected Umrah Packages 2026 ensuring financial protection</li>
+        <li>24/7 UK-based customer support before, during, and after travel</li>
+    </ul>
 
-<h2>How to Book Your Umrah Package from the UK</h2>
+    <h2>How to Book Your Umrah Package from the UK</h2>
 
- <p>
-    Booking your Umrah Package from the UK is meant to be easy, clear, and professionally handled throughout. First, you choose the Umrah Package that fits your travel plans, budget, and preferred hotel category. Whether you decide on affordable 3-star hotels or luxury 5-star hotels near Haram, our team helps you select the most suitable option based on location, flight type, and duration of stay.
-  </p>
+    <p>
+        Booking your Umrah Package from the UK is meant to be easy, clear, and professionally handled throughout. First, you choose the Umrah Package that fits your travel plans, budget, and preferred hotel category. Whether you decide on affordable 3-star hotels or luxury 5-star hotels near Haram, our team helps you select the most suitable option based on location, flight type, and duration of stay.
+    </p>
 
-  <p>
-    Next, you provide your passport information and required documents so we can begin the Umrah visa process. Our experienced team carefully reviews all documents to ensure they comply with current Saudi regulations, helping to prevent delays or issues during the application stage. Throughout this process, you receive clear guidance and regular updates.
-  </p>
+    <p>
+        Next, you provide your passport information and required documents so we can begin the Umrah visa process. Our experienced team carefully reviews all documents to ensure they comply with current Saudi regulations, helping to prevent delays or issues during the application stage. Throughout this process, you receive clear guidance and regular updates.
+    </p>
 
-  <p>
-    Once your visa is granted, we reconfirm your full travel itinerary, including return flights to your selected UK airport, hotel arrangements in Makkah and Madinah, and ground transportation within Saudi Arabia. You will receive a well-organised travel pack containing your booking confirmations, flight tickets, hotel details, and all essential travel information.
-  </p>
+    <p>
+        Once your visa is granted, we reconfirm your full travel itinerary, including return flights to your selected UK airport, hotel arrangements in Makkah and Madinah, and ground transportation within Saudi Arabia. You will receive a well-organised travel pack containing your booking confirmations, flight tickets, hotel details, and all essential travel information.
+    </p>
 
-  <p>
-    Our UK-based support team remains available to assist you with any last-minute questions or travel advice before departure. From the moment you leave the UK until you safely return home, every aspect of your pilgrimage is carefully managed, allowing you to focus fully on worship and spiritual reflection.
-  </p>
-  
-  <h2>When Is the Best Time to Book Umrah from UK?</h2>
-  
-  <p>Umrah can be performed throughout the year except during the Hajj period. The best time to book your Umrah Package from UK depends on your budget, preferred travel dates, and spiritual goals. Factors such as school holidays, Ramadan demand, and hotel proximity to Haram all influence availability and pricing.
-</p>
+    <p>
+        Our UK-based support team remains available to assist you with any last-minute questions or travel advice before departure. From the moment you leave the UK until you safely return home, every aspect of your pilgrimage is carefully managed, allowing you to focus fully on worship and spiritual reflection.
+    </p>
 
- <h3>Ramadan – The Most Rewarding Time for Umrah</h3>
-  <p>
-    Ramadan is regarded as the time with the deepest spirituality to perform Umrah, especially the last ten nights. Due to the very high demand, the UK Ramadan Umrah Packages are usually necessitating an early booking just to be able to secure the hotels near Haram and the flights at competitive prices. Although the prices are generally higher during this peak season, many pilgrims give the priority to the great spiritual rewards that come with travelling in this holy month.
-  </p>
+    <h2>When Is the Best Time to Book Umrah from UK?</h2>
 
-  <h3>Cheapest Months for Umrah Packages</h3>
-  <p>
-    The summer season, in particular June, July, and August, is generally when a lot of cheaper Umrah Packages UK will be available as a result of less demand and higher temperatures. Pilgrims who are looking for cheap Umrah Packages commonly decide to travel during the less busy periods so that they can enjoy the benefits of lower hotel prices and a higher availability of flights. In addition, making your reservation early in these months can also contribute to you obtaining competitive prices for your Umrah Package.
-  </p>
+    <p>Umrah can be performed throughout the year except during the Hajj period. The best time to book your Umrah Package from UK depends on your budget, preferred travel dates, and spiritual goals. Factors such as school holidays, Ramadan demand, and hotel proximity to Haram all influence availability and pricing.
+    </p>
 
-  <h3>Off-Peak Umrah Travel Benefits</h3>
-  <p>
-    Going on a pilgrimage during the less busy times of the year means the pilgrim gets to enjoy a relaxed and comfortable spiritual journey. There are less people around the Haram making Tawaf and Sai simpler activities especially for the old age pilgrims. Besides that, off, peak travel not only means getting a lower price for your accommodation but also having a wider selection of hotels in the vicinity of Haram to choose from.
-  </p>
-  
-  <h2>Book Your Umrah Package Today with Confidence</h2>
-  
-  <p>No doubt your spiritual journey should be well, planned and guided by reliable people. At Hadi Tours, we provide ATOL protected Umrah Packages from the UK, an expert support team, and a variety of options, thus making your pilgrimage spiritually focused and without hassle.</p>
-  
-  <p>Get in touch with us nowadays to grab your Umrah Package UK and start your trip with total peace of mind.
-</p>
+    <h3>Ramadan – The Most Rewarding Time for Umrah</h3>
+    <p>
+        Ramadan is regarded as the time with the deepest spirituality to perform Umrah, especially the last ten nights. Due to the very high demand, the UK Ramadan Umrah Packages are usually necessitating an early booking just to be able to secure the hotels near Haram and the flights at competitive prices. Although the prices are generally higher during this peak season, many pilgrims give the priority to the great spiritual rewards that come with travelling in this holy month.
+    </p>
+
+    <h3>Cheapest Months for Umrah Packages</h3>
+    <p>
+        The summer season, in particular June, July, and August, is generally when a lot of cheaper Umrah Packages UK will be available as a result of less demand and higher temperatures. Pilgrims who are looking for cheap Umrah Packages commonly decide to travel during the less busy periods so that they can enjoy the benefits of lower hotel prices and a higher availability of flights. In addition, making your reservation early in these months can also contribute to you obtaining competitive prices for your Umrah Package.
+    </p>
+
+    <h3>Off-Peak Umrah Travel Benefits</h3>
+    <p>
+        Going on a pilgrimage during the less busy times of the year means the pilgrim gets to enjoy a relaxed and comfortable spiritual journey. There are less people around the Haram making Tawaf and Sai simpler activities especially for the old age pilgrims. Besides that, off, peak travel not only means getting a lower price for your accommodation but also having a wider selection of hotels in the vicinity of Haram to choose from.
+    </p>
+
+    <h2>Book Your Umrah Package Today with Confidence</h2>
+
+    <p>No doubt your spiritual journey should be well, planned and guided by reliable people. At Hadi Tours, we provide ATOL protected Umrah Packages from the UK, an expert support team, and a variety of options, thus making your pilgrimage spiritually focused and without hassle.</p>
+
+    <p>Get in touch with us nowadays to grab your Umrah Package UK and start your trip with total peace of mind.
+    </p>
 
 </div>
 @endsection
