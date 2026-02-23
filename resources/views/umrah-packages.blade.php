@@ -650,7 +650,7 @@
 
         <h2>Set On a Spiritual Journey with&nbsp;All-Inclusive Umrah Packages</h2>
 
-        <p>Have you decided to go for an Umrah this year and please Allah? Hajj Umrah Hub can make it happen for you
+        <p>Have you decided to go for an Umrah this year and please Allah? Haditours can make it happen for you
             with our cheap Umrah packages. It is time to reclaim the peace of your heart and gain the spiritual
             purity you have always wanted.</p>
 
@@ -663,7 +663,7 @@
             his lifetime. If Allah has filled your heart with the yearning to perform Umrah, you must feel lucky and
             start making the arrangements even if you are tight on the budget.</p>
 
-        <p>We at Hajj Umrah Hub know the urge of our Muslim brothers and sisters to go to the holy places in Makkah.
+        <p>We at Haditours know the urge of our Muslim brothers and sisters to go to the holy places in Makkah.
             Therefore, we provide you with the most affordable <a
                 href="{{ route('umrahPackages2026') }}">Umrah packages in 2026</a>, so you
             don&#39;t have to overthink before setting on the journey. We can take care of everything from the visa
@@ -693,7 +693,7 @@
         <p>Also, its reward is equal to one of the noblest acts in Islam, which is Jihad. Performing Umrah with a
             pious intention guarantees an entrance into Jannah. So, Umrah is of great significance and value for
             Muslims, and devotion is visible among the believers. If you want to go to Umrah from the UK, look no
-            further than Hajj Umrah Hub to make it happen for you.</p>
+            further than Haditours to make it happen for you.</p>
 
         <h2>Why is Saudi Arabia so Sacred for the Muslims?</h2>
 
@@ -764,7 +764,7 @@
 
         <h2>Affordable Luxury Umrah Packages at 3, 4, and 5-Star Hotels</h2>
 
-        <p>Hajj Umrah Hub has been serving Muslims in the UK for quite some years with cheap Umrah packages
+        <p>Haditours has been serving Muslims in the UK for quite some years with cheap Umrah packages
             consisting of luxury hotel accommodations. We provide you with 3, 4, and 5-star hotels according to your
             budget and liking. However, some of the most stayed-in hotels are those that are nearest to Kaaba. These
             hotels are the highest in demand and are considered 5-star. So tell us your requirements, and our team
@@ -783,12 +783,12 @@
 
         <p>Also, cheap yet luxurious Umrah packages are like honey to the believer&#39;s ears and soul. It means you
             don&#39;t have to save money for years to mark your attendance at Almighty&#39;s home and the
-            prophet&#39;s city. Book Umrah tickets now and give Hajj Umrah Hub a chance to participate in your
+            prophet&#39;s city. Book Umrah tickets now and give Haditours a chance to participate in your
             spiritual and religious revival.</p>
 
         <p><strong>Contact Us Now to Book Cost-effective Umrah Flights!</strong></p>
 
-        <h2>Why Choose Hajj Umrah Hub for Your Umrah Packages</h2>
+        <h2>Why Choose Haditours for Your Umrah Packages</h2>
 
         <p>It&#39;s really important to pick the right travel agency for your Umrah Package so that you have a good
             and easy journey. At Hajj Umrah Hub, we promise to give you the best experience possible, from when you
@@ -809,7 +809,7 @@
         <h3>IATA Certified</h3>
 
         <p>When you travel for Umrah, you want to ensure that you are secure and protected. That&#39;s why we at
-            Hajj Umrah Hub are IATA certified, which means we follow strict safety standards for air travel. This
+            Haditours are IATA certified, which means we follow strict safety standards for air travel. This
             certificate confirms our status to provide safe and reliable travel arrangements for our customers.</p>
 
         <p>So, when you book your Umrah Package with us, you can trust you are in good hands. With our IATA
@@ -881,7 +881,7 @@
 
         <h3>Do you offer Umrah Packages with Ziarat?</h3>
 
-        <p>Yes, Hajj Umrah Hub offers Umrah Packages with Ziarat. Our packages include visits to the holy sites in
+        <p>Yes, Haditours offers Umrah Packages with Ziarat. Our packages include visits to the holy sites in
             Makkah and Madinah, allowing you to experience these locations&#39; spiritual and cultural significance.
         </p>
 

@@ -11,7 +11,7 @@
         <h1 style="text-align: center;">Payment Security</h1>
 
         <p style="text-align: justify;">In order to keep your payments safe against the Flights, Hotels, Umrah and
-            Hajj packages, transport, visa &amp; Insurance that you buy, Hajj Umrah Hub facilitates the safest
+            Hajj packages, transport, visa &amp; Insurance that you buy, Haditours facilitates the safest
             online payment methods via a 3D secure link. The methods we allow include:</p>
 
         <p style="text-align: justify;"><strong>1. Online Money Transfer<br />

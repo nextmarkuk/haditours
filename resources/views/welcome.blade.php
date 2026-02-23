@@ -12,7 +12,7 @@
                     <span>03 STAR Exclusive</span>
                     Umrah Packages
                 </h2>
-                <p>Hajj Umrah Hub Brings Affordable Packages with Nearby Hotels</p>
+                <p>Haditours Brings Affordable Packages with Nearby Hotels</p>
             </div>
             <div class="packagesCarousel">
                 <div class="viewMore-carouselArrow">
@@ -240,7 +240,7 @@
                     <span>04 STAR</span>
                     Umrah Packages
                 </h2>
-                <p>Hajj Umrah Hub Brings Affordable Packages with Nearby Hotels</p>
+                <p>Haditours Brings Affordable Packages with Nearby Hotels</p>
             </div>
             <div class="packagesCarousel">
                 <div class="viewMore-carouselArrow">
@@ -564,7 +564,7 @@
                     <span>05 STAR</span>
                     Umrah Packages
                 </h2>
-                <p>Hajj Umrah Hub Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
+                <p>Haditours Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
             </div>
             <div class="packagesCarousel">
                 <div class="viewMore-carouselArrow">
@@ -894,13 +894,13 @@
                 <p>Umrah is of great significance for Muslims worldwide. The spiritual journey is always calling the
                     believer&#39;s hearts from within, and it is about time you get to stand in front of Kaaba. So, if
                     you have decided to go to the holy places in Saudi Arabia and ask Allah for his forgiveness and
-                    blessings, it is never too late. We at Hajj Umrah Hub are known as the best Umrah travel agency in
+                    blessings, it is never too late. We at Haditours are known as the best Umrah travel agency in
                     the UK because of our reliable Umrah services.</p>
 
                 <p><a href="{{ route('contactUs') }}" target="_self"><strong>Contact Us
                             Now!</strong></a></p>
 
-                <h2>What can Hajj Umrah Hub do for you?</h2>
+                <h2>What can Haditours do for you?</h2>
 
                 <p>Our goal is to provide all Muslims in the UK with an affordable opportunity to visit Makkah and
                     Madinah. The yearning to visit these places is always in the hearts of Muslims. Umrah is the
@@ -910,7 +910,7 @@
                 <p>Therefore, we offer Muslims holy travel at a cost-effective cost so that you don&#39;t have to wait
                     to get to Kaaba anymore. By facilitating the pilgrims with our services, we have become one of the
                     most reliable travel agents in the UK. From your Umrah visa and flights to the most daunting hotel
-                    bookings, Hajj Umrah Hub can do it all for you.</p>
+                    bookings, Haditours can do it all for you.</p>
 
                 <p>In addition, you only have to inform us about your stay plans and budget, and we will come up with
                     the most ideal and affordable deal for you. Being one of the best travel agencies in London, we aim
@@ -973,7 +973,7 @@
 
                 <p>The temperature can get high during these three months, resulting in unpleasant weather conditions
                     for religious practice. But if you are on a budget and need more money to afford an Umrah in the
-                    peak months, these three months will be perfect. Hajj Umrah Hub is one of the best travel agency the
+                    peak months, these three months will be perfect. Haditours is one of the best travel agency the
                     UK, and we can help you plan your spiritual journey on a budget in the cheapest months.</p>
 
                 <h2>Flying to Saudi Arabia from the UK</h2>

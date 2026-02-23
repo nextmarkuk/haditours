@@ -14,10 +14,10 @@
             personalize ads and to analyze traffic. Information about your use of this site is shared with Google
             and other advertising platforms. By using this site, you agree to their use of cookies.</p>
 
-        <p><strong>Please Read Carefully Cookies Policy of Hajj Umrah Hub while booking from this site
+        <p><strong>Please Read Carefully Cookies Policy of Haditours while booking from this site
                 www.hajjumrahhub.co.uk</strong></p>
 
-        <p>When visiting our site Hajj Umrah Hub and use our services and information, then you automatically obtain
+        <p>When visiting our site Haditours and use our services and information, then you automatically obtain
             one or more cookies. To guarantee the finest delivery of our services, therefore, this is a principal
             purpose for using the cookies. We are here to abridge the all essential knowledge related to the
             cookies. You can also acquire about how you can accomplish on your own these cookies. Third party
@@ -32,7 +32,7 @@
 
         <p><strong>Why Cookies are useful?</strong></p>
 
-        <p>Hajj Umrah Hub use cookies because we want to improve the website functionality and cookies increase the
+        <p>Haditours use cookies because we want to improve the website functionality and cookies increase the
             website speed as well. These improvements are increased by the website content and depend on your
             website likes and dislikes which is given by tracking your data information. Using cookies, website
             response looks efficiently or professionally.&nbsp;<br />
@@ -44,7 +44,7 @@
         <p>There are some types of cookies, which we use on our website.</p>
 
         <p><strong>Analytical Cookies:</strong> It is allowed to see and analyze the user movement on our website
-            Hajj Umrah Hub and their interest permit us to increase the performance of services.<br />
+            Haditours and their interest permit us to increase the performance of services.<br />
             <strong>Technical Cookies:</strong> This type of cookies helps us, to maintain the flow of the website
             in a proper way.<br />
             <strong>Functional Cookies:</strong> When users requested our services then this cookie is important for

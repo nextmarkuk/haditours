@@ -305,7 +305,7 @@
 
         <p>For British citizens, the Umrah visa fee is usually between &pound;115 to &pound;190.</p>
 
-        <h4>Will I get a Saudi Umrah visa from Hajj Umrah Hub with my Umrah package?</h4>
+        <h4>Will I get a Saudi Umrah visa from Haditours with my Umrah package?</h4>
 
         <p>Yes, if you book an Umrah package with us, you automatically get an Umrah visa.</p>
 

@@ -616,7 +616,7 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-        <h2>Get Umrah Packages 2026 With Hajj Umrah Hub Today</h2>
+        <h2>Get Umrah Packages 2026 With Haditours Today</h2>
 
         <p>Umrah is a special journey for Muslims that helps them feel close to Allah. It is not like Hajj, which is
             necessary for those who can do it. People can do Umrah at any time of the year. During Umrah, Muslims
@@ -663,7 +663,7 @@
 
         <h2>What to Expect in an Umrah Package for 2026</h2>
 
-        <p>When you book your Umrah for 2026, it is good to know what you get. Hajj Umrah Hub makes sure to give the
+        <p>When you book your Umrah for 2026, it is good to know what you get. Haditours makes sure to give the
             best <a href="{{ route('umrahPackages') }}">Umrah packages</a> from the UK. So,
             here&#39;s what you can expect.</p>
 
@@ -761,7 +761,7 @@
 
         <h3>FAQs</h3>
 
-        <h4>What is the price of the Umrah package 2026 with Hajj Umrah Hub now?</h4>
+        <h4>What is the price of the Umrah package 2026 with Haditours now?</h4>
 
         <p>At Hajj Umrah Hub, we ensure you get the best prices for your Umrah package for 2026 right now. Our
             packages start from as low as &pound;745.</p>

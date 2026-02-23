@@ -219,7 +219,7 @@
                             hotel, which was minutes away from masjid Al Haram gate number 1. Everything was
                             absolutely amazing. In Madinah, I stayed in a hotel nearby the Prophet's Mosque, which
                             was also very convenient. The entire experience was truly unforgettable, and I highly
-                            recommend Hajj Umrah Hub to anyone looking to make the journey.<sup>"</sup></p>
+                            recommend Haditours to anyone looking to make the journey.<sup>"</sup></p>
                         </div>
                     </div>
                 </div>

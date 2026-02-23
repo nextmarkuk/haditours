@@ -383,7 +383,7 @@
 
         <p><strong>General Data Protection Regulation:</strong> By consent to this privacy notice you are giving us
             permission to process your personal data specifically for the purpose identified. Consent is required
-            for Hajj Umrah Hub to process personal data to fulfil your travel requirements.<br />
+            for Haditours to process personal data to fulfil your travel requirements.<br />
             Where we are asking you for sensitive personal data we will always tell you why and how the information
             will be used if required.</p>
 

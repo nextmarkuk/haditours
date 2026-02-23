@@ -627,7 +627,7 @@
 
             <p>With all the free time during the holiday season, many Muslims want to go to Umrah to feel closer to God.
                 People look for December Umrah packages to connect with their faith and show devotion. And that&#39;s
-                why Hajj Umrah Hub is here to help search for the ideal package for your Umrah in December.</p>
+                why Haditours is here to help search for the ideal package for your Umrah in December.</p>
 
             <h2>From Luxury to Cheap December Umrah Packages</h2>
 
@@ -710,7 +710,7 @@
 
             <p>Our Umrah packages are customisable, so feel free to add any hotels you want.</p>
 
-            <h3>What documents should I provide at Hajj Umrah Hub for an Umrah visa?</h3>
+            <h3>What documents should I provide at Haditours for an Umrah visa?</h3>
 
             <ul>
                 <li>Filled Umrah Visa Application Form</li>
