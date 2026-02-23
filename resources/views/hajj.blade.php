@@ -76,7 +76,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6499 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6999 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 7499 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 8299 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>

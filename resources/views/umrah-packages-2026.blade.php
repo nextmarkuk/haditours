@@ -62,9 +62,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 745 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -111,9 +109,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 789 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -159,9 +155,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 799 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><span><img
-                                                    loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -207,9 +201,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 859 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><span><img
-                                                    loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -269,9 +261,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 825 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}"><span><img
-                                                    loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -317,9 +307,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 899 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}"><span><img
-                                                    loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -365,9 +353,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 945 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}"><span><img
-                                                    loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -413,9 +399,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1030 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}"><span><img
-                                                    loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -476,9 +460,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 999 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -525,9 +507,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1045 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -574,9 +554,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1049 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -623,9 +601,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1199 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
