@@ -640,170 +640,127 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-        <h2>Get Umrah Packages 2026 With Hajj Umrah Hub Today</h2>
+        <h2>Umrah Packages 2026 from UK – Early Booking Now Open</h2>
 
-        <p>Umrah is a special journey for Muslims that helps them feel close to Allah. It is not like Hajj, which is
-            necessary for those who can do it. People can do Umrah at any time of the year. During Umrah, Muslims
-            wear simple white clothes called Ihram. They walk around the Kaaba, which is a holy place in Makkah.
-            This walk is called Tawaf. They also walk between two small hills called Safa and Marwah. This is called
-            Sa&#39;i. In the end, they cut or shave their hair. Many people do Umrah to ask Allah for blessings.
-            They also pray for forgiveness and feel peace in Makkah and Madinah.</p>
+        <p>Planning ahead allows you to secure the best hotels, preferred departure dates, and competitive fares for your sacred journey. Our Umrah Packages 2026 from UK are now open for early booking, offering flexible departures, carefully selected accommodation, and complete travel support for pilgrims across the UK.</p>
+        
+        <p>Whether you are planning Ramadan Umrah 2026, travelling during school holidays, or looking for off-peak 2026 Umrah deals, securing your place early ensures better availability and smoother visa processing.</p>
+        <p>With demand increasing every year, booking your Umrah 2026 from UK in advance provides peace of mind and financial flexibility.</p>
+        
+        <h2>Why 2026 Is the Ideal Year to Plan Your Umrah Early</h2>
+        
+        <h3>Increasing Demand for Umrah 2026 from UK</h3>
+  <p>
+    Interest in Umrah Packages 2026 is already rising due to Ramadan 2026 falling in favourable travel months and increasing post-Hajj travel momentum. UK families often coordinate travel around school holidays, making Easter 2026 and December 2026 highly competitive periods.
+  </p>
+  <p>
+    Early booking protects you from last-minute price increases and limited hotel choices.
+  </p>
 
-        <p>If you want to go to Umrah in 2026, <a href="https://www.hajjumrahhub.co.uk/">Hajj Umrah Hub</a> helps
-            you. We have Umrah packages 2026 from the UK. Our packages make your journey effortless and stress-free
-            this year. You can choose a low-cost or luxury experience. We have options for every budget. Also, we
-            keep our prices transparent and fair. So, there are no hidden costs.</p>
+  <h3>Limited Hotel Availability Near Haram in 2026</h3>
+  <p>
+    Hotels close to Masjid al-Haram in Makkah and Al-Masjid an-Nabawi in Madinah fill quickly, especially during Ramadan and winter holidays.
+  </p>
+  <p>
+    Premium properties such as Pullman ZamZam Makkah and Anwar Al Madinah Mövenpick are often reserved months ahead. Securing your 2026 Umrah package early gives you access to better room categories and walking-distance convenience.
+  </p>
 
-        <h2>Best Times to Book Umrah 2026 Packages</h2>
+  <h3>Price Trends for Umrah Packages 2026</h3>
+  <p>
+    Flight costs and hotel rates typically increase as peak months approach. Ramadan Umrah 2026 packages and December departures are expected to be priced higher due to demand.
+  </p>
+  <p>
+    Off-peak months such as January and February 2026 often provide more affordable Umrah 2026 deals, especially for longer stays.
+  </p>
+  
+  <H2>Available Umrah 2026 Departure Months</H2>
+  
+  <p>We offer multiple departure options throughout the year to suit different schedules and budgets.
+</p>
 
-        <p>Choosing the best time to book your Umrah in 2026 is very important. So, this guide will help you pick
-            the right time to book your package.</p>
+<h3>January & February 2026 Umrah Packages</h3>
+  <p>
+    Early 2026 offers cooler weather and fewer crowds, making January and February ideal for pilgrims seeking a peaceful Umrah experience. Families, elderly travelers, and solo pilgrims can enjoy easier access to Haram and a calm environment. These months also provide competitive Umrah 2026 packages from UK at attractive rates.
+  </p>
 
-        <h3>Winter Months (November to Mid-February)</h3>
+  <h3>Ramadan Umrah 2026 Packages</h3>
+  <p>
+    Ramadan is the most spiritually rewarding period for Umrah, and our Ramadan Umrah 2026 packages from UK cater to all needs, from full-month stays to short 7–10 night options. Early booking is essential due to high demand, ensuring the best hotels near Haram and flexible flight options. Pilgrims can experience maximum blessings while enjoying comfortable arrangements and guided support.
+  </p>
 
-        <ul>
-            <li>The weather is better in winter, and Makkah and Madinah are not very hot. This makes it easier to do
-                Umrah without feeling too tired.</li>
-            <li>Fewer people visit in winter. So, you can pray without too much crowd. In 2026, Ramadan starts in
-                mid-February. So, if you go before Ramadan, you can get lower prices.</li>
-        </ul>
+  <h3>Easter & Summer 2026 Umrah Packages</h3>
+  <p>
+    Easter and summer 2026 are popular for UK families, providing structured travel dates and convenient school holiday options. Our Easter & Summer Umrah 2026 packages offer a variety of hotel categories, flexible durations, and group-friendly arrangements. These months are perfect for pilgrims seeking extended stays with a combination of spiritual reflection and family-friendly travel.
+  </p>
 
-        <h3>Shoulder Seasons (April and October)</h3>
+  <h3>Rabi al-Awwal & Post-Hajj 2026</h3>
+  <p>
+    Travelling in Rabi al-Awwal 2026 or after Hajj provides moderate crowds and balanced pricing, making it an ideal choice for value-conscious pilgrims. These months combine comfortable hotel options near Haram with quieter rituals for Tawaf and Sa’i. Pilgrims can enjoy a fulfilling spiritual journey without the rush of peak seasons.
+  </p>
 
-        <ul>
-            <li>These months have good weather and fewer people. This makes Umrah easier and more comfortable.</li>
-            <li>Since it is not the busiest time, prices are lower. This makes Umrah 2026 packages more affordable.
-            </li>
-        </ul>
+  <h3>December 2026 Umrah Packages</h3>
+  <p>
+    December departures coincide with winter holidays, offering convenient scheduling for UK families while maintaining a peaceful Umrah experience. Our December 2026 Umrah packages from UK include flexible hotel options, smooth flights, and guided tours. This period provides a blend of favorable weather, accessibility, and spiritual tranquility.
+  </p>
+  
+  <h2>Types of Umrah Packages 2026 Available
+</h2>
+<p>We offer structured 2026 Umrah packages UK tailored to different preferences.</p>
+        
+        
+        <h4>Economy Umrah 2026 Packages</h4>
+  <p>
+    Designed for budget-conscious pilgrims, these packages provide reliable accommodation, return flights, and visa support at competitive rates.
+  </p>
 
-        <h3>Ramadan</h3>
+  <h4>4 Star Umrah 2026 Packages</h4>
+  <p>
+    Ideal for pilgrims seeking comfort and proximity to Haram, 4★ options balance quality accommodation with value pricing.
+  </p>
 
-        <ul>
-            <li>A lot of people go to Umrah during Ramadan. So, if you travel this month, you will see big crowds
-                everywhere.</li>
-            <li>Because of the high demand, flights and hotels fill up fast. So, if you want better choices, you
-                should book your package early. This way, you can find good hotels and flights easily.</li>
-        </ul>
+  <h4>5 Star Umrah 2026 Luxury Packages</h4>
+  <p>
+    For those prioritising convenience and premium facilities, our luxury 5 Star Umrah 2026 packages include top-rated hotels within walking distance of the holy mosques.
+  </p>
 
-        <h2>What to Expect in an Umrah Package for 2026</h2>
+  <h4>Family Umrah Packages 2026</h4>
+  <p>
+    Travelling with children or elderly relatives requires additional care. Our Family Umrah 2026 packages include flexible room options and convenient flight schedules.
+  </p>
 
-        <p>When you book your Umrah for 2026, it is good to know what you get. Hajj Umrah Hub makes sure to give the
-            best <a href="{{ route('umrahPackages') }}">Umrah packages</a> from the UK. So,
-            here&#39;s what you can expect.</p>
+  <h4>Group Umrah 2026 Departures</h4>
+  <p>
+    Group departures provide structured itineraries, guided Ziyarat tours, and shared spiritual experience with fellow pilgrims.
+  </p>
+  
+  <h2>What’s Included in Our Umrah Packages 2026?</h2>
+  <P>Each Umrah 2026 package from UK includes essential services for a smooth pilgrimage:</P>
+  
+  <h4>Return Flights from Major UK Airports</h4>
+  <p>
+    Departures are available from London, Manchester, Birmingham, and other regional airports, with direct or connecting flights to Jeddah or Madinah.
+  </p>
 
-        <h3>Return Flights</h3>
+  <h4>3★, 4★ & 5★ Hotels in Makkah & Madinah</h4>
+  <p>
+    We carefully select accommodation options close to key religious sites, offering flexibility across different budgets.
+  </p>
 
-        <p>Firstly, our packages include flights to and from Saudi Arabia. You will fly from big airports in the UK.
-            We have different options to match your travel plans. So you can choose what fits your time and budget.
-        </p>
+  <h4>Umrah Visa Processing for 2026</h4>
+  <p>
+    We assist with full visa documentation in accordance with regulations set by the Ministry of Hajj and Umrah, ensuring compliance and timely approvals.
+  </p>
 
-        <h3>Hotels Near Holy Sites</h3>
+  <h4>Ground Transfers & Intercity Transport</h4>
+  <p>
+    Private transfers between airports, hotels, and travel between Makkah and Madinah are arranged for your convenience.
+  </p>
 
-        <p>It is important to stay near the holy places in Makkah and Madinah. This makes it easy for you to go for
-            prayers. You can choose from 3, 4, or 5-star hotels in our packages. These are close to the sacred
-            places, so you can pick the best one.</p>
-
-        <h3>Umrah Visa</h3>
-
-        <p>Moreover, we handle your <a href="{{ route('umrahVisa') }}">Umrah visa</a> from
-            beginning to end, so you do not need to worry about anything. Our team helps you with all the needed
-            papers and makes the whole process easy for you.</p>
-
-        <h3>Ground Transport</h3>
-
-        <p>You can also add ground transport between Jeddah, Makkah, and Madinah. This means you will have a vehicle
-            to take you from one city to another. This will help you avoid any problems with transport at the last
-            minute.</p>
-
-        <h3>Meals</h3>
-
-        <p>Additionally, you can add meals to your package. Options include breakfast only, meals for half the day,
-            or the whole day. This makes your experience simple, as you will not have to find food options daily.
-        </p>
-
-        <h3>Ziarat Tours</h3>
-
-        <p>Lastly, a guided Ziarat tour can make your Umrah even more special. A guide will take you to essential
-            places in Makkah and Madinah, allowing you to learn about their history and their importance in Islam.
-        </p>
-
-        <h2>How to Prepare for Umrah 2026 Now</h2>
-
-        <p>Getting ready for Umrah 2026 is not just about booking a flight and a hotel. You also need to prepare
-            your heart and your mind. So, here is a simple guide to help you prepare for this holy experience.</p>
-
-        <h3>Spiritual Preparation</h3>
-
-        <p>Firstly, prepare your heart and mind before going for Umrah.</p>
-
-        <ul>
-            <li>Learn how to do each step of Umrah properly.</li>
-            <li>Make sure your intentions are right. It is a time to ask for Allah&#39;s mercy and forgiveness. So,
-                do it with honesty and a pure heart.</li>
-            <li>You can watch videos by Islamic teachers. This will help you understand the deeper meaning of this
-                journey.</li>
-        </ul>
-
-        <h3>Documentation</h3>
-
-        <p>If you do not have the right papers, your Umrah from the UK might take longer or even get cancelled. But
-            do not worry. We make sure you have everything you need.</p>
-
-        <ul>
-            <li>You will need a passport that is still good for at least six months.</li>
-            <li>You also need a special travel pass called an Umrah visa. This paper permits you to enter Saudi
-                Arabia for Umrah.</li>
-            <li>Must have got the vaccine for meningitis.</li>
-            <li>It is also a good idea to have extra copies of all your important papers.</li>
-        </ul>
-
-        <h3>Packing Essentials</h3>
-
-        <p>Packing the right things makes travel simple and comfortable.</p>
-
-        <ul>
-            <li><strong>Ihram Clothing &ndash;</strong> Men must bring two sets of white clothes called Ihram. This
-                is a special outfit for Umrah or Hajj. Women must wear loose and modest clothes that follow Islamic
-                rules.</li>
-            <li><strong>Comfortable Footwear &ndash;</strong> The best shoes are light sandals or slip-on shoes.
-            </li>
-            <li><strong>Clothes for the Weather &ndash;</strong> Saudi Arabia is very hot in the day. However, it
-                can be cool at night. So pack clothes that work for both.</li>
-        </ul>
-
-        <h3>Understanding Local Rules</h3>
-
-        <p>Learning the rules and traditions in Saudi Arabia will help you stay out of trouble and show respect.</p>
-
-        <ul>
-            <li>Dress in a way that covers your body. Women should wear a long, loose dress called an abaya. They
-                should also cover their hair with a hijab. Men should not wear clothes that are too bright or too
-                tight.</li>
-            <li>Do not take pictures in holy places unless you have permission.</li>
-            <li>Always put trash in a bin. Keep holy places neat and tidy.</li>
-        </ul>
-
-        <h3>FAQs</h3>
-
-        <h4>What is the price of the Umrah package 2026 with Hajj Umrah Hub now?</h4>
-
-        <p>At Hajj Umrah Hub, we ensure you get the best prices for your Umrah package for 2026 right now. Our
-            packages start from as low as &pound;745.</p>
-
-        <h4>Which airlines can I get direct flights with for my Umrah package?</h4>
-
-        <p>Saudi Airlines and British Airways offer direct flights from the UK to Jeddah. So, if you opt for direct
-            flights in your package, you will likely fly with one of these airlines.</p>
-
-        <h4>How long does an Umrah visa last?</h4>
-
-        <p>An Umrah visa lasts 90 days, after which you must leave the country.</p>
-
-        <h4>What cities can I visit with an Umrah visa?</h4>
-
-        <p>The Umrah visa only allows visits to the holy cities of Makkah, Madinah, and other cities of Saudi Arabia
-        </p>
-
+  <h4>Guided Ziyarat Tours</h4>
+  <p>
+    Optional guided visits include historical Islamic landmarks such as Jabal al-Nour and Quba Mosque, enhancing your spiritual journey.
+  </p>
+        
     </div>
 
 </div>
