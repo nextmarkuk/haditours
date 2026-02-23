@@ -76,7 +76,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6499 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6999 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 7499 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 8299 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="#">
-                                        <span><img loading="lazy" width="9" height="11" class="svg" src="package-arrow.svg" alt="package arrow"></span>View Details
+                                        View Details
                                     </a>
                                 </div>
                             </div>
@@ -278,18 +278,18 @@
             Umrah Hub offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
             of providing the best Hajj packages. These best hajj packages include providing visa services, flight,
             Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim&rsquo;s
-            desire. Those looking for affordable Hajj packages will be very pleased to know that Hajj Umrah Hub is
+            desire. Those looking for affordable Hajj packages will be very pleased to know that Haditours is
             offering the following exciting and cheap Hajj packages for 2026:</p>
 
         <h2 style="text-align: justify;">Amazing and affordable Hajj Packages 2026&nbsp;for Muslim Community</h2>
 
         <p style="text-align: justify;"><strong>3 weeks 5 star best Hajj package</strong></p>
 
-        <p style="text-align: justify;">Hajj Umrah Hub brings the best Hajj package for the Muslim community
+        <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
             residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
             in intention to pay a visit to Allah&rsquo;s House, Hajj Umrah travel becomes a luxurious bridge between
             the faithful and their Creator.<br />
-            Hajj Umrah Hub offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
+            Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>
 
         <ul>
@@ -328,7 +328,7 @@
         <p style="text-align: justify;"><strong>2-3 Weeks non-shifting best hajj packages</strong></p>
 
         <p style="text-align: justify;">In this age, each one of us is looking towards tasks to be completed
-            economically, Hajj Umrah Hub presents its customers in the UK with cheap and affordable Hajj packages
+            economically, Haditours presents its customers in the UK with cheap and affordable Hajj packages
             for all those desiring to perform this sacred religious obligation. So don&rsquo;t think twice and avail
             of this low-cost and reasonable offer and pay a visit to the House of Allah this year.</p>
 

@@ -4,234 +4,153 @@
     <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
-<div class="page-content">
-
+@section('content')
+<div class="pkg-header-top text-center">
     <div class="container">
-
-        <p>
+        <h1>Customer Reviews</h1>
+        <p class="lead text-muted">What our spiritual travelers say about their journey with Hadi Tours</p>
     </div>
 </div>
-<div class="page-content">
+
+<section class="main-content-area py-5">
     <div class="container">
-        <div class="review-form-button collapse show collapse-review">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>
-                        <span class="heading">Customer Reviews</span>
-                        <p>Send us your feedback</p>
-                    </h2>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse"
-                        data-target=".collapse-review">Write a Review</button>
+        <div class="row">
+            <!-- Review Summary & Form Trigger -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="section-card text-center h-100">
+                    <div class="section-title mb-4">
+                        <i class="fa fa-star mr-2"></i> Share Your Experience
+                    </div>
+                    <div class="mb-4">
+                        <div class="h2 font-weight-bold text-dark mb-1">4.9 / 5.00</div>
+                        <div class="stars mb-3">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="small text-muted">Based on 500+ verified customer reviews</p>
+                    </div>
+                    <button class="btn btn-warning btn-block py-3 font-weight-bold rounded-pill text-uppercase shadow-sm" type="button" data-toggle="collapse" data-target=".collapse-review">
+                        <i class="fa fa-pencil mr-2"></i> Write a Review
+                    </button>
+                    
+                    <div class="mt-5 p-4 bg-light-cream rounded border text-left">
+                        <h6 class="font-weight-bold mb-2 small text-muted text-uppercase">Trusted by Thousands</h6>
+                        <p class="small text-justify mb-0">Hadi Tours is dedicated to providing an exceptional Umrah experience. Your feedback helps us maintain our high standards of service for all pilgrims.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="review-form collapse collapse-review">
-            <form method="post" class="form">
-                <div class="row align-items-end">
-                    <div class="offset-xl-3 col-xl-6 offset-lg-1 col-lg-8 col-md-12 col-sm-12">
-                        <button class="close-form" type="button" data-toggle="collapse"
-                            data-target=".collapse-review"><img src="close.svg" alt="close image"
-                                class="svg"></button>
-                        <span class="heading">Please Send Us Your Feedback</span>
-                        <strong>Submit your Review</strong>
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="n[fullname]" placeholder="Name"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="form-group">
-                                    <input class="form-control" type="email" name="n[email]"
-                                        placeholder="Email Address" required>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="n[bookingrefrence]"
-                                        placeholder="Booking Refrence" required>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="form-group ratings">
-                                    <span>Rating</span>
-                                    <fieldset class="rating">
-                                        <input type="radio" id="star5" name="n[reviewstars]" value="5"
-                                            checked=""><label class="full" for="star5"
-                                            title="Awesome - 5 stars"></label>
-                                        <input type="radio" id="star4" name="n[reviewstars]" value="4"><label
-                                            class="full" for="star4" title="Pretty good - 4 stars"></label>
-                                        <input type="radio" id="star3" name="n[reviewstars]" value="3"><label
-                                            class="full" for="star3" title="Meh - 3 stars"></label>
-                                        <input type="radio" id="star2" name="n[reviewstars]" value="2"><label
-                                            class="full" for="star2" title="Kinda bad - 2 stars"></label>
-                                        <input type="radio" id="star1" name="n[reviewstars]" value="1"><label
-                                            class="full" for="star1" title="Sucks big time - 1 star"></label>
-                                    </fieldset>
-                                </div>
-                            </div>
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="n[review]" rows="7"
-                                        placeholder="Review Description"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12">
 
-                        <div class="form-group">
-                            <div class="product_media_collection">
-                                <div class="imageUpload clearfix product_media">
-                                    <label class="custom-file-upload col-sm-12 ui-state-disabled"
-                                        for="catalog_product_image">
-                                        <div class="up-msg">
-                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                            <span>size of image <br> ( 200 * 200 )</span>
-                                        </div>
-                                    </label>
-                                    <input type="file" style="display:none;" placeholder="File Upload" name="files"
-                                        id="catalog_product_image" class="catalog_product_image form-control"
-                                        data-inp-name="n[images]" data-path="reviews" data-size="200x200"
-                                        data-image-count="1">
-                                    <!-- remoed -->
-
+            <!-- Review Content Area -->
+            <div class="col-lg-8">
+                <!-- Review Form -->
+                <div class="review-form collapse collapse-review mb-5">
+                    <div class="section-card border-warning shadow">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h4 class="font-weight-bold mb-0">Submit Your Review</h4>
+                            <button class="btn btn-sm btn-outline-dark rounded-circle" type="button" data-toggle="collapse" data-target=".collapse-review">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </div>
+                        
+                        <form method="post" class="form" action="#">
+                            @csrf
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label class="small font-weight-bold">Full Name *</label>
+                                        <input class="form-control" type="text" name="n[fullname]" placeholder="Enter your name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label class="small font-weight-bold">Email Address *</label>
+                                        <input class="form-control" type="email" name="n[email]" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label class="small font-weight-bold">Booking Reference *</label>
+                                        <input class="form-control" type="text" name="n[bookingrefrence]" placeholder="e.g. HT-123456" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label class="small font-weight-bold mb-2 d-block">Overall Rating</label>
+                                        <fieldset class="rating">
+                                            <input type="radio" id="star5" name="n[reviewstars]" value="5" checked><label class="full" for="star5" title="5 stars"></label>
+                                            <input type="radio" id="star4" name="n[reviewstars]" value="4"><label class="full" for="star4" title="4 stars"></label>
+                                            <input type="radio" id="star3" name="n[reviewstars]" value="3"><label class="full" for="star3" title="3 stars"></label>
+                                            <input type="radio" id="star2" name="n[reviewstars]" value="2"><label class="full" for="star2" title="2 stars"></label>
+                                            <input type="radio" id="star1" name="n[reviewstars]" value="1"><label class="full" for="star1" title="1 star"></label>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <label class="small font-weight-bold">Review Message *</label>
+                                        <textarea class="form-control" name="n[review]" rows="5" placeholder="Tell us about your trip..." required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 mb-4">
+                                    <div class="form-group">
+                                        <label class="small font-weight-bold">What is <span class="captcha-text">...</span>? *</label>
+                                        <input class="form-control" type="number" name="ReviewAnswer" placeholder="Answer" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-4">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="privacy-check" name="policy_check" required>
+                                        <label class="custom-control-label small text-muted" for="privacy-check">
+                                            By checking this box, you agree to our <a href="{{ route('termsConditions') }}" class="text-warning">Terms & Conditions</a> and <a href="{{ route('privacyPolicy') }}" class="text-warning">Privacy Policy</a>.
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-right">
+                                    <button class="btn btn-warning px-5 py-2 font-weight-bold rounded-pill text-uppercase" type="submit">
+                                        Post Review
+                                    </button>
                                 </div>
                             </div>
-                            <label>Upload Image</label>
-                        </div>
+                        </form>
                     </div>
-                    <div class="offset-xl-3 col-xl-6 offset-lg-1 col-lg-8 col-md-12 col-sm-12">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form-group Answer">
-                                    <input class="form-control" type="text" name="ReviewAnswer" placeholder="Answer"
-                                        required>
-                                    <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 50px; text-align: center;'></span>
+                </div>
+
+                <!-- Existing Reviews -->
+                <div class="review-list">
+                    @php
+                        $sample_reviews = [
+                            ['name' => 'Sultana Sameer', 'img' => 'testimonial-image.webp', 'stars' => 4, 'text' => 'I booked my Umrah package with Hadi Tours and performed Umrah in April 2018. Staying at the Fairmont Royal Clock Tower was amazing, just minutes from Masjid Al Haram gate number 1.'],
+                            ['name' => 'Saika Khan', 'img' => 'testimonial-image3.webp', 'stars' => 3, 'text' => 'Jazakallah for everything you did to make our journey amazing. The service was fantastic, transport was bang on time. Will definitely use your company again!'],
+                            ['name' => 'Ismael Peerally', 'img' => 'testimonial-image2%20%281%29.webp', 'stars' => 4, 'text' => 'The experience with Hadi Tours was absolutely seamless. From the flight bookings to the hotel stays in both Makkah and Madinah, everything was handled with care.'],
+                            ['name' => 'Iqbal Husain', 'img' => 'image.jpg', 'stars' => 5, 'text' => 'I booked my Umrah in April 2023. The entire experience was truly unforgettable. I highly recommend Hadi Tours to anyone looking to make this spiritual journey.']
+                        ];
+                    @endphp
+
+                    @foreach($sample_reviews as $review)
+                    <div class="section-card mb-4 p-4 shadow-sm hover-up border-0">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="review-avatar mr-3">
+                                <img width="60" height="60" class="rounded-circle border" src="{{ asset('assets/media/reviews/' . $review['img']) }}" alt="{{ $review['name'] }}">
+                            </div>
+                            <div>
+                                <h6 class="font-weight-bold mb-0 text-dark">{{ $review['name'] }} <i class="fa fa-check-circle text-success small ml-1" title="Verified Traveler"></i></h6>
+                                <div class="stars small">
+                                    @for($i = 1; $i <= 5; $i++)
+                                        <i class="fa fa-star {{ $i <= $review['stars'] ? 'text-warning' : 'text-muted opacity-2' }}"></i>
+                                    @endfor
                                 </div>
                             </div>
-                            <div class="col-md-7">
-                                <input type="checkbox" id="privacy-check" name="policy_check" required>
-                                <label for="privacy-check"><span class="box"></span> <span class="box-text"> By
-                                        Checking This Box You Agreed With Our Terms And Conditions And Privacy
-                                        Policy. <span
-                                            class="error_check text-danger">(Required)</span></span></span></label>
-                            </div>
                         </div>
+                        <p class="mb-0 text-justify text-muted italic">"{{ $review['text'] }}"</p>
                     </div>
-
-                    <div class="offset-xl-3 col-xl-6 offset-lg-1 col-lg-8 col-md-12 col-sm-12 mt-2">
-                        <button class="btn btn-primary" type="submit" name="submit"
-                            value="Send Review Message">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<section class="testimonials withoutCarousel">
-    <div class=" container-fluid p-0">
-        <div class="testimonialCarousel">
-            <div class="sectionMainHeading">
-                <p>Customer Reviews</p>
-            </div>
-            <div id="testimonial" class="owl-carousel owl-loaded owl-drag DisableCarousel">
-                <div class="item">
-                    <div class="testimonial">
-                        <div class="testimonialImage">
-                            <img loading="lazy" width="130" height="130" class="img-fluid"
-                                src="{{asset('assets/media/reviews/testimonial-image.webp')}}" alt="testimonial image">
-                        </div>
-                        <div class="testimonialDesc">
-                            <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                    src="star.svg" alt="package star"><img loading="lazy" height="16" width="16"
-                                    class="svg " src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                    width="16" class="svg " src="star.svg" alt="package star"><img loading="lazy"
-                                    height="16" width="16" class="svg " src="star.svg" alt="package star"><img
-                                    loading="lazy" height="16" width="16" class="svg inactive" src="star.svg"
-                                    alt="package star"></div><br>
-                            <p><span>Sultana Sameer</span></p> <sup>"</sup>I booked my Umrah package with
-                            Hajjumrahhub and went to perform umrah in April 2018. I stayed in fairmont Royal clock
-                            tower hotel which was minutes away from masjid Al Haram gate number 1 everything was
-                            absolutely amazing. In Madinah I stayed in<sup>"</sup></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="testimonial">
-                        <div class="testimonialImage">
-                            <img loading="lazy" width="130" height="130" class="img-fluid"
-                                src="{{asset('assets/media/reviews/testimonial-image3.webp')}}" alt="testimonial image">
-                        </div>
-                        <div class="testimonialDesc">
-                            <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                    src="star.svg" alt="package star"><img loading="lazy" height="16" width="16"
-                                    class="svg " src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                    width="16" class="svg " src="star.svg" alt="package star"><img loading="lazy"
-                                    height="16" width="16" class="svg inactive" src="star.svg"
-                                    alt="package star"><img loading="lazy" height="16" width="16"
-                                    class="svg inactive" src="star.svg" alt="package star"></div><br>
-                            <p><span>Saika Khan</span></p> <sup>"</sup>Jazakallah for everything you did for us to
-                            make our journey amazing will be definitely using your company again in 18 months
-                            Inshaallah Words cant describe how amazing it was nd service was fantastic no problems
-                            no hiccups transport was bang on<sup>"</sup></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="testimonial">
-                        <div class="testimonialImage">
-                            <img loading="lazy" width="130" height="130" class="img-fluid"
-                                src="{{asset('assets/media/reviews/testimonial-image2%20%281%29.webp')}}" alt="testimonial image">
-                        </div>
-                        <div class="testimonialDesc">
-                            <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                    src="star.svg" alt="package star"><img loading="lazy" height="16" width="16"
-                                    class="svg " src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                    width="16" class="svg " src="star.svg" alt="package star"><img loading="lazy"
-                                    height="16" width="16" class="svg " src="star.svg" alt="package star"><img
-                                    loading="lazy" height="16" width="16" class="svg inactive" src="star.svg"
-                                    alt="package star"></div><br>
-                            <p><span>Ismael Peerally</span></p> <sup>"</sup>I booked my Umrah package with Hajj
-                            Umrah Hub and went to perform umrah in April 2018. I stayed in fairmont Royal clock
-                            tower hotel which was minutes away from masjid Al Haram gate number 1 everything was
-                            absolutely amazing. In Madinah I stayed in<sup>"</sup></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="testimonial">
-                        <div class="testimonialImage">
-                            <img loading="lazy" width="130" height="130" class="img-fluid"
-                                src="{{asset('assets/media/reviews/image.jpg')}}" alt="testimonial image">
-                        </div>
-                        <div class="testimonialDesc">
-                            <div class="stars"><img loading="lazy" height="16" width="16" class="svg "
-                                    src="star.svg" alt="package star"><img loading="lazy" height="16" width="16"
-                                    class="svg " src="star.svg" alt="package star"><img loading="lazy" height="16"
-                                    width="16" class="svg " src="star.svg" alt="package star"><img loading="lazy"
-                                    height="16" width="16" class="svg " src="star.svg" alt="package star"><img
-                                    loading="lazy" height="16" width="16" class="svg " src="star.svg"
-                                    alt="package star"></div><br>
-                            <p><span>Iqbal Husain</span></p> <sup>"</sup>I booked my Umrah package with Hajj Umrah
-                            Hub and went to perform Umrah in April 2023. I stayed in the Fairmont Royal clock tower
-                            hotel, which was minutes away from masjid Al Haram gate number 1. Everything was
-                            absolutely amazing. In Madinah, I stayed in a hotel nearby the Prophet's Mosque, which
-                            was also very convenient. The entire experience was truly unforgettable, and I highly
-                            recommend Hajj Umrah Hub to anyone looking to make the journey.<sup>"</sup></p>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
     </div>
 </section>
-<div class="page-content">
-    <div class="container scroll-page-content page-content-styling">
-        </p>
-
-    </div>
-
-</div>
+@endsection
 @endsection

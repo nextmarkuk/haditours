@@ -12,6 +12,7 @@
 
 
     <meta name="twitter:card" content="summary">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="twitter:site" content="@hajjumrahhub">
     <meta name="twitter:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services">
     <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
@@ -167,7 +168,29 @@
                 };
             }, 3000); // 3 second delay
         });
+
+        function initFooterSlider() {
+            if (window.jQuery && $.fn.slick) {
+                $('.footer-slick-carousel').each(function() {
+                    if (!$(this).hasClass('slick-initialized')) {
+                        $(this).slick({
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 3000,
+                            prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+                            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>'
+                        });
+                    }
+                });
+            } else {
+                setTimeout(initFooterSlider, 50);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initFooterSlider);
     </script>
-    </script>
+    @stack('scripts')
 </body>
 </html>

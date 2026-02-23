@@ -69,8 +69,12 @@
                     <div class="col-md-3 col-lg-2 col-xl-2">
                         <div class="footer-data">
                             <h5>Address</h5>
+<<<<<<< HEAD
                             <p>
 13 Station Rd, London SE25 5AH, United Kingdom</p>
+=======
+                            <p>13 Station Rd, London SE25 5AH, United Kingdom</p>
+>>>>>>> 235dd0561aed8f606377182581300621d18ae970
                         </div>
                     </div>
                 </div>
@@ -335,7 +339,7 @@
                                     <label for="answerform"><img loading="lazy" width="20" height="15"
                                             src="{{asset('assets/images/hajjumrahhub-imgs-updated/checkanswer.png')}}" alt="">
                                         Answer <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span></label>
-                        <input class="form-control" id="answerform" type="text" name="InquiryAnswer"
+                        <input class="form-control" id="answerform" type="number" name="InquiryAnswer"
                                         required>
                                     <span class="borderBottom"></span>
                                 </div>

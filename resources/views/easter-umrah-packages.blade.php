@@ -64,9 +64,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 600 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -115,9 +113,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 925 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -166,9 +162,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 945 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -217,9 +211,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1015 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -268,9 +260,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1070 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -319,9 +309,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1130 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -370,9 +358,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1145 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -421,9 +407,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1199 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -472,9 +456,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1210 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -523,9 +505,7 @@
                                     <div class="col-12 d-flex justify-content-between px-4">
                                         <span class="price">&pound; 1245 <sub>/ pp</sub></span>
                                         <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}"><span><img loading="lazy"
-                                                    width="9" height="11" class="svg" src="package-arrow.svg"
-                                                    alt="package arrow"></span>View Details</a>
+                                            href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -548,7 +528,7 @@
             always look for opportunities to get a faith revival through Umrah any time of the year.</p>
 
         <p>Due to work and other purposes, UK Muslims want their Umrah to be scheduled during the holidays.
-            Therefore, if you want Easter Umrah packages, we can surely help you. Hajj Umrah Hub is known for
+            Therefore, if you want Easter Umrah packages, we can surely help you. Haditours is known for
             providing all-inclusive reliable, and <a href="{{ route('umrahPackages') }}"
                 target="_self">cheap&nbsp;Umrah packages</a>. We have the best packages for you whether you want to
             go for an Umrah during the Easter holidays or Ramadan.</p>
@@ -558,7 +538,7 @@
 
         <h2>Why Should You Trust Hajj Umrah Hub?</h2>
 
-        <p>Hajj Umrah Hub is one of the best travel agencies in the UK, serving for years with the best Umrah
+        <p>Haditours is one of the best travel agencies in the UK, serving for years with the best Umrah
             packages. Therefore, we understand the importance of arranging the Umrah during holidays. Most UK
             Muslims prefer to perform Umrah during the holidays because they don&rsquo;t have to compromise on their
             work or businesses. So, if you want Easter Umrah packages for 2026, we are your guys.</p>
@@ -586,9 +566,9 @@
 
         <h2>Our Customisable Easter Umrah Packages</h2>
 
-        <p>As mentioned earlier, Hajj Umrah Hub has always provided its customers with the best Umrah packages no
+        <p>As mentioned earlier, Haditours has always provided its customers with the best Umrah packages no
             matter what. Our Easter Umrah package gives you the best opportunity to go on a spiritual journey with
-            your loved ones. Hajj Umrah Hub offers three kinds of <a
+            your loved ones. Haditours offers three kinds of <a
                 href="{{ route('umrahPackages2026') }}">Umrah packages 2026</a>&nbsp;that are
             3-star, 4-star, and 5-star for 7, 10, 12, and 14 nights but this is different. We can customise these
             packages for you according to your requirements.</p>
@@ -610,14 +590,14 @@
         <p>Like Hajj, there is no compulsion for Umrah to be performed at a specific time of the year. Therefore,
             you can perform this Sunnah any time of the year, excluding the Hajj days.</p>
 
-        <h3>Do Hajj Umrah Hub Umrah packages contain an Umrah visa?</h3>
+        <h3>Do Haditours Umrah packages contain an Umrah visa?</h3>
 
-        <p>Yes, the all-inclusive Umrah packages at Hajj Umrah Hub cover everything from your Umrah visa and flights
+        <p>Yes, the all-inclusive Umrah packages at Haditours cover everything from your Umrah visa and flights
             to accommodation and food.</p>
 
         <h3>Can I do Umrah in one week?</h3>
 
-        <p>Yes, you can do Umrah in one week. We have multiple 7-day packages for you at Hajj Umrah Hub that you can
+        <p>Yes, you can do Umrah in one week. We have multiple 7-day packages for you at Haditours that you can
             choose from.</p>
 
         <h3>Which airlines fly from the UK for Umrah?</h3>
