@@ -165,13 +165,12 @@
 <section class="featuredPackages">
     <div class="container">
 
-        <div class="packagesCarousel withoutCarousel">
-            <div class="featuredPackagesUid  owl-carousel owl-loaded owl-drag DisableCarousel">
-                <div class="umrah-headings">
-                    <h4>All-inclusive Ramadan Umrah packages</h4>
+            <div class="packagesCarousel">
+                <div class="sectionMainHeading">
+                    <h2>All-inclusive Ramadan Umrah packages</h2>
                 </div>
-                <div class="row">
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                <div class="featuredPackagesUid featured-slick-carousel">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><img class="img-fluid"
@@ -218,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><img class="img-fluid"
@@ -265,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><img class="img-fluid"
@@ -312,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><img class="img-fluid"
@@ -358,12 +357,145 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+@push('scripts')
+<style>
+    .featured-slick-carousel {
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    .featured-slick-carousel .slick-prev,
+    .featured-slick-carousel .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 35px;
+        height: 35px;
+        background: rgba(61, 62, 66, 0.8) !important;
+        border: none;
+        border-radius: 50%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+
+    .featured-slick-carousel .slick-prev:hover,
+    .featured-slick-carousel .slick-next:hover {
+        background: #85641e !important;
+    }
+
+    .featured-slick-carousel .slick-prev {
+        left: 10px !important;
+    }
+
+    .featured-slick-carousel .slick-next {
+        right: 10px !important;
+    }
+
+    .featured-slick-carousel .slick-prev i,
+    .featured-slick-carousel .slick-next i {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .featured-slick-carousel .slick-dots {
+        bottom: 0px;
+    }
+
+    .featured-slick-carousel .slick-dots li button:before {
+        font-size: 12px;
+        color: #85641e;
+        opacity: 0.3;
+    }
+
+    .featured-slick-carousel .slick-dots li.slick-active button:before {
+        color: #85641e;
+        opacity: 1;
+    }
+
+    .mainPackage {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #fff;
+    }
+
+    .mainPackage:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .mainPackageImage img {
+        height: 17rem;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .mainPackageDesc {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        function initFeaturedSlider() {
+            if (window.jQuery && $.fn.slick) {
+                $('.featured-slick-carousel').each(function() {
+                    $(this).slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        dots: true,
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        infinite: true,
+                        prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+                        nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
+                        responsive: [
+                            {
+                                breakpoint: 1200,
+                                settings: {
+                                    slidesToShow: 3
+                                }
+                            },
+                            {
+                                breakpoint: 991,
+                                settings: {
+                                    slidesToShow: 2
+                                }
+                            },
+                            {
+                                breakpoint: 767,
+                                settings: {
+                                    slidesToShow: 1,
+                                    arrows: false
+                                }
+                            }
+                        ]
+                    });
+                });
+            } else {
+                setTimeout(initFeaturedSlider, 50);
+            }
+        }
+        initFeaturedSlider();
+    });
+</script>
+@endpush
 <div class="page-content">
     <div class="container scroll-page-content page-content-styling">
         </p>

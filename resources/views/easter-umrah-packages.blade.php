@@ -165,13 +165,14 @@
 <section class="featuredPackages">
     <div class="container">
 
-        <div class="packagesCarousel withoutCarousel">
-            <div class="featuredPackagesUid  owl-carousel owl-loaded owl-drag DisableCarousel">
-                <div class="umrah-headings">
-                    <h4>All-inclusive Easter Umrah Packages</h4>
-                </div>
-                <div class="row">
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+        <div class="packagesCarousel">
+            <div class="sectionMainHeading">
+                <h2>All-inclusive Easter Umrah Packages</h2>
+            </div>
+            <div class="featuredPackagesUid featured-slick-carousel">
+
+
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}"><img class="img-fluid"
@@ -220,7 +221,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><img class="img-fluid"
@@ -269,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}"><img class="img-fluid"
@@ -318,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><img class="img-fluid"
@@ -367,7 +368,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}"><img class="img-fluid"
@@ -416,7 +417,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><img class="img-fluid"
@@ -465,7 +466,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}"><img class="img-fluid"
@@ -514,7 +515,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}"><img class="img-fluid"
@@ -563,7 +564,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}"><img class="img-fluid"
@@ -612,7 +613,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item col-md-4 col-lg-4 col-xl-4 col-sm-6 col-xs-12">
+                    <div class="item">
                         <div class="mainPackage">
                             <div class="mainPackageImage">
                                 <a href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}"><img class="img-fluid"
@@ -661,11 +662,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
 </section>
+
 <div class="page-content">
     <div class="container scroll-page-content page-content-styling">
         </p>
@@ -776,3 +777,175 @@
 
 </div>
 @endsection
+
+@push('scripts')
+<style>
+    .featured-slick-carousel {
+        margin-bottom: 80px !important;
+        padding: 0;
+        position: relative;
+        display: flex;
+    }
+    .featured-slick-carousel:not(.slick-initialized) {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .featured-slick-carousel:not(.slick-initialized) .item {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+    @media (max-width: 1100px) {
+        .featured-slick-carousel:not(.slick-initialized) .item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .featured-slick-carousel:not(.slick-initialized) .item {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .featured-slick-carousel.slick-initialized {
+        display: block;
+        overflow: visible;
+    }
+    .featured-slick-carousel .item {
+        padding: 10px;
+    }
+    .featured-slick-carousel .umrah-headings {
+        display: none !important; /* Hide headings inside carousel */
+    }
+    .featured-slick-carousel .mainPackageImage {
+        min-height: auto !important;
+    }
+    .featured-slick-carousel .mainPackageImage img {
+        height: 17rem !important;
+        object-fit: cover;
+    }
+    .featured-slick-carousel .mainPackageDesc .package-heading {
+        padding: 8px 15px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .package-heading p.title {
+        font-size: 15px !important;
+        line-height: 1.2;
+    }
+    .featured-slick-carousel .mainPackageDesc .row.p-3 {
+        padding: 10px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .icon-text {
+        font-size: 11px !important;
+        line-height: 1.2;
+    }
+    .featured-slick-carousel .mainPackageDesc .row.py-2.px-4 {
+        padding: 5px 15px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .viewMainPackage {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .price {
+        font-size: 24px !important;
+    }
+
+    .featured-slick-carousel .slick-prev,
+    .featured-slick-carousel .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 35px;
+        height: 35px;
+        background: rgba(61, 62, 66, 0.8) !important;
+        border: none;
+        border-radius: 50%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+    .featured-slick-carousel .slick-prev {
+        left: 10px !important;
+    }
+    .featured-slick-carousel .slick-next {
+        right: 10px !important;
+    }
+    .featured-slick-carousel .slick-prev i,
+    .featured-slick-carousel .slick-next i {
+        color: #fff;
+        font-size: 14px;
+    }
+    .featured-slick-carousel .slick-dots {
+        position: absolute;
+        bottom: -45px;
+        display: flex !important;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .featured-slick-carousel .slick-dots li {
+        margin: 0 5px;
+    }
+    .featured-slick-carousel .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: #3D3E42;
+        border-radius: 50%;
+        border: none;
+        opacity: 0.2;
+        padding: 0;
+    }
+    .featured-slick-carousel .slick-dots li.slick-active button {
+        opacity: 1;
+    }
+</style>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        function initFeaturedSlider() {
+            if (window.jQuery && $.fn.slick) {
+                $('.featured-slick-carousel').each(function() {
+                    if (!$(this).hasClass('slick-initialized')) {
+                        $(this).slick({
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                            prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+                            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
+                            responsive: [
+                                {
+                                    breakpoint: 1300,
+                                    settings: {
+                                        slidesToShow: 3
+                                    }
+                                },
+                                {
+                                    breakpoint: 1100,
+                                    settings: {
+                                        slidesToShow: 2
+                                    }
+                                },
+                                {
+                                    breakpoint: 768,
+                                    settings: {
+                                        slidesToShow: 1
+                                    }
+                                }
+                            ]
+                        });
+                    }
+                });
+            } else {
+                setTimeout(initFeaturedSlider, 50);
+            }
+        }
+        initFeaturedSlider();
+    });
+</script>
+@endpush

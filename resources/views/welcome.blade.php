@@ -176,10 +176,7 @@
                     </div>
                 </div>
             </div>
-            <div class="featuredPackagesUid  owl-carousel" data-items="3" data-nav="true"
-                data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
-                data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
-                data-responsive-Xlarge="3" data-autoplay="false">
+            <div class="featuredPackagesUid featured-slick-carousel">
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
@@ -404,10 +401,7 @@
                     </div>
                 </div>
             </div>
-            <div class="featuredPackagesUid  owl-carousel" data-items="3" data-nav="true"
-                data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
-                data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
-                data-responsive-Xlarge="3" data-autoplay="false">
+            <div class="featuredPackagesUid featured-slick-carousel">
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
@@ -728,10 +722,7 @@
                     </div>
                 </div>
             </div>
-            <div class="featuredPackagesUid  owl-carousel" data-items="3" data-nav="true"
-                data-dots="true" data-margin="30" data-responsive-margin="15" data-center="false"
-                data-responsive-small="2" data-responsive-medium="2" data-responsive-large="3"
-                data-responsive-Xlarge="3" data-autoplay="false">
+            <div class="featuredPackagesUid featured-slick-carousel">
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
@@ -1229,3 +1220,174 @@
 </div>
 <!-- Home page content section ends here  -->
 @endsection
+
+@push('scripts')
+<style>
+    .featured-slick-carousel {
+        margin-bottom: 80px !important; /* Increased for better gap */
+        padding: 0;
+        position: relative;
+        /* Prevent vertical stacking before initialization */
+        display: flex;
+    }
+    .featured-slick-carousel:not(.slick-initialized) {
+        flex-wrap: nowrap;
+        overflow: hidden; /* Only hide overflow before init */
+    }
+    .featured-slick-carousel:not(.slick-initialized) .item {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+    @media (max-width: 1100px) {
+        .featured-slick-carousel:not(.slick-initialized) .item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    @media (max-width: 768px) {
+        .featured-slick-carousel:not(.slick-initialized) .item {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .featured-slick-carousel.slick-initialized {
+        display: block;
+        overflow: visible; /* Ensure dots are visible */
+    }
+    .featured-slick-carousel .item {
+        padding: 10px; /* Restored slightly more padding */
+    }
+    /* Increase card height components */
+    .featured-slick-carousel .mainPackageImage {
+        min-height: auto !important;
+    }
+    .featured-slick-carousel .mainPackageImage img {
+        height: 17rem !important; /* Increased from 14rem */
+        object-fit: cover;
+    }
+    .featured-slick-carousel .mainPackageDesc .package-heading {
+        padding: 8px 15px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .package-heading p.title {
+        font-size: 15px !important;
+        line-height: 1.2;
+    }
+    .featured-slick-carousel .mainPackageDesc .row.p-3 {
+        padding: 10px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .icon-text {
+        font-size: 11px !important;
+        line-height: 1.2;
+    }
+    .featured-slick-carousel .mainPackageDesc .row.py-2.px-4 {
+        padding: 5px 15px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .viewMainPackage {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+    .featured-slick-carousel .mainPackageDesc .price {
+        font-size: 24px !important;
+    }
+
+    .featured-slick-carousel .slick-prev,
+    .featured-slick-carousel .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 35px; /* Slightly smaller arrows */
+        height: 35px;
+        background: rgba(61, 62, 66, 0.8) !important;
+        border: none;
+        border-radius: 50%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+    .featured-slick-carousel .slick-prev {
+        left: 10px !important;
+    }
+    .featured-slick-carousel .slick-next {
+        right: 10px !important;
+    }
+    .featured-slick-carousel .slick-prev i,
+    .featured-slick-carousel .slick-next i {
+        color: #fff;
+        font-size: 14px;
+    }
+    .featured-slick-carousel .slick-dots {
+        position: absolute;
+        bottom: -45px;
+        display: flex !important;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .featured-slick-carousel .slick-dots li {
+        margin: 0 5px;
+    }
+    .featured-slick-carousel .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: #3D3E42;
+        border-radius: 50%;
+        border: none;
+        opacity: 0.2;
+        padding: 0;
+    }
+    .featured-slick-carousel .slick-dots li.slick-active button {
+        opacity: 1;
+    }
+</style>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        function initFeaturedSlider() {
+            if (window.jQuery && $.fn.slick) {
+                $('.featured-slick-carousel').each(function() {
+                    if (!$(this).hasClass('slick-initialized')) {
+                        $(this).slick({
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 2000, /* 2s delay as requested */
+                            prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+                            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
+                            responsive: [
+                                {
+                                    breakpoint: 1300,
+                                    settings: {
+                                        slidesToShow: 3
+                                    }
+                                },
+                                {
+                                    breakpoint: 1100,
+                                    settings: {
+                                        slidesToShow: 2
+                                    }
+                                },
+                                {
+                                    breakpoint: 768,
+                                    settings: {
+                                        slidesToShow: 1
+                                    }
+                                }
+                            ]
+                        });
+                    }
+                });
+            } else {
+                setTimeout(initFeaturedSlider, 50);
+            }
+        }
+        initFeaturedSlider();
+    });
+</script>
+@endpush
