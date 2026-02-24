@@ -38,7 +38,7 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Email Address</h6>
-                                <p class="mb-0"><a href="mailto:info@hajjumrahhub.co.uk" class="text-dark">info@hajjumrahhub.co.uk</a></p>
+                                <p class="mb-0"><a href="mailto:info@haditours.co.uk" class="text-dark">info@haditours.co.uk</a></p>
                             </div>
                         </div>
 

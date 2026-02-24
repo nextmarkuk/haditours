@@ -8,8 +8,8 @@
                     <a href="tel:020 3103 0264" style="color: #fff; text-decoration: none; white-space: nowrap;">
                         <i class="fa fa-phone" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">020 3103 0264</span>
                     </a>
-                    <a href="mailto:info@hajjumrahhub.co.uk" style="color: #fff; text-decoration: none; white-space: nowrap;">
-                        <i class="fa fa-envelope" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">info@hajjumrahhub.co.uk</span>
+                    <a href="mailto:info@haditours.co.uk" style="color: #fff; text-decoration: none; white-space: nowrap;">
+                        <i class="fa fa-envelope" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">info@haditours.co.uk</span>
                     </a>
                     <span style="white-space: nowrap; color: #fff;" class="d-none d-lg-inline">
                         <i class="fa fa-map-marker" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">13 Station Rd, London SE25 5AH, UK</span>

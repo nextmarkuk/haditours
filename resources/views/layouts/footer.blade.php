@@ -62,7 +62,7 @@
                             <h5>Get in Touch</h5>
                             <ul>
                                 <li><a href="tel:020 3103 0264">020 3103 0264</a></li>
-                                <li><a href="mailto:info@hajjumrahhub.co.uk">info@hajjumrahhub.co.uk</a></li>
+                                <li><a href="mailto:info@haditours.co.uk">info@haditours.co.uk</a></li>
                             </ul>
                         </div>
                     </div>
