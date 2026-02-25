@@ -6,13 +6,13 @@
                 <!-- Left: Contact Info -->
                 <div class="topbar-left d-flex flex-wrap align-items-center" style="gap: 14px;">
                     <a href="tel:020 3103 0264" style="color: #fff; text-decoration: none; white-space: nowrap;">
-                        <i class="fa fa-phone" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">020 3103 0264</span>
+                        <i class="fa fa-phone" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">020 3103 0264</span>
                     </a>
                     <a href="mailto:info@haditours.co.uk" style="color: #fff; text-decoration: none; white-space: nowrap;">
-                        <i class="fa fa-envelope" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">info@haditours.co.uk</span>
+                        <i class="fa fa-envelope" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">info@haditours.co.uk</span>
                     </a>
                     <span style="white-space: nowrap; color: #fff;" class="d-none d-lg-inline">
-                        <i class="fa fa-map-marker" style="margin-right: 5px; vertical-align: middle;"></i><span style="vertical-align: middle;">13 Station Rd, London SE25 5AH, UK</span>
+                        <i class="fa fa-map-marker" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">13 Station Rd, London SE25 5AH, UK</span>
                     </span>
                 </div>
                 <!-- Right: Social Icons -->
@@ -84,7 +84,7 @@
                 </ul>
             </div>
             <div class="ml-auto d-none d-xl-block">
-                <a href="{{ route('contactUs') }}" style="background-color: #3D3E42; color: #fff; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; display: inline-block;">
+                <a href="{{ route('contactUs') }}" style="background-color: #3D3E42; color: #fff; padding: 10px 22px; border-radius: 14px; text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; display: inline-block;">
                     Beat a Quote
                 </a>
             </div>

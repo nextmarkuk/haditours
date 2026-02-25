@@ -21,7 +21,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <img loading="lazy" width="21" height="21" src="{{asset('assets/images/hajjumrahhub-imgs-updated/from.png')}}" alt="Departure Airport"> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
                     <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
                         <option value="">Departure Airport</option>
@@ -49,7 +49,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departuredate">
-                        <img loading="lazy" width="21" height="21" src="{{asset('assets/images/hajjumrahhub-imgs-updated/calender.png')}}" alt="Date"> Departure Date
+                        <i class="fa fa-calendar fa-2x text-warning mr-1"   style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
                     </label>
                     <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
                     <span class="borderBottom"></span>
@@ -57,7 +57,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-hotelcategory">
-                        <img loading="lazy" width="22" height="16" src="{{asset('assets/images/hajjumrahhub-imgs-updated/rooms.png')}}" alt="Hotel Category"> Hotel Category
+                        <i class="fa fa-hotel fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Hotel Category
                     </label>
                     <select class="form-control" id="enquiry-hotelcategory" name="n[Hotel Category]">
                         <option value="">Hotel Category</option>
@@ -70,7 +70,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-duration">
-                        <img loading="lazy" width="17" height="19" src="{{asset('assets/images/hajjumrahhub-imgs-updated/moon.png')}}" alt="Duration"> Duration
+                        <i class="fa fa-moon-o fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Duration
                     </label>
                     <select class="form-control" id="enquiry-duration" name="n[Duration]">
                         <option value="">Duration</option>
@@ -95,7 +95,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-travelers">
-                        <img loading="lazy" width="21" height="20" src="{{asset('assets/images/hajjumrahhub-imgs-updated/travellers.png')}}" alt="Travellers"> Travelers
+                        <i class="fa fa-users fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Travelers
                     </label>
                     <select class="form-control" id="enquiry-travelers" name="n[No. of Travelers]">
                         <option value="">No. of Travelers</option>
@@ -119,14 +119,14 @@
                 </div>
 
                 <div class="form-group Half">
-                    <label for="enquiry-name">Full Name</label>
+                    <label for="enquiry-name"><i class="fa fa-user fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Full Name</label>
                     <input type="text" class="form-control" id="enquiry-name" name="n[name]" placeholder="Full Name" required />
                     <span class="borderBottom"></span>
                 </div>
 
                 <div class="form-group Half">
                     <label for="enquiry-phone">
-                        <img loading="lazy" width="22" height="18" src="{{asset('assets/images/hajjumrahhub-imgs-updated/phone.png')}}" alt="Phone Number"> Contact No
+                        <i class="fa fa-phone-square fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Contact No
                     </label>
                     <input type="text" class="form-control" id="enquiry-phone" name="n[Phone Number]" placeholder="Contact No" required />
                     <span class="borderBottom"></span>
@@ -134,7 +134,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-email">
-                        <img loading="lazy" width="22" height="16" src="{{asset('assets/images/hajjumrahhub-imgs-updated/email.png')}}" alt="Email Address"> Email
+                        <i class="fa fa-envelope fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Email
                     </label>
                     <input type="email" class="form-control" name="n[email]" id="enquiry-email" placeholder="Email" required />
                     <span class="borderBottom"></span>
@@ -142,7 +142,7 @@
 
                 <div class="form-group Half">
                     <label for="answerform">
-                        <img loading="lazy" width="20" height="15" src="{{asset('assets/images/hajjumrahhub-imgs-updated/checkanswer.png')}}" alt=""> Answer
+                        <i class="fa fa-check fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Answer
                         <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span>
                     </label>
                     <input class="form-control" id="answerform" type="number" name="InquiryAnswer" placeholder="1 + 2 = ?" required>

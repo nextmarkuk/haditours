@@ -45,28 +45,28 @@
                         </div>
                         <div class="overview-grid">
                             <div class="overview-item">
-                                <i class="fa fa-clock-o fa-2x text-warning mr-3"></i>
+                                <i class="fa fa-clock-o fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>14 Nights</span>
                                     <small>Duration</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-id-card-o fa-2x text-warning mr-3"></i>
+                                <i class="fa fa-id-card-o fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>Visa Included</span>
                                     <small>Umrah Visa</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-plane fa-2x text-warning mr-3"></i>
+                                <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>Return Flights</span>
                                     <small>From UK</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-car fa-2x text-warning mr-3"></i>
+                                <i class="fa fa-car fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>Transfers</span>
                                     <small>Airport & Hotels</small>
@@ -132,7 +132,7 @@
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Umrah Visa processing</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Makkah Hotel (7 Nights)</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Madinah Hotel (7 Nights)</li>
-                                    <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Full Transportation</li>
+
                                 </ul>
                             </div>
                             <div class="col-md-6">
@@ -141,7 +141,7 @@
                                     <li class="d-flex align-items-center"><i class="fa fa-times-circle text-danger mr-2"></i> Travel Insurance</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-times-circle text-danger mr-2"></i> Personal Expenses</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-times-circle text-danger mr-2"></i> Lunch & Dinner</li>
-                                </ul>
+                                    <li class="d-flex align-items-center"><i class="fa fa-times-circle text-danger mr-2"></i> Full Transportation</li>                                </ul>
                             </div>
                         </div>
                     </div>

@@ -292,7 +292,7 @@ p strong {
 }
 .package-heading {
     padding: 10px 20px;
-    background-color: #016b79;
+    background-color: #3D3E42;
     color: #fff !important;
 }
 .stars {
@@ -524,9 +524,9 @@ header.with-bg {
 }
 
 .navbar .navbar-nav li .dropdown-menu {
-    border: 1px solid #016b79;
+    border: 1px solid #85641E;
     padding: 10px 15px;
-    background-color: #016b79;
+    background-color: #3D3E42;
     color: #fff;
 }
 
@@ -538,7 +538,7 @@ header.with-bg {
 }
 
 .navbar .navbar-nav li .dropdown-menu li {
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #85641E;
     padding-bottom: 10px;
     margin-bottom: 5px;
 }
