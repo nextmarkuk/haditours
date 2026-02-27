@@ -108,7 +108,7 @@ class HomeController extends Controller
         
         try {
             \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
-                $message->to('info@hajjumrahhub.co.uk');
+                $message->to('info@haditours.co.uk');
                 $message->replyTo($data['email']);
                 $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
             });
@@ -140,3 +140,4 @@ class HomeController extends Controller
         return response($num1 . ' + ' . $num2 . ' = ?');
     }
 }
+

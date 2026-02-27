@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 @section('content')
@@ -18,7 +18,7 @@
             <div class="col-lg-10">
                 <div class="section-card shadow-sm">
                     <p class="lead mb-4 font-weight-bold">Hadi Tours understands and respects the importance of your privacy and we are committed to safeguarding your personal information.</p>
-                    
+
                     <p>In providing our service to you, we must collect personal information from you and this policy outlines how we treat your personal data after it has been collected by any of our channels which include our website, call centre and any future digital services or channels as they evolve.</p>
 
                     <div class="legal-section mt-5">
@@ -36,12 +36,12 @@
                     <div class="legal-section mt-5">
                         <h4 class="font-weight-bold mb-3 text-dark">Cookies</h4>
                         <p>We use a number of different cookies on our site to improve your experience. Currently we operate an 'implied consent' policy which means that we assume you are happy with this usage. If you are not happy, you should either not use this site, or delete <strong>haditours.co.uk</strong> cookies having visited the site.</p>
-                        
+
                         <div class="bg-light p-4 rounded mb-4">
                             <h6 class="font-weight-bold">Session Cookies</h6>
                             <p class="small mb-0 text-muted">We use a session cookie to remember your log-in and shopping basket. These are strictly necessary for the website to function.</p>
                         </div>
-                        
+
                         <div class="bg-light p-4 rounded mb-4">
                             <h6 class="font-weight-bold">Site Analytics</h6>
                             <p class="small mb-0 text-muted">We use Google Analytics to understand how the site is being used in order to improve the user experience. User data is anonymous.</p>

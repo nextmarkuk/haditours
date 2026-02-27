@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -73,7 +73,7 @@
                     <div class="legal-section mt-5 border-top pt-5">
                         <h3 class="h4 font-weight-bold mb-4">CONDITIONS A</h3>
                         <p class="text-muted mb-4 small">Apply to all bookings covered by ATOL NO. 12192 as shown on our website.</p>
-                        
+
                         <div class="mb-4">
                             <h6 class="font-weight-bold">1. Reserving Your Holiday</h6>
                             <p>On receipt of your request and deposit we will confirm your booking and from that point cancellation charges will apply. A telephone booking confirmation is as firmly confirmed as if it were made/confirmed in writing at that time.</p>
@@ -83,7 +83,7 @@
                             <h6 class="font-weight-bold">2. Price Guarantee</h6>
                             <p>The price shown on this confirmation invoice will not be subject to any surcharges. Scheduled Flight Arrangements: As scheduled airlines reserve the right to increase prices at any time the price shown on this confirmation invoice will ONLY be guaranteed once full payment is received.</p>
                         </div>
-                        
+
                         <div class="mb-4">
                             <h6 class="font-weight-bold">10. Cancellation</h6>
                             <p>Should you or any member of your party be forced to cancel your holiday, we must be notified in writing. Cancellation charges are calculated from the date we receive the written notice.</p>
@@ -95,11 +95,26 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr><td>More than 42 days</td><td>Deposit</td></tr>
-                                    <tr><td>29-42 days</td><td>50%</td></tr>
-                                    <tr><td>15-28 days</td><td>70%</td></tr>
-                                    <tr><td>8-14 days</td><td>90%</td></tr>
-                                    <tr><td>1-4 days</td><td>100%</td></tr>
+                                    <tr>
+                                        <td>More than 42 days</td>
+                                        <td>Deposit</td>
+                                    </tr>
+                                    <tr>
+                                        <td>29-42 days</td>
+                                        <td>50%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15-28 days</td>
+                                        <td>70%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8-14 days</td>
+                                        <td>90%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1-4 days</td>
+                                        <td>100%</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

@@ -24,3 +24,4 @@ class PackageDetailController extends Controller
         abort(404);
     }
 }
+

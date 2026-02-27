@@ -1324,7 +1324,7 @@ header {
 
 
 /*==================================================
-        featured hajj umrah section css Start
+        featured hadi tours section css Start
 ====================================================*/
 
 .featuredPackages {
@@ -1475,7 +1475,7 @@ header {
 
 
 /*==================================================
-        featured hajj umrah section css End
+        featured hadi tours section css End
 ====================================================*/
 
 
@@ -1845,7 +1845,7 @@ header {
     top: 50%;
     height: 570px;
     width: 570px;
-    background-image: url("/images/hajjumrahhub-imgs-updated/customize-umrah.png");
+    background-image: url("/images/haditours-imgs-updated/customize-umrah.png");
 }
 
 .customPackage::after {
@@ -3418,3 +3418,5 @@ input[type=number] {
 .searchEngine .searchFields .form-group>img {
     aspect-ratio: auto 45/30;
 }
+
+

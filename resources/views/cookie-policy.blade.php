@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -17,7 +17,7 @@
             <div class="col-lg-10">
                 <div class="section-card shadow-sm">
                     <p class="lead mb-4">When you visit <strong>Hadi Tours</strong>, we use cookies to deliver our services, personalize your experience, and analyze site traffic.</p>
-                    
+
                     <div class="legal-section mt-5">
                         <h4 class="font-weight-bold mb-3 text-dark">What is a Cookie?</h4>
                         <p>A cookie is a small text file that is downloaded onto your device when you visit certain websites. Cookies allow a website to recognize your browser, making your experience more seamless and personalized.</p>
@@ -61,7 +61,7 @@
                     <div class="legal-section mt-5">
                         <h4 class="font-weight-bold mb-3 text-dark">Managing Your Cookies</h4>
                         <p>You can control and manage cookies through your browser settings. Please note that disabling cookies may affect the functionality of this and many other websites you visit.</p>
-                        
+
                         <div class="mt-3">
                             <ul class="list-unstyled custom-list pl-0">
                                 <li class="mb-2"><i class="fa fa-external-link-alt text-warning mr-2"></i> <a href="https://support.google.com/chrome/answer/95647" target="_blank" class="text-dark">Google Chrome</a></li>

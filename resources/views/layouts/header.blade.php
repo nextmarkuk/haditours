@@ -17,16 +17,16 @@
                 </div>
                 <!-- Right: Social Icons -->
                 <div class="topbar-right d-flex align-items-center" style="gap: 24px; position: absolute; right: 0;">
-                    <a href="https://www.facebook.com/HajjUmrahHub" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Facebook">
+                    <a href="https://www.facebook.com/haditours" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Facebook">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="https://twitter.com/hajjumrahhub/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Twitter">
+                    <a href="https://twitter.com/haditours/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Twitter">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/hajjumrahhubuk/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Instagram">
+                    <a href="https://www.instagram.com/haditoursuk/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Instagram">
                         <i class="fa fa-instagram"></i>
                     </a>
-                    <a href="https://www.pinterest.co.uk/hajjumrahhub/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Pinterest">
+                    <a href="https://www.pinterest.co.uk/haditours/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Pinterest">
                         <i class="fa fa-pinterest"></i>
                     </a>
                 </div>
@@ -57,7 +57,7 @@
     <nav class="navbar navbar-expand-md">
         <div class="container px-3 px-md-5">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <img class="img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hajj Umrah Hub">
+                <img class="img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hadi Tours">
             </a>
             <div class="whts d-flex d-md-none">
                 <a href="https://wa.me/+4407877190363" target="_blank">
@@ -96,3 +96,5 @@
     </div>
     <!--mobile view button-->
 </header>
+
+

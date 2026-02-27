@@ -7,7 +7,7 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-huh-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
             <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>
@@ -49,7 +49,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departuredate">
-                        <i class="fa fa-calendar fa-2x text-warning mr-1"   style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
+                        <i class="fa fa-calendar fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
                     </label>
                     <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
                     <span class="borderBottom"></span>
@@ -421,8 +421,7 @@
         <p style="text-align: justify;">&quot;Hajj&quot; is a sacred term for all Muslims, and the desire to visit
             not only the House of Allah Almighty but also the places where His beloved Prophet (PBUH) lived and
             spent time is the craving of all belonging to the religion Islam. It was one of the five pillars of
-            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Hajj
-            Umrah Hub offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
+            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Hadi Tours offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
             of providing the best Hajj packages. These best hajj packages include providing visa services, flight,
             Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim&rsquo;s
             desire. Those looking for affordable Hajj packages will be very pleased to know that Haditours is
@@ -434,7 +433,7 @@
 
         <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
             residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
-            in intention to pay a visit to Allah&rsquo;s House, Hajj Umrah travel becomes a luxurious bridge between
+            in intention to pay a visit to Allah&rsquo;s House, Hadi Tours travel becomes a luxurious bridge between
             the faithful and their Creator.<br />
             Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>
@@ -503,11 +502,11 @@
 
         <ul>
             <li><strong>Visa and Documents:</strong> First, you need to get a Hajj visa. This is possible with a
-                recognised travel agency like <a href="https://www.hajjumrahhub.co.uk/">Hajj Umrah Hub</a>. Make
+                recognised travel agency like <a href="https://www.haditours.co.uk/">Hadi Tours</a>. Make
                 sure you have all the necessary paperwork, such as a current passport, medical certificates, and
                 vaccination records, especially for meningitis and COVID-19.</li>
             <li><strong>Flights and Hotels:</strong> It&#39;s best to book your flights and hotels early because
-                demand is high during the Hajj season. But with HUH, there&#39;s no need for concern. As soon as you
+                demand is high during the Hajj season. But with Hadi Tours, there&#39;s no need for concern. As soon as you
                 book a package, we will arrange your return flights and hotels near the holy sites.</li>
             <li><strong>Health and Safety:</strong> Lastly, your health is very important during Hajj. Have a
                 thorough medical check-up prior to departing, and remember to stay hydrated. Also, bring a basic
@@ -566,68 +565,88 @@
 @push('scripts')
 <style>
     .featured-slick-carousel {
-        margin-bottom: 80px !important; /* Increased for better gap */
+        margin-bottom: 80px !important;
+        /* Increased for better gap */
         padding: 0;
         position: relative;
         /* Prevent vertical stacking before initialization */
         display: flex;
     }
+
     .featured-slick-carousel:not(.slick-initialized) {
         flex-wrap: nowrap;
-        overflow: hidden; /* Only hide overflow before init */
+        overflow: hidden;
+        /* Only hide overflow before init */
     }
+
     .featured-slick-carousel:not(.slick-initialized) .item {
         flex: 0 0 33.333%;
         max-width: 33.333%;
     }
+
     @media (max-width: 1100px) {
         .featured-slick-carousel:not(.slick-initialized) .item {
             flex: 0 0 50%;
             max-width: 50%;
         }
     }
+
     @media (max-width: 768px) {
         .featured-slick-carousel:not(.slick-initialized) .item {
             flex: 0 0 100%;
             max-width: 100%;
         }
     }
+
     .featured-slick-carousel.slick-initialized {
         display: block;
-        overflow: visible; /* Ensure dots are visible */
+        overflow: visible;
+        /* Ensure dots are visible */
     }
+
     .featured-slick-carousel .item {
-        padding: 10px; /* Restored slightly more padding */
+        padding: 10px;
+        /* Restored slightly more padding */
     }
+
     /* Increase card height components */
     .featured-slick-carousel .mainPackageImage {
         min-height: auto !important;
     }
+
     .featured-slick-carousel .mainPackageImage img {
-        height: 17rem !important; /* Increased from 14rem */
+        height: 17rem !important;
+        /* Increased from 14rem */
         object-fit: cover;
     }
+
     .featured-slick-carousel .mainPackageDesc .package-heading {
         padding: 8px 15px !important;
     }
+
     .featured-slick-carousel .mainPackageDesc .package-heading p.title {
         font-size: 15px !important;
         line-height: 1.2;
     }
+
     .featured-slick-carousel .mainPackageDesc .row.p-3 {
         padding: 10px !important;
     }
+
     .featured-slick-carousel .mainPackageDesc .icon-text {
         font-size: 11px !important;
         line-height: 1.2;
     }
+
     .featured-slick-carousel .mainPackageDesc .row.py-2.px-4 {
         padding: 5px 15px !important;
     }
+
     .featured-slick-carousel .mainPackageDesc .viewMainPackage {
         padding: 6px 12px !important;
         font-size: 12px !important;
     }
+
     .featured-slick-carousel .mainPackageDesc .price {
         font-size: 24px !important;
     }
@@ -638,7 +657,8 @@
         top: 50%;
         transform: translateY(-50%);
         z-index: 10;
-        width: 35px; /* Slightly smaller arrows */
+        width: 35px;
+        /* Slightly smaller arrows */
         height: 35px;
         background: rgba(61, 62, 66, 0.8) !important;
         border: none;
@@ -649,17 +669,21 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         cursor: pointer;
     }
+
     .featured-slick-carousel .slick-prev {
         left: 10px !important;
     }
+
     .featured-slick-carousel .slick-next {
         right: 10px !important;
     }
+
     .featured-slick-carousel .slick-prev i,
     .featured-slick-carousel .slick-next i {
         color: #fff;
         font-size: 14px;
     }
+
     .featured-slick-carousel .slick-dots {
         position: absolute;
         bottom: -45px;
@@ -670,9 +694,11 @@
         padding: 0;
         margin: 0;
     }
+
     .featured-slick-carousel .slick-dots li {
         margin: 0 5px;
     }
+
     .featured-slick-carousel .slick-dots li button {
         font-size: 0;
         width: 10px;
@@ -683,6 +709,7 @@
         opacity: 0.2;
         padding: 0;
     }
+
     .featured-slick-carousel .slick-dots li.slick-active button {
         opacity: 1;
     }
@@ -699,11 +726,11 @@
                             arrows: true,
                             dots: true,
                             autoplay: true,
-                            autoplaySpeed: 2000, /* 2s delay as requested */
+                            autoplaySpeed: 2000,
+                            /* 2s delay as requested */
                             prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
                             nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
-                            responsive: [
-                                {
+                            responsive: [{
                                     breakpoint: 1300,
                                     settings: {
                                         slidesToShow: 3
