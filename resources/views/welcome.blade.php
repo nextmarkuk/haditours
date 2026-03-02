@@ -1282,10 +1282,6 @@
     .featured-slick-carousel .mainPackageDesc .row.py-2.px-4 {
         padding: 5px 15px !important;
     }
-    .featured-slick-carousel .mainPackageDesc .viewMainPackage {
-        padding: 6px 12px !important;
-        font-size: 12px !important;
-    }
     .featured-slick-carousel .mainPackageDesc .price {
         font-size: 24px !important;
     }

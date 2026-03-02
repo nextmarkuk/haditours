@@ -584,6 +584,7 @@ header {
 /*mobile view email and phone button css Strat*/
 
 .mobileButtons {
+    display: none;
     position: fixed;
     bottom: 15px;
     left: 15px;
@@ -1035,6 +1036,14 @@ header {
     }
 }
 
+@media (max-width:768px) {
+   .viewMainPackage {
+    font-size: 10px;
+    padding: 10px 10px;
+}.featured-slick-carousel .item{
+    padding: 0px !important;
+}
+}
 
 /*carousel fade effect css Start*/
 

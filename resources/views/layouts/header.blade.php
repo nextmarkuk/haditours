@@ -83,6 +83,14 @@
                     <li><a class="{{ request()->is('contact-us') ? 'active' : '' }}" href="{{ route('contactUs') }}">Contact Us</a></li>
                 </ul>
             </div>
+            <button class="navbar-toggler offcanvas-toggle" type="button" data-toggle="offcanvas"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
             <div class="ml-auto d-none d-xl-block">
                 <a href="{{ route('contactUs') }}" style="background-color: #3D3E42; color: #fff; padding: 10px 22px; border-radius: 14px; text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; display: inline-block;">
                     Beat a Quote
