@@ -1,8 +1,87 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Affordable Hajj Packages 2026 from UK | Flights, Visa & Premium Hotels</title>
+<meta name="description" content="Hadi Tours offers Cheap Hajj Packages 2026 including flights, visa, Qurbani, transport, shuttle, Ziyarat, daily lectures, guided tours & meals. Stay in 5 Star or 4 Star hotels near Haram. Book group & family Hajj packages from London, Manchester & Birmingham with flexible, customizable options.">
+<link rel="canonical" href="https://www.haditours.co.uk/hajj-packages.html" />
 @endsection
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.haditours.co.uk/hajj-packages.html#hajj2026",
+  "name": "Hajj Packages 2026 from UK",
+  "url": "https://www.haditours.co.uk/hajj-packages.html",
+  "description": "Explore comprehensive Hajj Packages 2026 from the UK with Hadi Tours. Choose from economy, standard and deluxe options including flights, Saudi Hajj visa assistance, hotel accommodation near Makkah and Madinah, transportation, guided support and full on-ground services for the sacred Hajj pilgrimage.",
+  "provider": {
+    "@type": "TravelAgency",
+    "@id": "https://www.haditours.co.uk/#travelagency",
+    "name": "Hadi Tours",
+    "url": "https://www.haditours.co.uk/"
+  },
+  "serviceType": "Hajj Packages 2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Hajj Packages 2026",
+    "@id": "https://www.haditours.co.uk/hajj-packages.html#catalog",
+    "itemListElement": [
+      {
+        "@type": "AggregateOffer",
+        "name": "Economy Hajj Package 2026",
+        "url": "https://www.haditours.co.uk/hajj-packages.html#economy",
+        "description": "Economy Hajj package 2026 from UK including flights, visa, accommodation in standard hotels in Makkah and Madinah, tent services in Mina and Arafat, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 5995,
+        "highPrice": 6995,
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Economy Hajj Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "Standard Hajj Package 2026",
+        "url": "https://www.haditours.co.uk/hajj-packages.html#standard",
+        "description": "Standard Hajj package 2026 from UK with mid-range hotel accommodation, flights, Hajj visa support and guided transfers throughout the pilgrimage.",
+        "priceCurrency": "GBP",
+        "lowPrice": 7500,
+        "highPrice": 8995,
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Standard Hajj Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "Deluxe/Super Deluxe Hajj Package 2026",
+        "url": "https://www.haditours.co.uk/hajj-packages.html#deluxe",
+        "description": "Deluxe and Super Deluxe Hajj packages 2026 from UK featuring premium hotel stays near the Haram, flights, Saudi Hajj visa, private transport, full service support and optional VIP amenities.",
+        "priceCurrency": "GBP",
+        "lowPrice": 9950,
+        "highPrice": 12995,
+        "offerCount": 2,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Deluxe Hajj Package 2026"
+        }
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+
+
+
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
@@ -184,14 +263,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min%20%283%29.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/hajj_kaaba_pilgrims.png')}}"
                                     alt="4 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">4 Weeks Hajj Package (Non Shifting)</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">4 Weeks Hajj Package (Non Shifting)</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -222,7 +301,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6499 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -233,14 +312,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min%20%281%29.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/mina_tents_hajj.png')}}"
                                     alt="2-3 Weeks Non Shifting Hajj Package"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">2-3 Weeks Non Shifting Hajj Package</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">2-3 Weeks Non Shifting Hajj Package</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -271,7 +350,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6999 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -282,14 +361,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/arafat_pilgrims_hajj.png')}}"
                                     alt="2-3 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">2-3 Weeks Hajj Package (Non Shifting)</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">2-3 Weeks Hajj Package (Non Shifting)</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -320,7 +399,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 7499 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -331,14 +410,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/0.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/hajj_ritual_pilgrims.png')}}"
                                     alt="5 Star Hajj Package (non-shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">5 Star Hajj Package (non-shifting)</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">5 Star Hajj Package (non-shifting)</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -369,7 +448,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 8299 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -434,7 +513,7 @@
 
         <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
             residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
-            in intention to pay a visit to Allah&rsquo;s House, Hajj Umrah travel becomes a luxurious bridge between
+            in intention to pay a visit to Allah&rsquo;s House, Hajj and <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a> becomes a luxurious bridge between
             the faithful and their Creator.<br />
             Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>

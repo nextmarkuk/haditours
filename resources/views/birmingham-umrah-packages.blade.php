@@ -2,7 +2,146 @@
 @section('meta')
     <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
     <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+    <link rel="canonical" href="https://www.haditours.co.uk/birmingham-umrah-packages.html" />
 @endsection
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.haditours.co.uk/birmingham-umrah-packages.html#birminghamumrah2026",
+  "name": "Birmingham Umrah Packages 2026 from UK",
+  "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html",
+  "description": "Discover Birmingham Umrah Packages 2026 from the UK with Hadi Tours, offering flight-inclusive 4-star and 5-star options including Umrah visas, hotel stays in Makkah & Madinah, transfers, and flexible durations from 7 to 14 nights. Depart conveniently from Birmingham Airport with expert support and spiritually fulfilling arrangements.",
+  "provider": {
+    "@type": "TravelAgency",
+    "@id": "https://www.haditours.co.uk/#travelagency",
+    "name": "Hadi Tours",
+    "url": "https://www.haditours.co.uk/"
+  },
+  "serviceType": "Birmingham Umrah Packages 2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Birmingham Umrah Packages 2026",
+    "@id": "https://www.haditours.co.uk/birmingham-umrah-packages.html#catalog",
+    "itemListElement": [
+      {
+        "@type": "AggregateOffer",
+        "name": "4-Star 7 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star7",
+        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 3 nights, Madinah 4 nights, hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 825,
+        "highPrice": 825,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "4-Star 7 Nights Birmingham Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "4-Star 10 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star10",
+        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 5 nights, Madinah 5 nights, hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 899,
+        "highPrice": 899,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "4-Star 10 Nights Birmingham Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "4-Star 12 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star12",
+        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 6 nights, Madinah 6 nights, hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 945,
+        "highPrice": 945,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "4-Star 12 Nights Birmingham Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "4-Star 14 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star14",
+        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 7 nights, Madinah 7 nights, hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 1030,
+        "highPrice": 1030,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "4-Star 14 Nights Birmingham Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "5-Star 7 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#5star7",
+        "description": "5-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 3 nights, Madinah 4 nights, premium hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 1049,
+        "highPrice": 1049,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "5-Star 7 Nights Birmingham Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "5-Star 12 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#5star12",
+        "description": "5-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 6 nights, Madinah 6 nights, premium hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 1275,
+        "highPrice": 1275,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "5-Star 12 Nights Birmingham Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "5-Star 14 Nights Birmingham Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#5star14",
+        "description": "5-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 7 nights, Madinah 7 nights, premium hotel, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 1309,
+        "highPrice": 1309,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "5-Star 14 Nights Birmingham Umrah Package 2026"
+        }
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+
+
+
 @section('content')
     <section class="search-banner">
         <!--slider section Start-->
@@ -538,7 +677,7 @@
             about getting closer to God. This is what Umrah is all about - not just going somewhere different but
             making your heart feel better.</p>
 
-        <p>With our Birmingham Umrah packages, it is easier than ever to start your Umrah journey from the city of
+        <p>With our Birmingham <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>, it is easier than ever to start your Umrah journey from the city of
             Birmingham and its surroundings. This means the start of your journey can be highly convenient because
             you won&rsquo;t have to travel between cities to depart. So, don&#39;t waste more time and book a
             package to begin your Umrah journey from this lively city.</p>

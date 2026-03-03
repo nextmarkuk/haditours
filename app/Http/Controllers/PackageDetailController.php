@@ -23,4 +23,19 @@ class PackageDetailController extends Controller
         // Abort if the package/view doesn't exist
         abort(404);
     }
+
+    /**
+     * Display the specified Hajj package detail page.
+     *
+     * @param  string  $slug
+     * @return \Illuminate\View\View
+     */
+    public function showHajj($slug)
+    {
+        if (View::exists('hajj.' . $slug)) {
+            return view('hajj.' . $slug);
+        }
+        abort(404);
+    }
 }
+

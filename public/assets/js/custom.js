@@ -445,22 +445,7 @@ $(document).ready(function () {
         $(".beat-passenger-dropdown").slideToggle().toggleClass('active');
     })
 
-    if ($(".searchFields").length > 0) {
-        if ($(window).width() < 576) {
-            $(".searchFields .form-group").not(".searchFields .form-group:nth-of-type(1), .searchFields .form-group:nth-of-type(2)").css("display", "none");
-            $(".searchFields .form-group, .searchFields, .ui-widget").on("click", function (event) {
-                event.stopPropagation();
-                $(".searchFields .form-group").not(".searchFields .form-group:nth-of-type(1), .searchFields .form-group:nth-of-type(2)").slideDown("slow");
-            })
-            $("body:not(.searchFields .form-group, .searchFields, .ui-widget)").click(function () {
-                if (($(".searchFields .form-group:nth-of-type(1) .form-control").val().length) < 2) {
-                    // alert($(".searchFields .form-group:nth-of-type(1) .form-control").val().length);
-                    $(".searchFields .form-group").not(".searchFields .form-group:nth-of-type(1), .searchFields .form-group:nth-of-type(2)").slideUp("slow");
-                }
-            })
 
-        }
-    }
 
 
     if ($(".scroll-page-content").length > 0) {

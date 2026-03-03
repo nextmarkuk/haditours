@@ -584,6 +584,7 @@ header {
 /*mobile view email and phone button css Strat*/
 
 .mobileButtons {
+    display: none;
     position: fixed;
     bottom: 15px;
     left: 15px;
@@ -1035,6 +1036,14 @@ header {
     }
 }
 
+@media (max-width:768px) {
+   .viewMainPackage {
+    font-size: 10px;
+    padding: 10px 10px;
+}.featured-slick-carousel .item{
+    padding: 0px !important;
+}
+}
 
 /*carousel fade effect css Start*/
 
@@ -1324,7 +1333,7 @@ header {
 
 
 /*==================================================
-        featured hajj umrah section css Start
+        featured hadi tours section css Start
 ====================================================*/
 
 .featuredPackages {
@@ -1475,7 +1484,7 @@ header {
 
 
 /*==================================================
-        featured hajj umrah section css End
+        featured hadi tours section css End
 ====================================================*/
 
 
@@ -1845,7 +1854,7 @@ header {
     top: 50%;
     height: 570px;
     width: 570px;
-    background-image: url("/images/hajjumrahhub-imgs-updated/customize-umrah.png");
+    background-image: url("/images/haditours-imgs-updated/customize-umrah.png");
 }
 
 .customPackage::after {

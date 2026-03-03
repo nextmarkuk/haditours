@@ -2,7 +2,44 @@
 @section('meta')
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<link rel="canonical" href="https://www.haditours.co.uk/umrah-visa-uk.html" />
 @endsection
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.haditours.co.uk/umrah-visa-uk.html#umrahvisa",
+  "name": "Umrah Visa Service 2026 from UK",
+  "url": "https://www.haditours.co.uk/umrah-visa-uk.html",
+  "description": "Get your Umrah visa processed quickly and easily through Hadi Tours UK. Our authorized travel experts handle visa documentation, submission and approvals for pilgrims travelling from the UK to perform Umrah in 2026. We guide you through requirements and ensure a smooth and hassle-free visa process for your spiritual journey.",
+  "provider": {
+    "@type": "TravelAgency",
+    "@id": "https://www.haditours.co.uk/#travelagency",
+    "name": "Hadi Tours",
+    "url": "https://www.haditours.co.uk/"
+  },
+  "serviceType": "Umrah Visa Processing",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "termsOfService": "Applicants must hold a valid passport with at least 6 months remaining validity and may require proof of vaccination against meningitis ACWY and other health requirements as per Saudi visa rules. You can apply through Hadi Tours as an authorized travel agency to manage documentation and submission.",
+  "offers": {
+    "@type": "Offer",
+    "name": "Umrah Visa Application Service",
+    "description": "Comprehensive visa processing for Umrah travellers from the UK, including documentation review and submission to Saudi visa authorities.",
+    "price": "Included with selected Umrah package or quoted on application",
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.haditours.co.uk/umrah-visa-uk.html"
+  }
+}
+</script>
+@endverbatim
+
+
+
 @section('content')
     <section class="search-banner">
         <!--slider section Start-->
