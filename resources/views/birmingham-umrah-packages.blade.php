@@ -1,13 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<<<<<<< HEAD
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <link rel="canonical" href="https://www.haditours.co.uk/birmingham-umrah-packages.html" />
-=======
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 @endsection
 @verbatim
 <script type="application/ld+json">

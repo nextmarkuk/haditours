@@ -512,11 +512,7 @@
 
         <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
             residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
-<<<<<<< HEAD
-            in intention to pay a visit to Allah&rsquo;s House, Hajj and <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a> becomes a luxurious bridge between
-=======
             in intention to pay a visit to Allah&rsquo;s House, Hadi Tours travel becomes a luxurious bridge between
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
             the faithful and their Creator.<br />
             Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>

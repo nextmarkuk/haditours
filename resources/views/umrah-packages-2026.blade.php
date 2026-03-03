@@ -1,13 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<<<<<<< HEAD
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <link rel="canonical" href="https://www.haditours.co.uk/umrah-packages-2026.html" />
-=======
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 @endsection
 
 @verbatim
@@ -1012,39 +1006,6 @@
 
         <h2>Umrah Packages 2026 from UK – Early Booking Now Open</h2>
 
-<<<<<<< HEAD
-<p>By planning your trip early, you can get the best hotels, your favorite dates for departure, and cheap tickets for your holy trip. We are now accepting early bookings for our Umrah Packages 2026 from UK, which give flexible departures, great, quality accommodation options, and full travel help for UK pilgrims.
-</p>
-<p>There are many reasons to book your Umrah 2026 from UK in advance, such as if you are planning to do Ramadan Umrah 2026, travelling during school holidays, or looking for the best 2026 Umrah deals at off peak times. Besides, booking your spot early helps you get a better throat and is less hassle for visa processing.
-</p>
-<p>It is becoming more and more difficult to get a visa every year so it is a great idea if you can put your name down for Umrah 2026 from UK well ahead. It also gives you peace of mind and financial control.
-</p>
-
-<h2>Why 2026 Is the Ideal Year to Plan Your Umrah Early</h2>
-
-<h3>Increasing Demand for Umrah 2026 from UK</h3>
-<p>The interest for Umrah Packages 2026 has been triggered as the Ramadan 2026 will fall in the most favourable months for travelling and there will be a post Hajj travel momentum. In the UK market, families normally plan holidays when schools are off, which is why Easter 2026 and December 2026 are very difficult times to get good deals. If you book early, you not only get a fixed price but also a wider range of hotels to choose from.</p>
-
-<h3>Limited Hotel Availability Near Haram in 2026</h3>
-<p>During the peak seasons of Ramadan and winter holidays, the hotels that are near to Masjid al Haram in Makkah and Al Masjid an-Nabawi in Madinah get fully booked very fast.</p>
-<p>Holding your 2026 Umrah package ahead of time can provide you with better room categories and even allow you to walk from your accommodation to the Haram.</p>
-
-<h3>Price Trends for Umrah Packages 2026</h3>
-<p>Ticket prices and accommodation rates will naturally go up when the peak period comes near. Ramadan Umrah 2026 packages and December departures are likely to be on the high side of the price scale because of the demand.</p>
-<p>On the contrary, January and February 2026, for example, may present cheap Umrah 2026 offers especially for longer ones.</p>
-
-<h2>Available Umrah 2026 Departure Months</h2>
-
-<p>We offer multiple departure options throughout the year to suit different schedules and budgets.
-</p>
-
-<h3>Umrah Packages for January & February 2026</h3>
-<p>Early 2026 is a time of cool weather and fewer crowds so if you wish to do Umrah in a peaceful way then January and February are ideal months of the year for the Umrah pilgrimages. Both family groups and elderly or individual pilgrims can find it easier at the Haram and also enjoy the quiet atmosphere during these months. Furthermore, these months not only offer very competitive packages for Umrah 2026 from the UK but also at good prices.</p>
-
-<h3>Umrah Packages for Ramadan 2026</h3>
-<p>Ramadan is the spiritually most beneficial time to perform Umrah and our Ramadan Umrah 2026 packages from UK are able to fulfill whatever needs you may have, be it a full month stay or a short 7, 10 night visit.,</p>
-<p>As there are so many wanting to visit, you will have to secure your booking well in advance if you wish to be guaranteed the best hotels near Haram and flights with good options. Hence, they are able to be robbed with the maximum blessings and, besides that, they are able to enjoy the comfort of being well looked after by a guide.</p>
-=======
         <p>Planning ahead allows you to secure the best hotels, preferred departure dates, and competitive fares for your sacred journey. Our Umrah Packages 2026 from UK are now open for early booking, offering flexible departures, carefully selected accommodation, and complete travel support for pilgrims across the UK.</p>
 
         <p>Whether you are planning Ramadan Umrah 2026, travelling during school holidays, or looking for off-peak 2026 Umrah deals, securing your place early ensures better availability and smoother visa processing.</p>
@@ -1130,19 +1091,10 @@
         <p>
             Travelling with children or elderly relatives requires additional care. Our Family Umrah 2026 packages include flexible room options and convenient flight schedules.
         </p>
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 <h3>Easter & Summer 2026 Umrah Packages</h3>
 <p>During Easter and summer 2026 families in the UK are what is called the target market because of the set travel dates and the convenient school holiday options. We offer an Easter & Summer Umrah 2026 packages with different hotel categories, durations of stay that are flexible, and group, friendly configurations. These months are perfect for pilgrims seeking extended stays with a combination of spiritual reflection and family-friendly travel.</p>
 
-<<<<<<< HEAD
-<h3>Rabi al-Awwal & Post-Hajj 2026</h3>
-<p>Going for Umrah in Rabi al Awwal 2026 or after Hajj means that there are fewer people and the prices are fair, thus, a value conscious pilgrim would find this ideal. These months offer a most convenient option in terms of hotel accommodations near Haram as well as the opportunity to perform Tawaf and Sai in a more quiet way.</p>
-
-<h3>December 2026 Umrah Packages</h3>
-<p>December departures are aligned with the winter holidays, so it is easy for UK families to plan their trips while they can still enjoy a calm Umrah.</p>
-<p>Our December 2026 Umrah packages from the UK incorporate a variety of hotels to choose from, effortless flights, and handled excursions. This season brings together the right climate, ease of reaching, and spiritual serenity.</p>
-=======
         <h4>3★, 4★ & 5★ Hotels in Makkah & Madinah</h4>
         <p>
             We carefully select accommodation options close to key religious sites, offering flexibility across different budgets.
@@ -1152,7 +1104,6 @@
         <p>
             We assist with full visa documentation in accordance with regulations set by the Ministry of Hajj and Umrah, ensuring compliance and timely approvals.
         </p>
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 <h2>Types of Umrah Packages 2026 Available</h2>
 <p>Our range of 2026 Umrah packages UK are designed to suit different tastes and preferences.
@@ -1241,9 +1192,6 @@
 <p>Availability of some of the best Umrah Packages 2026 from UK is almost sold out. If you book early, you can get a better selection of hotels, more competitive prices, and the benefit of a well organised itinerary planning.</p>
 <p>Get in touch with us now for a customised offer and start your preparations for a holy pilgrimage in 2026.</p>
 
-<<<<<<< HEAD
-        
-=======
         <h4>What is the price of the Umrah package 2026 with Haditours now?</h4>
 
         <p>At Hadi Tours, we ensure you get the best prices for your Umrah package for 2026 right now. Our
@@ -1268,7 +1216,6 @@
             Optional guided visits include historical Islamic landmarks such as Jabal al-Nour and Quba Mosque, enhancing your spiritual journey.
         </p>
 
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
     </div>
 
 </div>

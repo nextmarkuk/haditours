@@ -1,13 +1,7 @@
 <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>@extends('layouts.master')
 @section('meta')
-<<<<<<< HEAD
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <link rel="canonical" href="https://www.haditours.co.uk/december-umrah-packages.html" />
-=======
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 @endsection
 
 @verbatim
@@ -840,87 +834,6 @@
     </div>
 </section>
 
-<<<<<<< HEAD
-    <div class="page-content">
-        <div class="container scroll-page-content page-content-styling">
-        
-        <h2>December Umrah Packages 2026 from UK – Winter & School Holiday Deals</h2>
-
-<p>Our December Umrah Packages 2026 from UK are specially tailored for those pilgrims who intend to perform Umrah during the winter season and UK school holidays. December is often the most requested month for Umrah 2026 as the weather is cooler, departure dates are more fixed, and there is a high demand for Christmas and end-of-year travel.</p>
-
-<p>When December Umrah 2026 is your choice, and you are looking for cheap packages, luxurious 5-star accommodation near Haram or even family packages, we provide you with flexible durations, a wide range of hotel categories, plus full visa and flight assistance.</p>
-
-<h2>Why Choose December 2026 for Umrah?</h2>
-
-<h3>Comfortable Winter Weather in Saudi Arabia</h3>
-<p>December is undoubtedly the most enjoyable time for the performance of Umrah in Makkah and Madinah. Day temperature is far more bearable than during the summer months. Tawaf at Masjid Al Haram and prayers at Al, Masjid An, Nabawi can be done with more ease, and without getting tired that much or dehydrated especially if one is an elderly person.</p>
-<p>Many UK pilgrims who ask, "Is December 2026 a good time for Umrah?" usually get this reply: yes, especially if they prefer the weather that is not too hot and the physical condition is not so hard.</p>
-
-<h3>Ideal for School Holidays & Family Travel</h3>
-<p>With December Umrah 2026 coinciding with the UK school holidays period and Christmas break, it is perfect for the whole family. Our Family December Umrah 2026 travel packages offer a variety of comfortable room choices and accessible flight schedules out of London, Manchester, and Birmingham.</p>
-<p>When travelling during school holidays, parents and kids can perform Umrah together without worries of academic schedules being disturbed.</p>
-
-<h3>Peak Season – Book Early to Secure Availability</h3>
-<p>December is known as the busy season when accommodating close to Haram and direct flights are spots fast. A December Umrah 2026 early booking can help one to get a hotel of a better category, a flight at the most convenient time, and a reasonable price. In case you are on a limited budget December Umrah 2026, it is highly advisable to book in advance.</p>
-
-<h2>Types of December Umrah Packages 2026 Available</h2>
-
-<p>We are offering a range of December Umrah Packages 2026 from UK to cater to different budgets and preferences of the pilgrims.</p>
-
-<h3>Economy December Umrah 2026 Packages</h3>
-<p>Our cheap December Umrah 2026 packages are perfect for the pilgrims who are on a tight budget. These packages come with the inclusion of return flights, visa processing, and decent 3-star accommodation not too far from Haram. They deliver an excellent price, quality ratio while maintaining the necessary essentials for a hassle, free pilgrimage.</p>
-
-<h3>4 Star December Umrah 2026 Packages</h3>
-<p>If you are looking for better proximity and upgraded comfort, our 4-star December Umrah 2026 packages offer a nice balance of affordability and convenience. Hotels are carefully chosen near Haram to reduce the walking distance. This option is still one of the most popular choices among UK travellers.</p>
-
-<h3>5 Star December Umrah 2026 Luxury Packages</h3>
-<p>Our 5 star December Umrah 2026 packages cater to the pilgrims who are more concerned about convenience and top, notch service. These star, rated hotels are located within the walking distance of Haram, thus during the peak season, you can enjoy a higher level of comfort.</p>
-
-<h3>Group & Family December Umrah 2026</h3>
-<p>Along with that, we also manage Group December Umrah 2026 packages with programmed itineraries and Ziyarat tours at the pilgrim's discretion. Visiting a holy place, performing Umrah, going to Ziyarat, or other touristy sightseeing tours should be your decision. Family members planning to travel together can benefit from organized support and structured travel arrangements.</p>
-
-<h2>What's Included in Our December Umrah 2026 Packages? :</h2>
-
-<p>Each December Umrah 2026 package from UK that we offer is meticulously planned to give the pilgrims a hassle- free and spiritually enriching journey. Your package will have return flights from major UK airports like London, Manchester, and Birmingham, with both direct and connecting options based on availability and travel dates.</p>
-
-<p>We provide accommodation in carefully selected hotels in Makkah and Madinah, with options ranging in 3-star, 4-star and 5-star categories of <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a> to meet different budgets. Additionally, we take care of your full Umrah visa 2026 processing to make sure your papers are in line with the latest Saudi regulations for an easy and stress-free approval.</p>
-
-<p>For your smooth convenience, we have arranged ground transfers between the airports and hotels, as well as intercity transport MakkahMadinah. Furthermore, pilgrims can also select guided Ziyarat tours as an option to explore the Islamic historical sites like Jabal al, Nour, Quba Mosque, etc., which will be a great add-on to your December Umrah 2026 experience.</p>
-
-<h2>Price of December Umrah 2026 from UK:</h2>
-
-<p>The price of Umrah during December 2026 from UK differs based on various major elements. These include the hotel category chosen, the hotel distance from Haram, the availability of flights, the length of the stay, as well as the departure city selected. In general, packages last for 7 to 14 nights and the price is adjusted according to the closeness to Masjid al, Haram and Al, Masjid an, Nabawi.</p>
-
-<p>December being a peak season for Umrah travel as a result of the school holidays and the demand for winter, the prices might be higher than those of off-peak months. Nevertheless, if you book your December Umrah Packages 2026 from UK in advance, you will be able to get more affordable rates and better hotel availability. To facilitate the planning, we not only offer flexible installment arrangements but also allow pilgrims to book their package with reasonable staged payments.
-</p>
-
-<h2>Is December 2026 a busy period for Umrah? :</h2>
-
-<p>Application for Umrah travel is likely to rise in December 2026, especially since that time corresponds to school holidays in the UK as well as the winter travel season. A lot of families use this period to focus on their spirituality before the new year, thus making December Umrah packages 2026 one of the most popular travel windows of the year.</p>
-
-<p>Despite the fact that the number of people around Masjid al-Haram might be significantly higher than during less busy months, the fact that it is winter and the temperature is lower makes the worship more comfortable as compared to hotter seasons. Those pilgrims who decide early are usually rewarded with better locations near Haram as well as less trouble during their journey ensuring that the whole experience is not only well-organised but also spiritually very satisfying.</p>
-
-<h3>Direct Flights & UK Departure Cities</h3>
-<p>We offer December Umrah 2026 packages from London, Manchester, and Birmingham, with both direct and connecting flight options. Flight availability plays a major role in pricing, particularly during Christmas and post-Christmas departures.</p>
-<p>If you are searching for:</p>
-<ul>
-<li>December Umrah 2026 packages from London</li>
-<li>December Umrah 2026 from Manchester</li>
-<li>Direct flights December Umrah 2026</li>
-</ul>
-<p>Our team can provide customized quotations based on your preferred dates.</p>
-
-<h2>Step-by-Step Booking Process for December Umrah 2026 :</h2>
-
-<p>It is very straightforward and well-structured to book your December Umrah Packages 2026 from UK. Select the dates in December that you want to travel and the type of hotel, pay a deposit to hold your spot, and our team will get your Umrah visa 2026 and your flight confirmation sorted. You will be handed over the complete set of travel documents as well as the details of the support at your disposal for a hassle-free trip, prior to your departure.</p>
-
-<h2>Book your December Umrah Packages 2026 now:</h2>
-
-<p>As a result of high demand in the winter peak, December Umrah 2026 deals are scarce and hotels right next to Haram get booked up very fast. By booking early, you gain the advantage of lower prices, preferred accommodation, and the timely processing of visas. Get in touch with us now to book your December Umrah Packages 2026 from UK worry, free.</p>
-
-
-        </div>
-=======
 <div class="page-content">
     <div class="container scroll-page-content page-content-styling">
         </p>
@@ -1037,7 +950,6 @@
 
         <p>Our usual Umrah packages last for 7, 10 or 14 nights. But if you&#39;d like to extend it for 21 or 30
             days, we can arrange that.</p>
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
     </div>
 

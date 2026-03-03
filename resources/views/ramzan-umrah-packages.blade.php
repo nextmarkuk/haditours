@@ -1,13 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<<<<<<< HEAD
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <link rel="canonical" href="https://www.haditours.co.uk/ramadan-umrah-packages.html" />
-=======
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 @endsection
 
 @verbatim
@@ -600,24 +594,16 @@
         
         <h2>Ramadan Umrah Packages 2026 from UK – Full, Last 10 Nights & Group Deals</h2>
 
-<<<<<<< HEAD
-<p>We have perfectly designed our Ramadan Umrah Packages 2026 from UK to help you experience the blessings of the holy month at the two holy mosques of Makkah and Madinah. Worship in the Haram during Ramadan holds great spiritual significance, and so this trip can be a very spiritually fulfilling one for any pilgrim. If you are in search of a cheap Ramadan Umrah package or a luxury 5 star package just outside the Haram, we have equally well thought out options to suit your needs.</p>
-=======
         <h2>Ramadan Umrah Packages by Hadi Tours</h2>
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 <p>Our spirit, filled Ramadan Umrah packages offer affordable room options, 4, star hotel comfort, and luxury hotels within walking distance of the Haram. For those who want to spend the entire blessed month in worship, our complete Ramadan Umrah package 2026 is the best option. You can also opt for the 7 or 10 nights Ramadan Umrah packages if you want to make the most of the short stay.</p>
 
-<<<<<<< HEAD
-<p>The last 10 nights of Ramadan Umrah 2026 is a spiritually very powerful time and many pilgrims choose to perform the same in order to get the maximum rewards during the last Ashra. All Ramadan Umrah packages UK are inclusive of flights, accommodation, visa support, and local transfers for your convenience. We consider everything from the moment you start planning until you reach back home and thus focus on comfort, convenience, and reliable travel support throughout your Ramadan Umrah 2026 experience.</p>
-=======
         <p>At <a href="https://www.haditours.co.uk/">Hadi Tours</a>, we know how important this journey is
             for you. That&#39;s why our Ramadan Umrah packages are designed to make everything easy and meaningful.
             When you book with us, you&#39;re not just getting travel plans&mdash;you&#39;re trusting a team that
             cares about making your pilgrimage memorable. We take care of everything, from easy flights and
             comfortable places to stay to expert help and support anytime you need it. With Hadi Tours, you can
             focus on your prayers and enjoy this blessed time without worrying about the details.</p>
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 
 <h2>Why Perform Umrah in Ramadan?</h2>

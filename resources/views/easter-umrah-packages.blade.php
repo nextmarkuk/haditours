@@ -1,13 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<<<<<<< HEAD
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <link rel="canonical" href="https://www.haditours.co.uk/easter‑umrah‑packages.html" />
-=======
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 @endsection
 
 @verbatim
@@ -810,12 +804,7 @@
 
 <h2>Why Choose Easter Umrah Packages 2026?</h2>
 
-<<<<<<< HEAD
-<h3>Perform Umrah During the Easter School Holidays</h3>
-<p>Since the Easter break is considered an excellent time for families to get away, our family Easter school holiday Umrah packages enable parents and children to perform Umrah together without disturbing the children's school routines. Thus, it makes Easter one of the most sought, after seasonal Umrah periods from the UK.</p>
-=======
         <h2>Why Should You Trust Hadi Tours?</h2>
->>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 <h3>Comfortable April Weather in Makkah & Madinah</h3>
 <p>People generally talk of April as a great month for Umrah because of the pleasant weather. Most pilgrims would go for April Umrah packages 2026 as the climate in Makkah and Madinah is usually quite nice when compared to the hot summer months. This helps them to get along with worship and travel arrangements in a more comfortable way.</p>
