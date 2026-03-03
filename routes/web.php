@@ -23,6 +23,7 @@ Route::get('/birmingham-umrah-packages.html', [HomeController::class, 'birmingha
 
 // Package-Detail
 Route::get('/umrah/{slug}.html', [PackageDetailController::class, 'show'])->name('umrahDetail');
+Route::get('/hajj/{slug}.html', [PackageDetailController::class, 'showHajj'])->name('hajjDetail');
 
 // Inquiry
 Route::post('/send-inquiry', [HomeController::class, 'sendInquiry'])->name('sendInquiry');

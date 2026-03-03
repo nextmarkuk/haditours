@@ -184,14 +184,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min%20%283%29.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/hajj_kaaba_pilgrims.png')}}"
                                     alt="4 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">4 Weeks Hajj Package (Non Shifting)</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">4 Weeks Hajj Package (Non Shifting)</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -222,7 +222,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6499 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -233,14 +233,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min%20%281%29.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/mina_tents_hajj.png')}}"
                                     alt="2-3 Weeks Non Shifting Hajj Package"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">2-3 Weeks Non Shifting Hajj Package</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">2-3 Weeks Non Shifting Hajj Package</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -271,7 +271,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 6999 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -282,14 +282,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/00-min.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/arafat_pilgrims_hajj.png')}}"
                                     alt="2-3 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">2-3 Weeks Hajj Package (Non Shifting)</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">2-3 Weeks Hajj Package (Non Shifting)</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -320,7 +320,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 7499 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
                                 </div>
@@ -331,14 +331,14 @@
                 <div class="item">
                     <div class="mainPackage">
                         <div class="mainPackageImage">
-                            <a href="#"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/0.webp')}}"
+                            <a href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/hajj_ritual_pilgrims.png')}}"
                                     alt="5 Star Hajj Package (non-shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
                             <div class="package-heading">
                                 <p class="title">
-                                    <a href="#">5 Star Hajj Package (non-shifting)</a>
+                                    <a href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">5 Star Hajj Package (non-shifting)</a>
                                 </p>
                                 <div class="stars">
                                     <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
@@ -369,7 +369,7 @@
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
                                     <span class="price">&pound; 8299 <sub>/ pp</sub></span>
-                                    <a class="viewMainPackage" href="#">
+                                    <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
                                 </div>
