@@ -4,31 +4,31 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-3 col-xl-4">
                         <div class="logo">
-                            <a href="{{ route('home') }}"><img loading="lazy" class="logo img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hajj Umrah Hub"></a>
+                            <a href="{{ route('home') }}"><img loading="lazy" class="logo img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hadi Tours"></a>
                         </div>
                         <!-- </div> -->
                         <!-- <div class="col-md-4"> -->
                         <ul class="socialLinks d-flex p-0">
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.facebook.com/HajjUmrahHub">
+                                <a rel="nofollow" target="_blank" href="https://www.facebook.com/haditours">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/facebook.png')}}"
                                         alt="Facebook">
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://twitter.com/hajjumrahhub/">
+                                <a rel="nofollow" target="_blank" href="https://twitter.com/haditours/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/twitter.png')}}"
                                         alt="Twitter">
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.pinterest.co.uk/hajjumrahhub/">
+                                <a rel="nofollow" target="_blank" href="https://www.pinterest.co.uk/haditours/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/pinterest.png')}}"
                                         alt="Pinterest">
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.instagram.com/hajjumrahhubuk/">
+                                <a rel="nofollow" target="_blank" href="https://www.instagram.com/haditoursuk/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/instagram.png')}}"
                                         alt="Instagram">
                                 </a>
@@ -95,25 +95,25 @@
                     <div class="col-md-4">
                         <ul class="socialLinks d-none">
                             <li>
-                                <a href="https://www.facebook.com/HajjUmrahHub">
+                                <a href="https://www.facebook.com/haditours">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/facebook.png')}}"
                                         alt="Facebook">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/hajjumrahhub/">
+                                <a href="https://twitter.com/haditours/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/twitter.png')}}"
                                         alt="Twitter">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.pinterest.co.uk/hajjumrahhub/">
+                                <a href="https://www.pinterest.co.uk/haditours/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/pinterest.png')}}"
                                         alt="Pinterest">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/hajjumrahhubuk/">
+                                <a href="https://www.instagram.com/haditoursuk/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/instagram.png')}}"
                                         alt="Instagram">
                                 </a>
@@ -139,7 +139,7 @@
 
                                 <div class="form-group Half">
                                     <label for="fromform"><img loading="lazy" width="21" height="21"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/from.png')}}" alt="Departure Airport">
+                                            src="{{asset('assets/images/haditours-imgs-updated/from.png')}}" alt="Departure Airport">
                                         Departure Airport</label>
                                     <select class="form-control" name="n[From]" id="fromform" required>
                                         <option value=""></option>
@@ -164,7 +164,7 @@
 
                                 <div class="form-group Half">
                                     <label for="toform"><img loading="lazy" width="26" height="21"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/to.png')}}" alt="Arrival Airport">
+                                            src="{{asset('assets/images/haditours-imgs-updated/to.png')}}" alt="Arrival Airport">
                                         Arrival Airport</label>
                                     <select class="form-control" name="n[To]" id="toform" required>
                                         <option value=""></option>
@@ -181,7 +181,7 @@
                                 <div class="form-group Half">
                                     <!--<input class="form-control MaintoDate" type="text" name="depart_date" placeholder="Dates" required>-->
                                     <label for="dateform"><img loading="lazy" width="21" height="21"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/calender.png')}}" alt="Date">
+                                            src="{{asset('assets/images/haditours-imgs-updated/calender.png')}}" alt="Date">
                                         Date</label>
                                     <input class="form-control DepartureDate" id="dateform" name="n[Departure Date]"
                                         type="text" readonly required>
@@ -191,7 +191,7 @@
                                 <div class="form-group Half">
                                     <!--<input class="form-control" type="text" name="phone" placeholder="Phone" required>-->
                                     <label for="Phoneform"><img loading="lazy" width="22" height="18"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/phone.png')}}" alt="Phone Number"> Phone
+                                            src="{{asset('assets/images/haditours-imgs-updated/phone.png')}}" alt="Phone Number"> Phone
                                         Number</label>
                                     <input class="form-control" id="Phoneform" name="n[Phone Number]" type="text"
                                         required>
@@ -201,7 +201,7 @@
                                 <div class="form-group Half">
                                     <!--<input class="form-control" type="text" name="email" placeholder="Email" required>-->
                                     <label for="emailform"><img loading="lazy" width="22" height="16"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/email.png')}}" alt="Email Address"> Email
+                                            src="{{asset('assets/images/haditours-imgs-updated/email.png')}}" alt="Email Address"> Email
                                         Address</label>
                                     <input class="form-control" name="n[Email]" id="emailform" type="email" required>
                                     <span class="borderBottom"></span>
@@ -210,7 +210,7 @@
                                 <div class="form-group nights">
                                     <div class="form-group threeQuater">
                                         <label for="nightform"><img loading="lazy" width="17" height="19"
-                                                src="{{asset('assets/images/hajjumrahhub-imgs-updated/moon.png')}}" alt="Nights">
+                                                src="{{asset('assets/images/haditours-imgs-updated/moon.png')}}" alt="Nights">
                                             Nights</label>
                                         <select class="form-control" id="nightform" name="n[makkah_nights]">
                                             <option value="">MAK</option>
@@ -229,7 +229,7 @@
                                     </div>
                                     <div class="form-group Quater">
                                         <label for="nightform1"><img loading="lazy" width="17" height="19"
-                                                src="{{asset('assets/images/hajjumrahhub-imgs-updated/moon.png')}}" alt="Nights">
+                                                src="{{asset('assets/images/haditours-imgs-updated/moon.png')}}" alt="Nights">
                                             Nights</label>
                                         <select class="form-control" id="nightform1" name="n[madinah_nights]">
                                             <option value="">MED</option>
@@ -250,7 +250,7 @@
 
                                 <div class="form-group Half">
                                     <label for="roomform"><img loading="lazy" width="22" height="16"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/rooms.png')}}" alt="Rooms"> Rooms</label>
+                                            src="{{asset('assets/images/haditours-imgs-updated/rooms.png')}}" alt="Rooms"> Rooms</label>
                                     <select class="form-control" id="roomform" name="n[room]">
                                         <option value=""></option>
                                         <option value="Single">Single</option>
@@ -263,7 +263,7 @@
 
                                 <div class="form-group passenger-contain Half">
                                     <label for="count-pass"><img loading="lazy" width="21" height="20"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/travellers.png')}}" alt="Travellers">
+                                            src="{{asset('assets/images/haditours-imgs-updated/travellers.png')}}" alt="Travellers">
                                         Travellers</label>
                                     <div class="input-group-main">
                                         <div class="input-group">
@@ -279,14 +279,14 @@
                                             <div class="input-group passenger adult-pass">
                                                 <button class="btn  minus" type="button">
                                                     <img loading="lazy" width="12" height="12" class="img-fluid"
-                                                        src="{{asset('assets/images/hajjumrahhub-imgs-updated/minus.png')}}" alt="minus">
+                                                        src="{{asset('assets/images/haditours-imgs-updated/minus.png')}}" alt="minus">
                                                 </button>
                                                 <input class="form-control passengerInput totalAdult" type="number"
                                                     placeholder="Adults" min="0" max="10" name="n[Adults]" value="1"
                                                     id="adult_p" selected>
                                                 <button class="btn  plus" type="button">
                                                     <img loading="lazy" width="12" height="12" class="img-fluid"
-                                                        src="{{asset('assets/images/hajjumrahhub-imgs-updated/plus.png')}}" alt="plus">
+                                                        src="{{asset('assets/images/haditours-imgs-updated/plus.png')}}" alt="plus">
                                                 </button>
                                             </div>
                                         </div>
@@ -295,14 +295,14 @@
                                             <div class="input-group passenger child-pass">
                                                 <button class="btn  minus" type="button">
                                                     <img loading="lazy" width="12" height="12" class="img-fluid"
-                                                        src="{{asset('assets/images/hajjumrahhub-imgs-updated/minus.png')}}" alt="minus">
+                                                        src="{{asset('assets/images/haditours-imgs-updated/minus.png')}}" alt="minus">
                                                 </button>
                                                 <input id="child_p" class="form-control passengerInput totalChild"
                                                     type="number" placeholder="Childs" min="0" max="10" name="n[Childs]"
                                                     value="0" selected>
                                                 <button class="btn  plus" type="button">
                                                     <img loading="lazy" width="12" height="12" class="img-fluid"
-                                                        src="{{asset('assets/images/hajjumrahhub-imgs-updated/plus.png')}}" alt="plus">
+                                                        src="{{asset('assets/images/haditours-imgs-updated/plus.png')}}" alt="plus">
                                                 </button>
                                             </div>
                                         </div>
@@ -311,14 +311,14 @@
                                             <div class="input-group passenger infant-pass">
                                                 <button class="btn  minus" type="button">
                                                     <img loading="lazy" width="12" height="12" class="img-fluid"
-                                                        src="{{asset('assets/images/hajjumrahhub-imgs-updated/minus.png')}}" alt="minus">
+                                                        src="{{asset('assets/images/haditours-imgs-updated/minus.png')}}" alt="minus">
                                                 </button>
                                                 <input id="infant_p" class="form-control passengerInput totalInfant"
                                                     type="number" placeholder="Infants" min="0" max="10"
                                                     name="n[Infants]" value="0" selected>
                                                 <button class="btn  plus" type="button">
                                                     <img loading="lazy" width="12" height="12" class="img-fluid"
-                                                        src="{{asset('assets/images/hajjumrahhub-imgs-updated/plus.png')}}" alt="plus">
+                                                        src="{{asset('assets/images/haditours-imgs-updated/plus.png')}}" alt="plus">
                                                 </button>
                                             </div>
                                         </div>
@@ -330,7 +330,7 @@
 
                                 <div class="form-group Answer  Half">
                                     <label for="answerform"><img loading="lazy" width="20" height="15"
-                                            src="{{asset('assets/images/hajjumrahhub-imgs-updated/checkanswer.png')}}" alt="">
+                                            src="{{asset('assets/images/haditours-imgs-updated/checkanswer.png')}}" alt="">
                                         Answer <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span></label>
                         <input class="form-control" id="answerform" type="number" name="InquiryAnswer"
                                         required>
@@ -350,3 +350,5 @@
             </div>
         </div>
     </div>
+
+

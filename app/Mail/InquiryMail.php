@@ -53,3 +53,4 @@ class InquiryMail extends Mailable
         return [];
     }
 }
+

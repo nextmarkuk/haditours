@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -20,7 +20,7 @@
                     <div class="section-title mb-4">
                         <i class="fa fa-map-marker mr-3"></i> Get in Touch
                     </div>
-                    
+
                     <div class="contact-methods">
                         <div class="d-flex mb-4">
                             <div class="icon-box mr-3">
@@ -66,7 +66,7 @@
                     <div class="section-title mb-4">
                         <i class="fa fa-paper-plane mr-3"></i> Send a Message
                     </div>
-                    
+
                     <form class="form" method="post" action="{{ route('sendInquiry') }}">
                         @csrf
                         <div class="row">

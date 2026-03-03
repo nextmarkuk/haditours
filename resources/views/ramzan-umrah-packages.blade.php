@@ -1,8 +1,13 @@
 @extends('layouts.master')
 @section('meta')
+<<<<<<< HEAD
     <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
     <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
     <link rel="canonical" href="https://www.haditours.co.uk/ramadan-umrah-packages.html" />
+=======
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+>>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 @endsection
 
 @verbatim
@@ -99,157 +104,157 @@
 
 
 @section('content')
-    <section class="search-banner">
-        <!--slider section Start-->
-        <div class="banner">
-            <img src="{{asset('assets/media/pages/home-page-banner-for-huh-1.jpeg')}}" class="img-fluid" alt="Banner Image">
-            <div class="banner-text">
-                <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-                <h4>For Umrah Services</h4>
-                </h4>
-            </div>
+<section class="search-banner">
+    <!--slider section Start-->
+    <div class="banner">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <div class="banner-text">
+            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h4>For Umrah Services</h4>
+            </h4>
         </div>
-        <div class="searchEngine" id="packageInquiry">
-            <div class="searchFields">
-                <form class="form" method="post" action="{{ route('sendInquiry') }}" id="frm-enquiry" name="frm-enquiry">
-                    @csrf
-                    
-                    <div class="form-group Half">
-                        <label for="enquiry-departure">
-                            <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
-                        </label>
-                        <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                            <option value="">Departure Airport</option>
-                            <option value="London Heathrow">London Heathrow</option>
-                            <option value="London Gatwick">London Gatwick</option>
-                            <option value="Manchester">Manchester</option>
-                            <option value="London Stansted">London Stansted</option>
-                            <option value="London Luton">London Luton</option>
-                            <option value="Edinburgh">Edinburgh</option>
-                            <option value="Birmingham">Birmingham</option>
-                            <option value="Glasgow">Glasgow</option>
-                            <option value="Bristol">Bristol</option>
-                            <option value="Liverpool">Liverpool</option>
-                            <option value="Newcastle">Newcastle</option>
-                            <option value="East Midlands">East Midlands</option>
-                            <option value="Aberdeen">Aberdeen</option>
-                            <option value="London City">London City</option>
-                            <option value="Leeds Bradford">Leeds Bradford</option>
-                            <option value="Cardiff">Cardiff</option>
-                            <option value="Norwich">Norwich</option>
-                            <option value="Humberside">Humberside</option>
-                        </select>
-                        <span class="borderBottom"></span>
-                    </div>
+    </div>
+    <div class="searchEngine" id="packageInquiry">
+        <div class="searchFields">
+            <form class="form" method="post" action="{{ route('sendInquiry') }}" id="frm-enquiry" name="frm-enquiry">
+                @csrf
 
-                    <div class="form-group Half">
-                        <label for="enquiry-departuredate">
-                            <i class="fa fa-calendar fa-2x text-warning mr-1"   style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
-                        </label>
-                        <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required/>
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-departure">
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                    </label>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
+                        <option value="">Departure Airport</option>
+                        <option value="London Heathrow">London Heathrow</option>
+                        <option value="London Gatwick">London Gatwick</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="London Stansted">London Stansted</option>
+                        <option value="London Luton">London Luton</option>
+                        <option value="Edinburgh">Edinburgh</option>
+                        <option value="Birmingham">Birmingham</option>
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Newcastle">Newcastle</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="Aberdeen">Aberdeen</option>
+                        <option value="London City">London City</option>
+                        <option value="Leeds Bradford">Leeds Bradford</option>
+                        <option value="Cardiff">Cardiff</option>
+                        <option value="Norwich">Norwich</option>
+                        <option value="Humberside">Humberside</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="enquiry-hotelcategory">
-                            <i class="fa fa-hotel fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Hotel Category
-                        </label>
-                        <select class="form-control" id="enquiry-hotelcategory" name="n[Hotel Category]">
-                            <option value="">Hotel Category</option>
-                            <option value="3 Star">3 Star</option>
-                            <option value="4 Star">4 Star</option>
-                            <option value="5 Star">5 Star</option>
-                        </select>
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-departuredate">
+                        <i class="fa fa-calendar fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
+                    </label>
+                    <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="enquiry-duration">
-                            <i class="fa fa-moon-o fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Duration
-                        </label>
-                        <select class="form-control" id="enquiry-duration" name="n[Duration]">
-                            <option value="">Duration</option>
-                            <option value="1 Night">1 Night</option>
-                            <option value="2 Nights">2 Nights</option>
-                            <option value="3 Nights">3 Nights</option>
-                            <option value="4 Nights">4 Nights</option>
-                            <option value="5 Nights">5 Nights</option>
-                            <option value="6 Nights">6 Nights</option>
-                            <option value="7 Nights">7 Nights</option>
-                            <option value="8 Nights">8 Nights</option>
-                            <option value="9 Nights">9 Nights</option>
-                            <option value="10 Nights">10 Nights</option>
-                            <option value="11 Nights">11 Nights</option>
-                            <option value="12 Nights">12 Nights</option>
-                            <option value="13 Nights">13 Nights</option>
-                            <option value="14 Nights">14 Nights</option>
-                            <option value="14+ Nights">14+ Nights</option>
-                        </select>
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-hotelcategory">
+                        <i class="fa fa-hotel fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Hotel Category
+                    </label>
+                    <select class="form-control" id="enquiry-hotelcategory" name="n[Hotel Category]">
+                        <option value="">Hotel Category</option>
+                        <option value="3 Star">3 Star</option>
+                        <option value="4 Star">4 Star</option>
+                        <option value="5 Star">5 Star</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="enquiry-travelers">
-                            <i class="fa fa-users fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Travelers
-                        </label>
-                        <select class="form-control" id="enquiry-travelers" name="n[No. of Travelers]">
-                            <option value="">No. of Travelers</option>
-                            <option value="1 Travel">1</option>
-                            <option value="2 Travelers">2</option>
-                            <option value="3 Travelers">3</option>
-                            <option value="4 Travelers">4</option>
-                            <option value="5 Travelers">5</option>
-                            <option value="6 Travelers">6</option>
-                            <option value="7 Travelers">7</option>
-                            <option value="8 Travelers">8</option>
-                            <option value="9 Travelers">9</option>
-                            <option value="10 Travelers">10</option>
-                            <option value="11 Travelers">11</option>
-                            <option value="12 Travelers">12</option>
-                            <option value="13 Travelers">13</option>
-                            <option value="14 Travelers">14</option>
-                            <option value="14+ Travelers">14+</option>
-                        </select>
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-duration">
+                        <i class="fa fa-moon-o fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Duration
+                    </label>
+                    <select class="form-control" id="enquiry-duration" name="n[Duration]">
+                        <option value="">Duration</option>
+                        <option value="1 Night">1 Night</option>
+                        <option value="2 Nights">2 Nights</option>
+                        <option value="3 Nights">3 Nights</option>
+                        <option value="4 Nights">4 Nights</option>
+                        <option value="5 Nights">5 Nights</option>
+                        <option value="6 Nights">6 Nights</option>
+                        <option value="7 Nights">7 Nights</option>
+                        <option value="8 Nights">8 Nights</option>
+                        <option value="9 Nights">9 Nights</option>
+                        <option value="10 Nights">10 Nights</option>
+                        <option value="11 Nights">11 Nights</option>
+                        <option value="12 Nights">12 Nights</option>
+                        <option value="13 Nights">13 Nights</option>
+                        <option value="14 Nights">14 Nights</option>
+                        <option value="14+ Nights">14+ Nights</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="enquiry-name"><i class="fa fa-user fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Full Name</label>
-                        <input type="text" class="form-control" id="enquiry-name" name="n[name]" placeholder="Full Name" required />
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-travelers">
+                        <i class="fa fa-users fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Travelers
+                    </label>
+                    <select class="form-control" id="enquiry-travelers" name="n[No. of Travelers]">
+                        <option value="">No. of Travelers</option>
+                        <option value="1 Travel">1</option>
+                        <option value="2 Travelers">2</option>
+                        <option value="3 Travelers">3</option>
+                        <option value="4 Travelers">4</option>
+                        <option value="5 Travelers">5</option>
+                        <option value="6 Travelers">6</option>
+                        <option value="7 Travelers">7</option>
+                        <option value="8 Travelers">8</option>
+                        <option value="9 Travelers">9</option>
+                        <option value="10 Travelers">10</option>
+                        <option value="11 Travelers">11</option>
+                        <option value="12 Travelers">12</option>
+                        <option value="13 Travelers">13</option>
+                        <option value="14 Travelers">14</option>
+                        <option value="14+ Travelers">14+</option>
+                    </select>
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="enquiry-phone">
-                            <i class="fa fa-phone-square fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Contact No
-                        </label>
-                        <input type="text" class="form-control" id="enquiry-phone" name="n[Phone Number]" placeholder="Contact No" required />
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-name"><i class="fa fa-user fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Full Name</label>
+                    <input type="text" class="form-control" id="enquiry-name" name="n[name]" placeholder="Full Name" required />
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="enquiry-email">
-                            <i class="fa fa-envelope fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Email
-                        </label>
-                        <input type="email" class="form-control" name="n[email]" id="enquiry-email" placeholder="Email" required />
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-phone">
+                        <i class="fa fa-phone-square fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Contact No
+                    </label>
+                    <input type="text" class="form-control" id="enquiry-phone" name="n[Phone Number]" placeholder="Contact No" required />
+                    <span class="borderBottom"></span>
+                </div>
 
-                    <div class="form-group Half">
-                        <label for="answerform">
-                            <i class="fa fa-check fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Answer 
-                            <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span>
-                        </label>
-                        <input class="form-control" id="answerform" type="number" name="InquiryAnswer" placeholder="1 + 2 = ?" required>
-                        <span class="borderBottom"></span>
-                    </div>
+                <div class="form-group Half">
+                    <label for="enquiry-email">
+                        <i class="fa fa-envelope fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Email
+                    </label>
+                    <input type="email" class="form-control" name="n[email]" id="enquiry-email" placeholder="Email" required />
+                    <span class="borderBottom"></span>
+                </div>
+
+                <div class="form-group Half">
+                    <label for="answerform">
+                        <i class="fa fa-check fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Answer
+                        <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span>
+                    </label>
+                    <input class="form-control" id="answerform" type="number" name="InquiryAnswer" placeholder="1 + 2 = ?" required>
+                    <span class="borderBottom"></span>
+                </div>
 
                 <div class="form-group Half"><button type="submit" class="btn btn-block" style="height: 3rem;background-color:#85641E;border-color:#85641E;color:#fff;" name="submit" value="Send Message">Submit</button></div>
-                </form>
-            </div>
+            </form>
         </div>
-    </section>
-    <!--slider section End-->
+    </div>
+</section>
+<!--slider section End-->
 <div class="page-content">
 
     <div class="container">
@@ -260,198 +265,198 @@
 <section class="featuredPackages">
     <div class="container">
 
-            <div class="packagesCarousel">
-                <div class="sectionMainHeading">
-                    <h2>All-inclusive Ramadan Umrah packages</h2>
+        <div class="packagesCarousel">
+            <div class="sectionMainHeading">
+                <h2>All-inclusive Ramadan Umrah packages</h2>
+            </div>
+            <div class="featuredPackagesUid featured-slick-carousel">
+                <div class="item">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
+                            <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279"
+                                    src="{{asset('assets/media/umrah/00-min%20%2826%29.webp')}}"
+                                    alt="3 Star 7 Nights Ramadan Umrah Package"></a>
+                        </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">3 Star 7 Nights Ramadan Umrah Package</a></p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS)">
+                                    <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (4 NIGHTS)">
+                                    <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div>
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
+                                </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 775 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage"
+                                        href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="featuredPackagesUid featured-slick-carousel">
-                    <div class="item">
-                        <div class="mainPackage">
-                            <div class="mainPackageImage">
-                                <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><img class="img-fluid"
-                                        loading="lazy" width="336" height="279"
-                                        src="{{asset('assets/media/umrah/00-min%20%2826%29.webp')}}"
-                                        alt="3 Star 7 Nights Ramadan Umrah Package"></a>
+                <div class="item">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
+                            <a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279"
+                                    src="{{asset('assets/media/umrah/00-min%20%2827%29.webp')}}"
+                                    alt="3 Star 10 Nights Ramadan Umrah Package"></a>
+                        </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">3 Star 10 Nights Ramadan Umrah Package</a></p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                </div>
                             </div>
-                            <div class="mainPackageDesc">
-                                <div class="package-heading">
-                                    <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">3 Star 7 Nights Ramadan Umrah Package</a></p>
-                                    <div class="stars">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                    </div>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS)">
+                                    <div class="icon-text">Makkah (5 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
-                                <div class="row p-3">
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS)">
-                                        <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div>
-                                    </div>
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (4 NIGHTS)">
-                                        <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div>
-                                    </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (5 NIGHTS)">
+                                    <div class="icon-text">MADINA (5 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 br-b d-flex justify-content-between px-4">
-                                        <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
-                                        <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
-                                        <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
-                                        <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
-                                    </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
                                 </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 d-flex justify-content-between px-4">
-                                        <span class="price">&pound; 775 <sub>/ pp</sub></span>
-                                        <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
-                                    </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 815 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage"
+                                        href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="mainPackage">
-                            <div class="mainPackageImage">
-                                <a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><img class="img-fluid"
-                                        loading="lazy" width="336" height="279"
-                                        src="{{asset('assets/media/umrah/00-min%20%2827%29.webp')}}"
-                                        alt="3 Star 10 Nights Ramadan Umrah Package"></a>
+                </div>
+                <div class="item">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
+                            <a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279"
+                                    src="{{asset('assets/media/umrah/00-min%20%2828%29.webp')}}"
+                                    alt="3 Star 12 Nights Ramadan Umrah Package"></a>
+                        </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">3 Star 12 Nights Ramadan Umrah Package</a></p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                </div>
                             </div>
-                            <div class="mainPackageDesc">
-                                <div class="package-heading">
-                                    <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">3 Star 10 Nights Ramadan Umrah Package</a></p>
-                                    <div class="stars">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                    </div>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS)">
+                                    <div class="icon-text">Makkah (6 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
-                                <div class="row p-3">
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS)">
-                                        <div class="icon-text">Makkah (5 NIGHTS) <br> AL KISWAH TOWER</div>
-                                    </div>
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (5 NIGHTS)">
-                                        <div class="icon-text">MADINA (5 NIGHTS) <br> EMAAR TAIBAH</div>
-                                    </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 br-b d-flex justify-content-between px-4">
-                                        <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
-                                        <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
-                                        <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
-                                        <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
-                                    </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
                                 </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 d-flex justify-content-between px-4">
-                                        <span class="price">&pound; 815 <sub>/ pp</sub></span>
-                                        <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
-                                    </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 845 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage"
+                                        href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="mainPackage">
-                            <div class="mainPackageImage">
-                                <a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><img class="img-fluid"
-                                        loading="lazy" width="336" height="279"
-                                        src="{{asset('assets/media/umrah/00-min%20%2828%29.webp')}}"
-                                        alt="3 Star 12 Nights Ramadan Umrah Package"></a>
+                </div>
+                <div class="item">
+                    <div class="mainPackage">
+                        <div class="mainPackageImage">
+                            <a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><img class="img-fluid"
+                                    loading="lazy" width="336" height="279"
+                                    src="{{asset('assets/media/umrah/00-min%20%2829%29.webp')}}"
+                                    alt="3 Star 14 Nights Ramadan Umrah Package"></a>
+                        </div>
+                        <div class="mainPackageDesc">
+                            <div class="package-heading">
+                                <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">3 Star 14 Nights Ramadan Umrah Package</a></p>
+                                <div class="stars">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                    <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
+                                </div>
                             </div>
-                            <div class="mainPackageDesc">
-                                <div class="package-heading">
-                                    <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">3 Star 12 Nights Ramadan Umrah Package</a></p>
-                                    <div class="stars">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                    </div>
+                            <div class="row p-3">
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
-                                <div class="row p-3">
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS)">
-                                        <div class="icon-text">Makkah (6 NIGHTS) <br> AL KISWAH TOWER</div>
-                                    </div>
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
-                                        <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div>
-                                    </div>
+                                <div class="col-6 d-flex">
+                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (7 NIGHTS)">
+                                    <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 br-b d-flex justify-content-between px-4">
-                                        <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
-                                        <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
-                                        <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
-                                        <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
-                                    </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 br-b d-flex justify-content-between px-4">
+                                    <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
+                                    <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
+                                    <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
+                                    <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
                                 </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 d-flex justify-content-between px-4">
-                                        <span class="price">&pound; 845 <sub>/ pp</sub></span>
-                                        <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
-                                    </div>
+                            </div>
+                            <div class="row py-2 px-4">
+                                <div class="col-12 d-flex justify-content-between px-4">
+                                    <span class="price">&pound; 895 <sub>/ pp</sub></span>
+                                    <a class="viewMainPackage"
+                                        href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">View Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="mainPackage">
-                            <div class="mainPackageImage">
-                                <a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><img class="img-fluid"
-                                        loading="lazy" width="336" height="279"
-                                        src="{{asset('assets/media/umrah/00-min%20%2829%29.webp')}}"
-                                        alt="3 Star 14 Nights Ramadan Umrah Package"></a>
-                            </div>
-                            <div class="mainPackageDesc">
-                                <div class="package-heading">
-                                    <p class="title"><a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">3 Star 14 Nights Ramadan Umrah Package</a></p>
-                                    <div class="stars">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg " src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                        <img loading="lazy" width="16" height="16" class="svg inactive" src="star.svg" alt="package star">
-                                    </div>
-                                </div>
-                                <div class="row p-3">
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
-                                        <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div>
-                                    </div>
-                                    <div class="col-6 d-flex">
-                                        <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (7 NIGHTS)">
-                                        <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div>
-                                    </div>
-                                </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 br-b d-flex justify-content-between px-4">
-                                        <div class="fw-15"><i class="fa fa-file text-active"></i> VISA</div>
-                                        <div class="fw-15"><i class="fa fa-plane text-active"></i> FLIGHTS</div>
-                                        <div class="fw-15"><i class="fa fa-hotel text-active"></i> HOTELS</div>
-                                        <div class="fw-15"><i class="fa fa-taxi text-active"></i> TRANSFERS</div>
-                                    </div>
-                                </div>
-                                <div class="row py-2 px-4">
-                                    <div class="col-12 d-flex justify-content-between px-4">
-                                        <span class="price">&pound; 895 <sub>/ pp</sub></span>
-                                        <a class="viewMainPackage"
-                                            href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">View Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
@@ -530,7 +535,7 @@
 
     .mainPackage:hover {
         transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
     .mainPackageImage img {
@@ -560,8 +565,7 @@
                         infinite: true,
                         prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
                         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
-                        responsive: [
-                            {
+                        responsive: [{
                                 breakpoint: 1200,
                                 settings: {
                                     slidesToShow: 3
@@ -596,11 +600,24 @@
         
         <h2>Ramadan Umrah Packages 2026 from UK – Full, Last 10 Nights & Group Deals</h2>
 
+<<<<<<< HEAD
 <p>We have perfectly designed our Ramadan Umrah Packages 2026 from UK to help you experience the blessings of the holy month at the two holy mosques of Makkah and Madinah. Worship in the Haram during Ramadan holds great spiritual significance, and so this trip can be a very spiritually fulfilling one for any pilgrim. If you are in search of a cheap Ramadan Umrah package or a luxury 5 star package just outside the Haram, we have equally well thought out options to suit your needs.</p>
+=======
+        <h2>Ramadan Umrah Packages by Hadi Tours</h2>
+>>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 <p>Our spirit, filled Ramadan Umrah packages offer affordable room options, 4, star hotel comfort, and luxury hotels within walking distance of the Haram. For those who want to spend the entire blessed month in worship, our complete Ramadan Umrah package 2026 is the best option. You can also opt for the 7 or 10 nights Ramadan Umrah packages if you want to make the most of the short stay.</p>
 
+<<<<<<< HEAD
 <p>The last 10 nights of Ramadan Umrah 2026 is a spiritually very powerful time and many pilgrims choose to perform the same in order to get the maximum rewards during the last Ashra. All Ramadan Umrah packages UK are inclusive of flights, accommodation, visa support, and local transfers for your convenience. We consider everything from the moment you start planning until you reach back home and thus focus on comfort, convenience, and reliable travel support throughout your Ramadan Umrah 2026 experience.</p>
+=======
+        <p>At <a href="https://www.haditours.co.uk/">Hadi Tours</a>, we know how important this journey is
+            for you. That&#39;s why our Ramadan Umrah packages are designed to make everything easy and meaningful.
+            When you book with us, you&#39;re not just getting travel plans&mdash;you&#39;re trusting a team that
+            cares about making your pilgrimage memorable. We take care of everything, from easy flights and
+            comfortable places to stay to expert help and support anytime you need it. With Hadi Tours, you can
+            focus on your prayers and enjoy this blessed time without worrying about the details.</p>
+>>>>>>> 1b9862b6c14ae53646284a8a33c5a46742343304
 
 
 <h2>Why Perform Umrah in Ramadan?</h2>
