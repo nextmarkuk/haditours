@@ -221,8 +221,8 @@
         <div class="container">
             <div class="footer-slick-carousel">
                 <div><img src="{{asset('assets/media/hajj/hajj_kaaba_pilgrims.png')}}" alt="Kaaba Pilgrims"></div>
-                <div><img src="{{asset('assets/media/hajj/mina_tents_hajj.png')}}" alt="Mina Tents"></div>
-                <div><img src="{{asset('assets/media/hajj/arafat_pilgrims_hajj.png')}}" alt="Arafat Pilgrims"></div>
+                <div><img src="{{asset('assets/media/umrah-new/18.png')}}" alt="Mina Tents"></div>
+                <div><img src="{{asset('assets/media/umrah-new/19.png')}}" alt="Arafat Pilgrims"></div>
                 <div><img src="{{asset('assets/media/hajj/hajj_ritual_pilgrims.png')}}" alt="Hajj Rituals"></div>
             </div>
         </div>

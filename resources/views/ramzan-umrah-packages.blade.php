@@ -269,7 +269,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/00-min%20%2826%29.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/24.png')}}"
                                     alt="3 Star 7 Nights Ramadan Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -410,7 +410,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/00-min%20%2829%29.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/23.png')}}"
                                     alt="3 Star 14 Nights Ramadan Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">

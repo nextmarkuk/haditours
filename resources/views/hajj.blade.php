@@ -313,7 +313,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/mina_tents_hajj.png')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/18.png')}}"
                                     alt="2-3 Weeks Non Shifting Hajj Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -362,7 +362,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/arafat_pilgrims_hajj.png')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/19.png')}}"
                                     alt="2-3 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
