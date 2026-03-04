@@ -977,7 +977,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '7-nights-5-star-umrah-package']) }}"><img class="img-fluid" loading="lazy"
-                                    width="336" height="279" src="{{asset('assets/media/umrah-new/2.png')}}"
+                                    width="336" height="279" src="{{asset('assets/media/umrah-new/27.png')}}"
                                     alt="7 Nights 5 Star March Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
