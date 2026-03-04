@@ -61,7 +61,7 @@
             </a>
             <div class="whts d-flex d-md-none">
                 <a href="https://wa.me/+4407877190363" target="_blank">
-                    <img src="{{asset('assets/images/whatsapp.svg')}}" alt="whatsapp">
+                    <img src="{{asset('assets/images/whatsapp.svg')}}" alt="whatsapp" loading="lazy">
                     <span class="d-none d-sm-block d-md-none ">07877190363</span>
                 </a>
             </div>
@@ -100,7 +100,7 @@
     </nav>
     <!--mobile view button-->
     <div class="mobileButtons d-xl-none">
-        <a class="phone" href="tel:020 3103 0264"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image"></a>
+        <a class="phone" href="tel:020 3103 0264"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image" loading="lazy"></a>
     </div>
     <!--mobile view button-->
 </header>

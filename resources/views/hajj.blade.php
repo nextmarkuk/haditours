@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Affordable Hajj Packages 2026 from UK | Flights, Visa & Premium Hotels</title>
-<meta name="description" content="Hadi Tours offers Cheap Hajj Packages 2026 including flights, visa, Qurbani, transport, shuttle, Ziyarat, daily lectures, guided tours & meals. Stay in 5 Star or 4 Star hotels near Haram. Book group & family Hajj packages from London, Manchester & Birmingham with flexible, customizable options.">
+<title>Hajj Packages 2026 | Affordable All-Inclusive Hajj Deals from UK</title>
+<meta name="description" content="Book your Hajj 2026 package with Hadi Tours. We offer all-inclusive Hajj deals from London, Manchester, and Birmingham with premium hotels, flights, and expert guidance.">
 <link rel="canonical" href="https://www.haditours.co.uk/hajj-packages.html" />
 @endsection
 @verbatim
@@ -86,7 +86,7 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Hajj Packages Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
             <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>
@@ -282,11 +282,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
                                     <div class="icon-text">Makkah (10 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> MILLENIUM TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -331,11 +331,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
                                     <div class="icon-text">MADINA (3-4 NIGHTS) <br> MUBARAK AL MASI</div class="icon-text">
                                 </div>
                             </div>
@@ -380,11 +380,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
                                     <div class="icon-text">MADINA (3-4 NIGHTS) <br> MUBARAK AL MASI</div class="icon-text">
                                 </div>
                             </div>
@@ -429,11 +429,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
                                     <div class="icon-text">Makkah (10 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> MILLENIUM TAIBAH</div class="icon-text">
                                 </div>
                             </div>

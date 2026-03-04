@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Umrah Visa from UK 2026 | Fast & Easy Saudi Visa Processing</title>
+<meta name="description" content="Apply for your Saudi Umrah visa from the UK with Hadi Tours. We provide fast, reliable, and hassle-free visa processing for pilgrims. Get a quote today!">
 <link rel="canonical" href="https://www.haditours.co.uk/umrah-visa-uk.html" />
 @endsection
 @verbatim
@@ -44,7 +44,7 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Umrah Visa Services Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
             <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>

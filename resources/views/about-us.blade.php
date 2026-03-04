@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>About Us | Hadi Tours - Expert Hajj & Umrah Travel Agency</title>
+<meta name="description" content="Learn more about Hadi Tours, a leading Islamic travel agency in the UK specialized in providing spiritual and affordable Hajj and Umrah packages for over 40 years.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
