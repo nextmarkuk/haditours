@@ -190,6 +190,29 @@
             }
         }
         document.addEventListener('DOMContentLoaded', initFooterSlider);
+        
+        // Contact Link Tracking
+        document.addEventListener('click', function(e) {
+            const link = e.target.closest('a[href^="mailto:"], a[href^="tel:"]');
+            if (link) {
+                const href = link.getAttribute('href');
+                const type = href.startsWith('mailto:') ? 'email' : 'phone';
+                const value = href.replace(/^(mailto:|tel:)/, '');
+                
+                fetch('{{ route("logContactClick") }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                    },
+                    body: JSON.stringify({
+                        type: type,
+                        value: value,
+                        page_url: window.location.href
+                    })
+                }).catch(err => console.error('Tracking failed', err));
+            }
+        });
     </script>
     @stack('scripts')
 </body>

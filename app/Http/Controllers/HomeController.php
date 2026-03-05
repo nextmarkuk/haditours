@@ -152,5 +152,22 @@ class HomeController extends Controller
         }
         return response($num1 . ' + ' . $num2 . ' = ?');
     }
+
+    public function logContactClick(Request $request)
+    {
+        try {
+            \App\Models\ContactClick::create([
+                'type' => $request->input('type'),
+                'value' => $request->input('value'),
+                'page_url' => $request->input('page_url'),
+                'ip_address' => $request->ip(),
+                'country' => null, // GeoIP would require an external package/API
+            ]);
+            return response()->json(['status' => 'success']);
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Contact click logging failed: ' . $e->getMessage());
+            return response()->json(['status' => 'error'], 500);
+        }
+    }
 }
 
