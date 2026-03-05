@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class InquiryMail extends Mailable
+class InquiryMail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 
@@ -30,6 +30,9 @@ class InquiryMail extends Mailable
     {
         return new Envelope(
             subject: 'New Package Inquiry - ' . ($this->data['name'] ?? 'Hadi Tours'),
+            replyTo: [
+                new \Illuminate\Mail\Mailables\Address($this->data['email'], $this->data['name'] ?? 'Hadi Tours'),
+            ],
         );
     }
 

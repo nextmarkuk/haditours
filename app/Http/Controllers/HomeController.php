@@ -105,13 +105,26 @@ class HomeController extends Controller
             return back()->with('error', 'Incorrect CAPTCHA answer. Please try again.')->withInput();
         }
         $data = $request->input('n');
+        \App\Models\Inquiry::create([
+            'departure_airport' => $data['Departure Airport'] ?? null,
+            'departure_date' => $data['Departure Date'] ?? null,
+            'hotel_category' => $data['Hotel Category'] ?? null,
+            'duration' => $data['Duration'] ?? null,
+            'travelers' => $data['No. of Travelers'] ?? null,
+            'name' => $data['name'] ?? null,
+            'phone' => $data['Phone Number'] ?? null,
+            'email' => $data['email'] ?? null,
+            'message' => $request->input('message') ?? null,
+        ]);
         
+        if ($request->has('message')) {
+            $data['message'] = $request->input('message');
+        }
+
         try {
-            \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
-                $message->to('info@haditours.co.uk');
-                $message->replyTo($data['email']);
-                $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
-            });
+            \Illuminate\Support\Facades\Mail::to('mismailwatto195@gmail.com')
+                ->send(new \App\Mail\InquiryMail($data));
+                
             if ($request->ajax()) {
                 return response()->json(['status' => 'success', 'message' => 'Thank you! Your inquiry has been sent successfully.']);
             }

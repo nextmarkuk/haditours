@@ -97,7 +97,7 @@
                             <div class="col-md-12 mb-3">
                                 <div class="form-group">
                                     <label class="small font-weight-bold">Message *</label>
-                                    <textarea name="n[Message]" class="form-control" style="min-height: 120px;" placeholder="Tell us more about your inquiry" required></textarea>
+                                    <textarea name="message" class="form-control" style="min-height: 120px;" placeholder="Tell us more about your inquiry" required></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12 mb-4">
