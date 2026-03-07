@@ -584,7 +584,7 @@ header {
 /*mobile view email and phone button css Strat*/
 
 .mobileButtons {
-    display: none;
+    display: visible;
     position: fixed;
     bottom: 15px;
     left: 15px;

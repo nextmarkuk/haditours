@@ -99,7 +99,7 @@
         </div>
     </nav>
     <!--mobile view button-->
-    <div class="mobileButtons d-xl-none">
+    <div class="mobileButtons">
         <a class="phone" href="tel:020 3103 0264"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image" loading="lazy"></a>
     </div>
     <!--mobile view button-->
