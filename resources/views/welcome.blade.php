@@ -254,7 +254,7 @@
 
 <style>
     .featured-slick-carousel {
-        margin-bottom: 80px !important;
+        margin-bottom: 40px !important;
         padding: 0;
         position: relative;
         display: flex;
@@ -272,28 +272,41 @@
 
     .featured-slick-carousel.slick-initialized {
         display: block;
+        /* Allow overflow for the hover shadow and transformations */
         overflow: visible;
     }
 
+    /* Add padding to the slick-list to contain the shadow/transform without clipping */
+    .featured-slick-carousel .slick-list {
+        padding: 20px 0 60px !important; /* Bottom padding for shadows and height */
+        margin: -20px 0 -60px !important;
+        overflow: visible !important;
+        transition: height 0.3s ease;
+    }
+
     .featured-slick-carousel .item {
-        padding: 10px;
+        padding: 15px;
+        height: auto !important;
     }
 
     .featured-slick-carousel .mainPackage {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         margin: 0;
-        height: 100%;
+        height: auto !important; /* Allow matchHeight to set the height */
         display: flex;
         flex-direction: column;
         border: 1px solid #eee;
         border-radius: 8px;
         overflow: hidden;
         background: #fff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
 
     .featured-slick-carousel .mainPackage:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+        position: relative;
+        z-index: 10;
     }
 
     .featured-slick-carousel .mainPackageImage img {
@@ -340,7 +353,7 @@
 
     .featured-slick-carousel .slick-dots {
         position: absolute;
-        bottom: -45px;
+        bottom: 58px; /* 2px below the cards (60px padding - 2px) */
         display: flex !important;
         justify-content: center;
         width: 100%;
@@ -1396,16 +1409,27 @@
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
         function initFeaturedSlider() {
-            if (window.jQuery && $.fn.slick) {
+            if (window.jQuery && $.fn.slick && $.fn.matchHeight) {
                 $('.featured-slick-carousel').each(function() {
-                    if (!$(this).hasClass('slick-initialized')) {
-                        $(this).slick({
+                    var $carousel = $(this);
+                    if (!$carousel.hasClass('slick-initialized')) {
+                        
+                        // Equalize heights before slider init to avoid layout shifts
+                        $carousel.find('.mainPackage').matchHeight();
+
+                        $carousel.on('init reInit setPosition', function() {
+                            // Re-trigger height equalization on slider updates
+                            $(this).find('.mainPackage').matchHeight();
+                        });
+
+                        $carousel.slick({
                             slidesToShow: 3,
                             slidesToScroll: 1,
                             arrows: true,
                             dots: true,
                             autoplay: true,
-                            autoplaySpeed: 2000,
+                            autoplaySpeed: 3000,
+                            adaptiveHeight: false,
                             prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
                             nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
                             responsive: [{
@@ -1435,7 +1459,16 @@
                 setTimeout(initFeaturedSlider, 50);
             }
         }
+        
         initFeaturedSlider();
+        
+        // Re-calculate after images are likely loaded
+        window.addEventListener('load', function() {
+            $('.mainPackage').matchHeight();
+            if (window.jQuery && $.fn.slick) {
+                $('.featured-slick-carousel').slick('setPosition');
+            }
+        });
     });
 </script>
 
