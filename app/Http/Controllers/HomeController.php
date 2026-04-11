@@ -86,6 +86,16 @@ class HomeController extends Controller
         return view('birmingham-umrah-packages');
     }
 
+    public function blog()
+    {
+        return view('blog');
+    }
+
+    public function blogDetail($slug)
+    {
+        return view('blog.' . $slug);
+    }
+
     public function sendInquiry(Request $request)
     {
         $request->validate([

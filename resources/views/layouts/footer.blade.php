@@ -40,6 +40,7 @@
                             <h5>Quick Links</h5>
                             <ul>
                                 <li><a href="{{ route('aboutUs') }}">About Us</a></li>
+                                <li><a href="{{ route('blog') }}">Blog</a></li>
                                 <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                                 <li><a href="{{ route('reviews') }}">Reviews</a></li>
                             </ul>
